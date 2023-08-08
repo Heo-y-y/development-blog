@@ -384,8 +384,8 @@ The dependencies of some of the beans in the application context form a cycle:
 그럼 어떻게 빈을 찾을까?
 우선 빈의 인스턴스가 만들어지는 **Bean Life Cycle**이 있다.
 **Bean Life Cycle**이란 **해당 객체가 언제, 어떻게 생성되어 소멸되기 전까지 어떤 작업을 수행하고 언제 어떻게 소멸되는지 일련의 과정**이다.
+
 정리하자면, 아래 순으로 진행된다.
-    
 1. 스프링 컨테이너 생성
 2. 스프린 빈 생성
 3. 의존성 주입
@@ -393,9 +393,6 @@ The dependencies of some of the beans in the application context form a cycle:
 5. 사용
 6. 소멸전 콜백: 빈이 소멸되기 직전에 호출
 7. 스프링 종료
-
-![스크린샷 2023-08-09 오전 1 59 43](https://github.com/Heo-y-y/Heo-y-y.github.io/assets/112863029/ba2e9a39-2b5f-4c30-8ec2-e45838fbfa04)
-
 
 **@Autowired** 어노테이션을 들어가보자.
 
