@@ -486,8 +486,8 @@ DI는 생성자 주입, 수정자 주입, 필드 주입이 있다.
 
 ### 참고 자료
 
-- https://steady-coding.tistory.com/600
+- <https://steady-coding.tistory.com/600>
 
-- https://ch4njun](https://ch4njun.tistory.com/269)
+- <https://ch4njun](https://ch4njun.tistory.com/269)>
 
-- https://beststar-1.tistory.com/40
+- <https://beststar-1.tistory.com/40>
