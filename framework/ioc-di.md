@@ -180,7 +180,7 @@ new Barista(new HazelnutRecipe());
 
 이처럼 **의존 관계를 외부에서 결정해서 주입 해주는** 것을 **DI**(의존 관계 주입)이라고 한다.
 
-![스크린샷 2023-07-20 오후 6 53 47](https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/47d276b6-6d7a-4b0f-81cc-e722be310dc2)  
+![스크린샷 2023-07-20 오후 6 53 47](https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/47d276b6-6d7a-4b0f-81cc-e722be310dc2)
 
 스프링에서는 외부의 대상이 **IoC 컨테이너**가 되어, 빈을 알아서 주입해준다.
 
@@ -386,7 +386,7 @@ The dependencies of some of the beans in the application context form a cycle:
 
 ![스크린샷 2023-08-09 오전 1 59 43](https://github.com/Heo-y-y/development-blog/assets/112863029/b42b42b3-e637-4ae5-95ba-6df4061d1ba2)
 
-
+### 
 우선 빈의 인스턴스가 만들어지는 **Bean Life Cycle**이 있다.
 **Bean Life Cycle**이란 **해당 객체가 언제, 어떻게 생성되어 소멸되기 전까지 어떤 작업을 수행하고 언제 어떻게 소멸되는지 일련의 과정**이다.
 
