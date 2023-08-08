@@ -384,7 +384,7 @@ The dependencies of some of the beans in the application context form a cycle:
 
 그럼 어떻게 빈을 찾을까?
 
-<img width="781" alt="스크린샷 2023-08-08 오후 11 33 36" src="https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/357b6967-6d68-4cdb-8537-ad3f21491e04">
+![스크린샷 2023-08-09 오전 1 59 43](https://github.com/Heo-y-y/development-blog/assets/112863029/b42b42b3-e637-4ae5-95ba-6df4061d1ba2)
 우선 빈의 인스턴스가 만들어지는 **Bean Life Cycle**이 있다.
 **Bean Life Cycle**이란 **해당 객체가 언제, 어떻게 생성되어 소멸되기 전까지 어떤 작업을 수행하고 언제 어떻게 소멸되는지 일련의 과정**이다.
 
