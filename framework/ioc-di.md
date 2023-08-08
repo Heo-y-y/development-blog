@@ -383,12 +383,12 @@ The dependencies of some of the beans in the application context form a cycle:
 즉, 스프링 서버가 올라 갈 때 애플리케이션 컨텍스트가 @Bean, @Service, @Controller 등 어노테이션을 이용하여 등록한 스프링 빈을 생성하고, @Autowired 어노테이션이 붙은 위치에 의존 관계 주입을 수행하게 된다.
 
 그럼 어떻게 빈을 찾을까?
-
-<img width="699" alt="스크린샷 2023-08-09 오전 2 30 06" src="https://github.com/Heo-y-y/Heo-y-y.github.io/assets/112863029/6705814a-ab0f-4cea-921b-1f41a1411809">
-
-- 우선 빈의 인스턴스가 만들어지는 **Bean Life Cycle**이 있다.
+우선 빈의 인스턴스가 만들어지는 **Bean Life Cycle**이 있다.
 **Bean Life Cycle**이란 **해당 객체가 언제, 어떻게 생성되어 소멸되기 전까지 어떤 작업을 수행하고 언제 어떻게 소멸되는지 일련의 과정**이다.
-    
+
+![스크린샷 2023-08-09 오전 2 19 41](https://github.com/Heo-y-y/Heo-y-y.github.io/assets/112863029/e1e632d8-2dfc-42a7-9bf1-20e03f3127d1)
+
+   
     정리하자면, 아래 순으로 진행된다.
     
     1. 스프링 컨테이너 생성
