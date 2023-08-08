@@ -381,7 +381,6 @@ The dependencies of some of the beans in the application context form a cycle:
 
 **@Autowired**는 **의존성 주입을 할 때 사용하는 어노테이션**으로 **객체의 타입에 해당하는 빈을 찾아 주입**하는 역할을 한다.
 즉, 스프링 서버가 올라 갈 때 애플리케이션 컨텍스트가 @Bean, @Service, @Controller 등 어노테이션을 이용하여 등록한 스프링 빈을 생성하고, @Autowired 어노테이션이 붙은 위치에 의존 관계 주입을 수행하게 된다.
-
 그럼 어떻게 빈을 찾을까?
 우선 빈의 인스턴스가 만들어지는 **Bean Life Cycle**이 있다.
 **Bean Life Cycle**이란 **해당 객체가 언제, 어떻게 생성되어 소멸되기 전까지 어떤 작업을 수행하고 언제 어떻게 소멸되는지 일련의 과정**이다.
@@ -389,15 +388,16 @@ The dependencies of some of the beans in the application context form a cycle:
 ![스크린샷 2023-08-09 오전 2 19 41](https://github.com/Heo-y-y/Heo-y-y.github.io/assets/112863029/e1e632d8-2dfc-42a7-9bf1-20e03f3127d1)
 
    
-    정리하자면, 아래 순으로 진행된다.
+정리하자면, 아래 순으로 진행된다.
     
-    1. 스프링 컨테이너 생성
-    2. 스프린 빈 생성
-    3. 의존성 주입
-    4. 초기화 콜백: 빈이 생성되고, 빈의 의존관계 주입이 완료된 후 호출
-    5. 사용
-    6. 소멸전 콜백: 빈이 소멸되기 직전에 호출
-    7. 스프링 종료
+1. 스프링 컨테이너 생성
+2. 스프린 빈 생성
+3. 의존성 주입
+4. 초기화 콜백: 빈이 생성되고, 빈의 의존관계 주입이 완료된 후 호출
+5. 사용
+6. 소멸전 콜백: 빈이 소멸되기 직전에 호출
+7. 스프링 종료
+
 **@Autowired** 어노테이션을 들어가보자.
 
 ```java
