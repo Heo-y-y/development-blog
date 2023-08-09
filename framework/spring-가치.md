@@ -374,11 +374,11 @@ implementation 'org.springframework.boot:spring-boot-starter-security'
     
     **Spring**으로 개발한 애플리케이션의 경우, **war** 파일을 Web Application Server에 담아서 배포한다.
     
-    하지만 **pring Boot** 경우, Tomcat이나 Jetty와 같은 내장 WAS를 가지고 있어서 **jar** 파일로 간편하게 배포를 할 수 있다.
+    하지만 **Spring Boot** 경우, Tomcat이나 Jetty와 같은 내장 WAS를 가지고 있어서 **jar** 파일로 간편하게 배포를 할 수 있다.
     
-    ### 결론
+### 결론
     
-    정리하자면 **Spring**은 기존에 EJB를 대신해 **Java 애플리케이션을 더 쉽게 만들 수 있게** 해주고, **Spring Boot**는 Spring보다 **개발자가 좀더 개발에만 집중할 수 있도록 도와주는 프레임워크**인 것이다.
+정리하자면 **Spring**은 기존에 EJB를 대신해 **Java 애플리케이션을 더 쉽게 만들 수 있게** 해주고, **Spring Boot**는 Spring보다 **개발자가 좀더 개발에만 집중할 수 있도록 도와주는 프레임워크**인 것이다.
     
 
 ## ****Spring Boot와 Spring MVC의 차이점****
