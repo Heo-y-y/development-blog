@@ -109,6 +109,6 @@ Spring에서 POJO는 아래와 같은 특징을 가진다.
 
 ### 참고자료
 
-- https://ko.wikipedia.org/wiki/Plain_Old_Java_Object
-- https://yoo11052.tistory.com/133
-- https://siyoon210.tistory.com/120
+- <https://ko.wikipedia.org/wiki/Plain_Old_Java_Object>
+- <https://yoo11052.tistory.com/133>
+- <https://siyoon210.tistory.com/120>
