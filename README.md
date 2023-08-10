@@ -7,4 +7,4 @@
 [![Notion Badge](http://img.shields.io/badge/-Notion-000000?style=flat-square&logo=notion)](https://common-mouth-660.notion.site/b517a384ef074eb1bb9824968c12b7c0?pvs=4)
 
 ##### Resume:
-[Page](https://common-mouth-660.notion.site/46186344451a4e089c3f00bd6920cade?pvs=4)
+[Page]()
