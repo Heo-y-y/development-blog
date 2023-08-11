@@ -1,7 +1,5 @@
 
-# Java 8에 추가된 것들
-
-
+## Java 8에 추가된 것들
 - Lambda expression(람다 표현식)
 - Functional interface(함수형 인터페이스)
 - Default method(디폴트 메서드)
