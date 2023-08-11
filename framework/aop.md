@@ -75,6 +75,51 @@ OOP에선 공통된 기능을 재사용하는 방법으로 상속이나 위임�
     - AOP 기능을 구현하기 위해 만든 프록시 객체이다.
     - 스프링 AOP 프록시는 JDK 동적 프록시 또는 CGLIB 프록시이다.
     - 스프링 **AOP의 기본값은 CGLIB 프록시이다.**
+ 
+## Spring AOP가 제공하는 두가지 AOP Proxy
+
+**JDK 동적 프록시는 인터페이스 기반**, **CGLIB는 구체 클래스 기반으로 프록시를 생성**한다.
+
+인터페이스가 없다면 당연히 CGLIB로 동작하지만, 인터페이스가 있는 경우라면 CGLIB과 JDK 동적 프록시 중에서 선택할 수 있다.
+
+<img width="1060" alt="스크린샷 2023-08-11 오후 10 08 56" src="https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/87a59c9a-fd33-46d6-ab7f-4bee6b461737">
+
+### JDK 동적 프록시
+
+![Untitled](https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/3ebc2848-2cc3-442e-81a3-71f6f491a0bd)
+
+우선 **JDK 동적 프록시는 구체 클래스로 타입 캐스팅이 불가능**하다.
+
+MemberServiceImpl을 대상으로 프록시를 생성한다면 인터페이스인 MemberService를 기반으로 구현체(프록시)로 만들어 빈으로 등록한다.
+
+따라서 프록시는 MemberService로는 타입 캐스팅이 가능하나, MemberServiceImpl로는 타입 캐스팅이 불가능하다.
+
+### CGLIB
+
+![Untitled](https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/e909e2a3-3662-43ba-92eb-b5a31461c3f4)
+
+반대로 **CGLIB는 구체 클래스로 타입 캐스팅이 가능**하다.
+
+CGLIB는 구체 클래스를 상속받아 프록시를 생성한다. 따라서 MemberServiceImpl을 프록시 대상으로 선택하면, MemberServiceImpl을 상속받아서 프록시를 만들어 빈으로 등록하기 때문에 프록시는 당연히 MemberServiceImpl로 타입 캐스팅이 가능하다.
+
+즉, JDK 동적 프록시 설정으로 돌리면 빈에 등록된 프록시는 MemberServiceImpl로 타입캐스팅이 불가능해 의존관계 주입에 실패한다.
+
+반면에 CGLIB를 사용하면 타입캐스팅이 가능하기 때문에 의존관계 주입이 가능하다.
+
+정리하면, **CGLIB는 구체 클래스가 AOP의 대상이 되고, JDK 동적 프록시는 구체 클래스가 AOP의 대상이 되지 못한다.**
+
+하지만 CGLIB에는 아래와 같은 문제점이 있었는데,
+
+- **CGLIB의 한계**
+    - 대상 클래스에 기본 생성자 필수
+    - 부모 생성자 2번 호출 문제
+    - final 키워드 클래스 메서드 사용 불가
+
+이 문제점들은 Spring에서 해결하여 **Spring 3.2** 버전부터 CGLIB을 Spring Core 패키지에 포함시켜 더이상 의존성을 추가하지 않아도 개발할 수 있게 되었다.
+
+그 다음 **4 버전**에선 **Objensis 라이브러리**의 도움을 받아 default 생성자 없이도 Proxy를 생성할 수 있게 되었고, 생성자가 2번 호출되던 상황도 같이 개선이 되었다.
+
+결과적으로 기존의 CGLIB가 가지고 있던 대부분의 한계들이 개선이 되어, **Spring에선 성능이 좋은 CGLIB로 Proxy를 생성하게 되었다.**
 
 ## Spring AOP
 
