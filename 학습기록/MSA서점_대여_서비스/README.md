@@ -1,6 +1,6 @@
 ## 학습 설명
 
-사전에 알고리즘API를 이용한 [Spring Cloud OpenFeign을 학습](학습기록/MSA스터디_1.md)하고, 스터디원들과 간단한 서점 대여 서비스를 만들어보는 프로젝트를 진행했다.
+사전에 알고리즘API를 이용한 [Spring Cloud OpenFeign을 학습](https://localhost8586.gitbook.io/heo-blog/undefined-1/msa/msa-_1)하고, 스터디원들과 간단한 서점 대여 서비스를 만들어보는 프로젝트를 진행했다.
 - GitHub: <https://github.com/Heo-y-y/study_toy_MSA>
 
 우선 인원이 3명이여서 LoanService을 빼고 나머지 3가지 서비스를 각각 맡아서 진행하기로 했었는데, 내가 **HistoryService**를 담당하기로 했었지만, 스터디원 1명이 중간에 빠져야하는 상황이 생겨 추가적으로 **LoanService**와 **BookService**까지 구현하게 됐다.
@@ -51,7 +51,7 @@ User service, Loan Service, Book Service, History Service로 이루어진 서점
 
 - user를 등록할 수 있는 API
 
-### [Loan Service](학습기록/MSA서점_대여_서비스/loan_service.md)
+### [Loan Service](https://localhost8586.gitbook.io/heo-blog/undefined-1/msa/msa-_-_/loan_service)
 
 이번 과제의 메인 흐름인 대여를 담당하는 서비스이다.
 
@@ -60,7 +60,7 @@ User service, Loan Service, Book Service, History Service로 이루어진 서점
 2. 대여가 성공적으로 이루어지면 HistoryService에게 대여 기록을 보낸다.
 ```
 
-### [Book Service](학습기록/MSA서점_대여_서비스/book_service.md)
+### [Book Service](https://localhost8586.gitbook.io/heo-blog/undefined-1/msa/msa-_-_/book_service)
 
 책의 남은 수량을 확인하는 역할을 담당한다.
 
@@ -73,7 +73,7 @@ User service, Loan Service, Book Service, History Service로 이루어진 서점
 
 - 책을 최종적으로 대여한 경우 수량을 감소시키는 API 구현 (동시성 해결을 위해 원하는 방식으로 구현)
 
-### [History Service](학습기록/MSA서점_대여_서비스/history_service/README.md)
+### [History Service](https://localhost8586.gitbook.io/heo-blog/undefined-1/msa/msa-_-_/history_service)
 
 책 대여 기록을 담당한다.
 
@@ -82,7 +82,7 @@ User service, Loan Service, Book Service, History Service로 이루어진 서점
 1. 책 대여 기록을 자체 DB에 적재하는 API
 2. User Service, Book Service 구현에 필요한 API
 ```
-### [MockTest Service](학습기록/MSA서점_대여_서비스/mock_service.md)
+### [MockTest Service](https://localhost8586.gitbook.io/heo-blog/undefined-1/msa/msa-_-_/mock_service)
 UserService와 BookService가 먼저 테스트할 수 있게 도와주는 역할을 담당한다.
 
 ### 설계 주의 사항
