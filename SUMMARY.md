@@ -14,3 +14,4 @@
   - MSA스터디
     - [알고리즘API를 받아오는 OpenFeign학습](학습기록/MSA스터디_1.md)
     - [MSA 서점 대여 서비스](학습기록/MSA서점_대여_서비스/README.md)
+      - [LoanService 구현](학습기록/MSA서점_대여_서비스/loan_service.md)
