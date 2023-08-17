@@ -107,6 +107,7 @@ book에서는 단순히 상태만 받아와서 `AvailabilityStatus` 를 사용�
 user에서는 아래 그림처럼 userId와 상태값 두 개를 보내주기 때문에 따로 응답 클래스를 만들었다.
 
 <img width="291" alt="스크린샷 2023-07-31 오전 11 22 48" src="https://github.com/heo-mewluee-Study-Group/cs-study/assets/112863029/63b70385-0c01-4845-8e16-30dfb741fcd0">
+
 ```java
 package com.study.Loan.Service.response;
 
