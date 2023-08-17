@@ -1,5 +1,6 @@
 ## HistoryService 구현
 
+- GitHub: <https://github.com/Heo-y-y/study_toy_MSA/tree/main/history-service/src>
 
 ### 사전 준비
 
@@ -378,7 +379,7 @@ class HistoryRepositoryTest {
 
 처음에는 `@DataJpaTest` 만 사용하니까 계속해서 에러가 나왔다. 
 그래서 `@AutoConfigureTestDatabase(replace = Replace.NONE)` 를 사용했더니 해결됐다.
-자세한 이유는 **[ErrorLog](https://github.com/Heo-y-y/study_toy_MSA/blob/main/history-service/error-log.md)** 에서 확인하기 바란다.
+자세한 이유는 **[ErrorLog](https://localhost8586.gitbook.io/heo-blog/undefined-1/msa/msa-_-_/history_service/error_log)** 에서 확인하기 바란다.
 
 레파지토리 테스트는 이 정도만 알면 쉽게 테스트가 가능했다.
 
