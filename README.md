@@ -1,5 +1,5 @@
 
-#### Heo-y-y | Backend Developer
+### Heo-y-y | Backend Developer
 > "Developer story filled with records"
 - 다른 사람이 같이 일하고 싶어 하는 개발자가 되고 싶습니다.
 - 지식을 공유하며 소통하는 활동을 좋아합니다.
