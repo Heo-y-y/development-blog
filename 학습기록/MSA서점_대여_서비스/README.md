@@ -1,11 +1,13 @@
 ## 학습 설명
 
-사전에 알고리즘API를 이용한 [Spring Cloud OpenFeign을 학습](https://github.com/Heo-y-y/study_api_call)하고, 스터디원들과 간단한 서점 대여 서비스를 만들어보는 프로젝트를 진행했다.
+사전에 알고리즘API를 이용한 [Spring Cloud OpenFeign을 학습](https://localhost8586.gitbook.io/heo-blog/undefined-1/msa/msa-_1)하고, 스터디원들과 간단한 서점 대여 서비스를 만들어보는 프로젝트를 진행했다.
 - GitHub: <https://github.com/Heo-y-y/study_toy_MSA>
 
 우선 인원이 3명이여서 LoanService을 빼고 나머지 3가지 서비스를 각각 맡아서 진행하기로 했었는데, 내가 **HistoryService**를 담당하기로 했었지만, 스터디원 1명이 중간에 빠져야하는 상황이 생겨 추가적으로 **LoanService**와 **BookService**까지 구현하게 됐다.
 
 - 프로젝트 서비스 관계 흐름도
+
+
 ![스크린샷 2023-06-29 오후 9 10 46](https://github.com/heo-mewluee-Study-Group/cs-study/assets/112863029/a79613cc-4aff-4309-97a8-7e1ff44f8f0a)
 
 일단 보면 과제의 **메인 흐름을 담당**하는 **Loan Service**를 통해 대여 서비스를 주고 받는다.
@@ -49,7 +51,7 @@ User service, Loan Service, Book Service, History Service로 이루어진 서점
 
 - user를 등록할 수 있는 API
 
-### [Loan Service](https://github.com/Heo-y-y/study_toy_MSA/tree/main/Loan-Service)
+### [Loan Service](https://localhost8586.gitbook.io/heo-blog/undefined-1/msa/msa-_-_/loan_service)
 
 이번 과제의 메인 흐름인 대여를 담당하는 서비스이다.
 
@@ -58,7 +60,7 @@ User service, Loan Service, Book Service, History Service로 이루어진 서점
 2. 대여가 성공적으로 이루어지면 HistoryService에게 대여 기록을 보낸다.
 ```
 
-### [Book Service](https://github.com/Heo-y-y/study_toy_MSA/tree/main/Book-Service)
+### [Book Service](https://localhost8586.gitbook.io/heo-blog/undefined-1/msa/msa-_-_/book_service)
 
 책의 남은 수량을 확인하는 역할을 담당한다.
 
