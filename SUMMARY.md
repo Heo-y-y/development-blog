@@ -12,3 +12,4 @@
 - [자료구조](자료구조/README.md)
 - [학습 기록](학습기록/README.md)
   - MSA스터디
+    - [알고리즘API를 받아오는 OpenFeign학습](학습기록/MSA스터디_1.md)
