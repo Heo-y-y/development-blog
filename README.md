@@ -1,6 +1,6 @@
+
+## Heo-y-y | Backend Developer
 > "Developer story filled with records"
-### Heo-y-y
-- 백엔드 개발자 허윤영 입니다.
 - 다른 사람이 같이 일하고 싶어 하는 개발자가 되고 싶습니다.
 - 지식을 공유하며 소통하는 활동을 좋아합니다.
 - 유지 보수하기 좋고, 편하게 책처럼 읽히는 코드가 좋은 코드라고 생각합니다.
