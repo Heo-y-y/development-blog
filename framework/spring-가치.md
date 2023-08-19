@@ -404,6 +404,6 @@ implementation 'org.springframework.boot:spring-boot-starter-security'
 
 이러한 프레임워크 간의 선택은 프로젝트의 특정 요구 사항과 제약 조건에 따라 달라진다. **복잡한 엔터파이즈 애플리케이션의 경우 Spring**이 최선의 선택일 수 있고, 덜 **복잡한 소규모 프로젝트의 경우 Spring Boot**가 더 적합할 수 있다. **Spring MVC는 더 많은 제어 및 사용자 정의가 필요한 웹 애플리케이션**에 적합하다.
 
-### 참고 자료
+**참고 자료**
 - <https://www.codingninjas.com/studio/library/spring-vs-spring-boot-vs-spring-mvc>
 - <https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc>
