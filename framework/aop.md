@@ -274,8 +274,8 @@ public class PerfAspect {
 
 정리하자면, 코드 정의와 공정한 소프트웨어를 추구함에 있어서 **관점 지향 프로그래밍**은 중요한 역할을 한다. 즉, **AOP**는 **공통 관심사의 체계적인 적용을 통해 코드의 균형 잡힌 측면을 달성하려는 목표**를 가지고 있다. AOP의 유형을 이해하고 응용 프로그램의 라이프사이클 다양한 지점에서 어떻게 개입하는지 파악암으로써 개발자는 코드베이스 내에서 기능 및 비기능적 측면 사이의 조화로운 균형을 달성할 수 있다.
 
-### 참고 자료
 
+**참고 자료**
 - <https://docs.spring.io/spring-framework/reference/core/aop.html>
 - <https://code-lab1.tistory.com/193>
 - [https://velog.io/@backtony/Spring-AOP-총정리#cglib과-jdk-동적-프록시-중-spring의-선택](https://velog.io/@backtony/Spring-AOP-%EC%B4%9D%EC%A0%95%EB%A6%AC#cglib%EA%B3%BC-jdk-%EB%8F%99%EC%A0%81-%ED%94%84%EB%A1%9D%EC%8B%9C-%EC%A4%91-spring%EC%9D%98-%EC%84%A0%ED%83%9D)
