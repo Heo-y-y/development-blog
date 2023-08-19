@@ -4,6 +4,7 @@
 - [Framework](framework/README.md)
   - Spring
     - [Spring의 가치](framework/spring-가치.md)
+    - [Spring Bean](framework/spring_bean.md)
     - [IoC와 DI](framework/ioc-di.md)
     - [POJO](framework/pojo.md)
     - [AOP](framework/aop.md)
