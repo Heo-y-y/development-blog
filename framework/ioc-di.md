@@ -485,10 +485,7 @@ DI는 생성자 주입, 수정자 주입, 필드 주입이 있다.
 **DI**는 **의존관계를 어떻게 가질 것인가**에 대한 문제이고, **IoC**는 **누가 소프트웨어의 제어권을 갖고 있느냐**의 문제이다. **IoC 컨테이너가 빈을 생성할 때 빈들간의 의존관계를 DI를 통해 해결**한다.
 **DI는 IoC 사용을 필수로 요구하지 않는다**는 점을 주의해야한다.
 
-### 참고 자료
-
+**참고 자료**
 - <https://steady-coding.tistory.com/600>
-
 - <https://ch4njun](https://ch4njun.tistory.com/269)>
-
 - <https://beststar-1.tistory.com/40>
