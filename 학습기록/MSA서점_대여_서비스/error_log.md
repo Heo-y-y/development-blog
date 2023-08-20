@@ -14,6 +14,8 @@ MSA 학습중 레파지토리를 처음 테스트하게 됐다.
 필자는 영어를 잘하지 못한다. 그래서 해당 `UnsatisfiedDependencyException` 에 들어가보니 이렇게 나왔다.
 
 ![스크린샷 2023-07-17 오후 10 17 50](https://github.com/heo-mewluee-Study-Group/cs-study/assets/112863029/17df938f-4663-40fb-8b7f-215132e6e2a2)
+
+
 그래서 해당 문서를 번역해 보니
 **종속성 검사가 활성화되었지만 bean이 다른 bean 또는 bean factory 정의에 지정되지 않은 단순 속성에 종속될 때 발생하는 예외입니다.**
 라는 내용이였다. 이게 무슨 소리지….?
