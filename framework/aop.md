@@ -6,11 +6,11 @@
 
 즉, **AOP**는 **흩어진 관심사(Crosscutting Concerns)를 모듈화 할 수 있는 프로그래밍 기법**이다.
 
-<img width="757" alt="스크린샷 2023-08-10 오후 11 37 50" src="https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/a03326b8-86b5-4a2d-90a0-7979ad23aced">
+![스크린샷 2023-08-10 오후 11 37 50](https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/a03326b8-86b5-4a2d-90a0-7979ad23aced)
 
 위에 그림에서 각각의 Service의 핵심기능에서 바라보면 User와 Order는 공통된 요소가 없다. 하지만 부가기능 관점에서 보면 아래 그림처럼 공통된 요소가 보인다.
 
-<img width="757" alt="스크린샷 2023-08-10 오후 11 40 34" src="https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/32a2dcc9-420d-4fee-9ba9-a56aaf5b626d">
+![스크린샷 2023-08-10 오후 11 40 34](https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/32a2dcc9-420d-4fee-9ba9-a56aaf5b626d)
 
 부가기능 관점에서 보면 각각의 Service의 get 메서드를 호출하는 전후에 before() 와 after() 라는 메서드가 공통되는 것을 확인할 수 잇다.
 
@@ -82,7 +82,7 @@ OOP에선 공통된 기능을 재사용하는 방법으로 상속이나 위임�
 
 인터페이스가 없다면 당연히 CGLIB로 동작하지만, 인터페이스가 있는 경우라면 CGLIB과 JDK 동적 프록시 중에서 선택할 수 있다.
 
-<img width="1060" alt="스크린샷 2023-08-11 오후 10 08 56" src="https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/87a59c9a-fd33-46d6-ab7f-4bee6b461737">
+![스크린샷 2023-08-11 오후 10 08 56](https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/87a59c9a-fd33-46d6-ab7f-4bee6b461737)
 
 ### JDK 동적 프록시
 
