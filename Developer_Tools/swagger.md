@@ -2,14 +2,14 @@
 
 ## Swagger란?
 
-**OpenAPI Specification(OAS)**를 위한 **프레임워크**이다. OpenAPI에서 빼 놓을 수 없는 기능이 바로 Swagger이다. API 에디터, 코드젠, API 메뉴얼 자동 생성 및 테스트 사이트 생성으로 유명하다.
+**OpenAPI Specification**(OAS)를 위한 **프레임워크**이다. OpenAPI에서 빼 놓을 수 없는 기능이 바로 Swagger이다. API 에디터, 코드젠, API 메뉴얼 자동 생성 및 테스트 사이트 생성으로 유명하다.
 
 우선 **OAS**가 무엇인지 알아보자.
 
 - OpenAPI = Specification
 - Swagger = Tools for implementing the specification
 
-**OAS(OpenAPI Specification)**는 **RESTful 웹 서비스를 약속된 규칙에 따라 약속된 규칙에 맞게 API 스펙을 json과 yaml 형식으로 표현**한다. 
+**OAS**(OpenAPI Specification)는 **RESTful 웹 서비스를 약속된 규칙에 따라 약속된 규칙에 맞게 API 스펙을 json과 yaml 형식으로 표현**한다. 
 
 즉, **Swagger**는 API들이 가지고 있는 **Specification(스펙/명세 등)를 관리할 수 있는 프로젝트**이다.
 
