@@ -17,7 +17,7 @@
 
 예를 들어, A 사용자가 계좌에서 5만원을 출금하여 B 사용자에게 송금한다고 가정해보자.
 
-<img width="1269" alt="스크린샷 2023-08-20 오후 5 34 45" src="https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/4f282284-06b7-4887-b7ae-a96731a9dc1a">
+![스크린샷 2023-08-20 오후 5 34 45](https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/4f282284-06b7-4887-b7ae-a96731a9dc1a)
 
 그러면 그림과 같이 A 작업, B 작업 총 2개의 작업 단위로 나뉘게 된다.
 
@@ -32,7 +32,7 @@
 
 따라서 이러한 문제를 해결하기 위해 “**작업 단위**”를 직접 지정하는 것이다.
 
-<img width="1269" alt="스크린샷 2023-08-20 오후 5 51 22" src="https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/fe0da11e-bf45-46bd-a6b2-611d76543fa6">
+![스크린샷 2023-08-20 오후 5 51 22](https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/fe0da11e-bf45-46bd-a6b2-611d76543fa6)
 
 auto-commit을 false로 해두었기 때문에 A 작업을 진행하던 도중에 어디에서든 문제가 발생해도 맨 처음 “A계좌 조회” 전의 시작단계로 rollback하게 된다.
 
@@ -61,7 +61,7 @@ auto-commit을 false로 해두었기 때문에 A 작업을 진행하던 도중�
 
 ### 트랜잭션 상태
 
-<img width="1130" alt="스크린샷 2023-08-20 오후 6 09 19" src="https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/bd6ddf4c-ba4f-4172-af66-dc4357209b81">
+![스크린샷 2023-08-20 오후 6 09 19](https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/bd6ddf4c-ba4f-4172-af66-dc4357209b81)
 
 - **활동(Active)**: 트랜잭션이 실행 중인 상태
 - **실패(Failed)**: 트랜잭션이 실행에 오류가 발생하여 중단된 상태
