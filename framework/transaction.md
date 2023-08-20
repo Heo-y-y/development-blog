@@ -335,8 +335,8 @@ connection.setTransactionIsolation(Connection.TRANSACTION_REPEATABLE_READ);
 
 **참고 자료**
 
-- https://mommoo.tistory.com/62
-- https://cocoon1787.tistory.com/808
-- https://hwannny.tistory.com/98
-- https://blogshine.tistory.com/291
+- <https://mommoo.tistory.com/62>
+- <https://cocoon1787.tistory.com/808>
+- <https://hwannny.tistory.com/98>
+- <https://blogshine.tistory.com/291>
 - [https://sasca37.tistory.com/267#article-4--@transcational-동작-원리](https://sasca37.tistory.com/267#article-4--@transcational-%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC)
