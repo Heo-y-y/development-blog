@@ -163,7 +163,7 @@ CGLIB와 JDK Proxies의 설명은 [AOP](https://localhost8586.gitbook.io/heo-blo
 
 **CGLIB** 라이브러리의 도움을 받아 만든 proxy를 사용하면 **마치 실제 userServcie 코드에서 보여준 Transaction 코드를 추가하여 사용하는 것처럼 동작**하게 된다.
 
-<img width="1292" alt="스크린샷 2023-08-20 오후 7 33 15" src="https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/50fa5492-0e56-45ee-b5f8-42decf41c030">
+![스크린샷 2023-08-20 오후 7 33 15](https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/50fa5492-0e56-45ee-b5f8-42decf41c030)
 
 위 그림을 보면 proxy는 한 가지 일을 한다.
 
@@ -228,7 +228,7 @@ public class DataSourceTransactionManager implements PlatformTransactionManager{
 
 DataSourceTransactionManager를 보면 JDBC가 transaction을 관리하는 방식과 정확하게 동일한 것을 확인 할 수 있다. 
 
-<img width="1292" alt="스크린샷 2023-08-20 오후 8 04 19" src="https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/f3379e8b-60b5-4c37-98f7-f7da64291601">
+![스크린샷 2023-08-20 오후 8 04 19](https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/f3379e8b-60b5-4c37-98f7-f7da64291601)
 
 정리하자면,
 
