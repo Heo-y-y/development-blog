@@ -10,6 +10,8 @@
 
 가산점 과제 같은 경우에는 추가로 진행해 볼 생각이다!
 
+- **GitHub**: <https://github.com/Heo-y-y/wanted-pre-onboarding-backend>
+
 ### 과제 안내
 
 - 교육생은 Python/Flask, Python/Django, JavaScript/Express, **Java/Spring Boot** 중 기술 스택을 선택하여, 게시판을 관리하는 RESTful API를 개발하고 그 결과를 제출해야 합니다.
