@@ -180,7 +180,7 @@ public class MyWebAppInitializer implements WebApplicationInitializer {
 }
 ```
 
-또한 @Configuration 클래스에 @EnableWebMvc 주석을 추가하고 컨트롤러에서 반환된 viewResolver를 위해 ViewResolver를 정의해야한다.
+또한 `@Configuration` 클래스에 `@EnableWebMvc` 주석을 추가하고 컨트롤러에서 반환된 viewResolver를 위해 ViewResolver를 정의해야한다.
 
 ```java
 @EnableWebMvc
