@@ -23,3 +23,4 @@
       - [HistoryService 구현](학습기록/MSA서점_대여_서비스/history_service/README.md)
         - [Error log](학습기록/MSA서점_대여_서비스/error_log.md)
       - [MockTestService 구현](학습기록/MSA서점_대여_서비스/mock_service.md)
+  - [백엔드 | 프리온보딩 인턴십](학습기록/백엔드-프리온보딩/README.md)
