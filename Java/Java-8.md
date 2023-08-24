@@ -149,7 +149,7 @@ System.out.println(motorcycle.speed(100));
 
 확실히 코드가 간결해졌다. 
 **Java 8**에서 **람다 표현식은 함수형 인터페이스를 위해 등장했다 해도 과언이 아니다.** 
-파라미터 X거 여러 함수형 인터페이스를 거쳐 최종적인 값 Y의 형태로 변경할 수 있기 때문이다.
+파라미터 X가 여러 함수형 인터페이스를 거쳐 최종적인 값 Y의 형태로 변경할 수 있기 때문이다.
 
 ![스크린샷 2023-08-12 오전 12 15 03](https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/3593374b-e9a8-4903-921e-5bb9c1ef788a)
 
@@ -203,8 +203,8 @@ public interface Order {
     // 결제받다    
     void receivePayment();
 
-		// 픽업하다
-		void pickUp();
+    // 픽업하다
+    void pickUp();
     
     // 할인 쿠폰 발급
     default void giveDiscountCoupon() {
@@ -243,8 +243,8 @@ public interface Order {
     // 결제받다    
     void receivePayment();
 
-		// 픽업하다
-		default void pickUp() {
+    // 픽업하다
+    default void pickUp() {
 		
 		}
     
@@ -427,7 +427,7 @@ public class MovieService {
     
 2. **getDirectorName()을 호출하는 곳에서 결과값으로 null을 받음**
     
-    근본적인 문제는 해결하지 못했지만, 리턴 타입을 **Optional<String>**으로 했기 때문에 메서드를 사용하는 개발자는 **‘빈 결과 값이 반환될 수 있다’** 라고 인지할 수 있음. 만약 null이 반환되지 않는 것이 확실한 경우에는 리턴 타입을 String으로 표기하여 호출하는 입장에서 별도의 NPE 방어 코드를 넣지 않아도 되게 할 수 있음.
+    근본적인 문제는 해결하지 못했지만, 리턴 타입을 Optional<String>으로 했기 때문에 메서드를 사용하는 개발자는 **‘빈 결과 값이 반환될 수 있다’** 라고 인지할 수 있음. 만약 null이 반환되지 않는 것이 확실한 경우에는 리턴 타입을 String으로 표기하여 호출하는 입장에서 별도의 NPE 방어 코드를 넣지 않아도 되게 할 수 있음.
     
 3. **비즈니스 코드와 null 방어 코드가 뒤섞여 분석하는데 오랜 시간이 걸림**
     
