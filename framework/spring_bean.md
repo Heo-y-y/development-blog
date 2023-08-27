@@ -90,7 +90,7 @@ public class Resource{
 
 ```java
 public class Resource{
-		@Bean 
+    @Bean 
     public Resource Resource() {
         return new Resource(); 
     } 
@@ -183,8 +183,8 @@ public class BeanConfig1 {
 **추가로 설명하자면,**
 
 - 컴포넌트 스캔 방법이 더 편리하지만, 직접 스프링 빈을 등록해서 관리하는 장점이 있다.
-    - 외부 라이브러리 사용 시 @Bean으로 클래스를 등록해줘야 하는 경우 사용되기도 한다.
-    - SpringConfig 파일에서 하눈에 스프링 빈 객체가 어떤 게 등록 되어 있는지 파악하기 쉽다는 장점이 있다.
+    - 외부 라이브러리 사용 시 `@Bean`으로 클래스를 등록해줘야 하는 경우 사용되기도 한다.
+    - SpringConfig 파일에서 한 눈에 스프링 빈 객체가 어떤 게 등록 되어 있는지 파악하기 쉽다는 장점이 있다.
     - 해당 방법을 사용함으로 OCP 원칙을 지킬 수 있다.
 - 실무에서는 주로 정형화된 컨트롤러, 서비스, 레파지토리 같은 코드는 컴포넌트 스캔을 사용한다. 그리고 정형화 되지 않거나, 상황에 따라 구현 클래스를 변경해야 하면 설정을 통해 스프링 빈으로 등록한다.
 
@@ -264,7 +264,7 @@ public class Main {
 - 설정 정보에 초기화 메서드, 종료 메서드 지정
 - `@PostConstruct`, `@PreDestroy` 어노테이션 지원
 
-### 인터페이스**(InitializingBean, DisposableBean)**
+### 인터페이스(InitializingBean, DisposableBean)
 
 ```java
 public class ExampleBean implements InitializingBean, DisposableBean {
@@ -272,18 +272,18 @@ public class ExampleBean implements InitializingBean, DisposableBean {
     @Override
     public void afterPropertiesSet() throws Exception {
         // 초기화 콜백 (의존관계 주입이 끝나면 호출)
-				System.out.println("시작한다~");
+	System.out.println("시작한다~");
     }
  
     @Override
     public void destroy() throws Exception {
         // 소멸 전 콜백 (메모리 반납, 연결 종료와 같은 과정)
-				System.out.println("끝났다!~");
+	System.out.println("끝났다!~");
     }
 }
 ```
 
-**InitializingBean**은 `afterPropertiesSet()` 메서드로 **초기화를 지원**한다.(의**존관계 주입이 끝난 후에 초기화 진행**)
+**InitializingBean**은 `afterPropertiesSet()` 메서드로 **초기화를 지원**한다.(**의존관계 주입이 끝난 후에 초기화 진행**)
 
 **DisposableBean**은 `destroy()` 메서드로 **소멸을 지원**한다.(**빈 종료 전에 마무리 작업**)
 
@@ -300,12 +300,12 @@ public class ExampleBean {
  
     public void initialize() throws Exception {
         // 초기화 콜백 (의존관계 주입이 끝나면 호출)
-				System.out.println("시작한다~");
+	System.out.println("시작한다~");
     }
  
     public void close() throws Exception {
         // 소멸 전 콜백 (메모리 반납, 연결 종료와 같은 과정)
-				System.out.println("끝~");
+	System.out.println("끝~");
     }
 }
  
@@ -741,7 +741,7 @@ public class ThreadLocalExampleServiceTest {
 
 스프링 프레임워크가 동작하는 환경이 대부분 서버 환경인데, 서버는 수 많은 오브젝트를 이용해서 사용자의 요청을 처리해준다. 요청을 초당 수백번 씩 받아야하는 경우도 있고, 대규모 시스템은 더 심한 경우도 있다.
 
-이럴 때 마다 매번 오브젝트를 새로 만들면서 사용하면 비용이 너무 많이 들기 때문에, **서블릿(서비스 오브젝트)**를 사용하는데, 이게 **대부분 멀티 쓰레드 환경에서 싱글톤으로 동작**한다. 그래서 **서버 환경에서는 싱글톤 사용이 권장**된다.
+이럴 때 마다 매번 오브젝트를 새로 만들면서 사용하면 비용이 너무 많이 들기 때문에, **서블릿**(서비스 오브젝트)를 사용하는데, 이게 **대부분 멀티 쓰레드 환경에서 싱글톤으로 동작**한다. 그래서 **서버 환경에서는 싱글톤 사용이 권장**된다.
 
 ### 싱글톤 패턴의 단점
 
