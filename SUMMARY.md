@@ -25,3 +25,4 @@
       - [MockTestService 구현](학습기록/MSA서점_대여_서비스/mock_service.md)
   - [백엔드 | 프리온보딩 인턴십](학습기록/백엔드-프리온보딩/README.md)
   - Spring 완전 정복 로드맵
+    - [스프링 입문](학습기록/스프링_입문.md)
