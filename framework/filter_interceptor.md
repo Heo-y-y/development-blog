@@ -13,7 +13,7 @@ Spring은 공통적으로 여러 작업을 처리함으로써 중복된 코드�
 Spring에서 사용하는  3가지 기능들은 모두 어떤 행동을 하기 전에 먼저 실행하거나, 실행한 후에 추가적인 행동 할때 사용되는 기능들이다.
 
 **전체 흐름**
-![d7](https://github.com/mo2-Study-Group/StudyGroup/assets/70151275/8a7d5091-7b25-429b-ad16-3e098c9085c6)
+![스크린샷 2023-08-28 오후 7 34 45](https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/de403e15-8dfe-450a-9685-5a159a3c36a7)
 
 ## 필터란?
 
@@ -21,7 +21,8 @@ Spring에서 사용하는  3가지 기능들은 모두 어떤 행동을 하기 �
 
 **요청과 응답을 거른뒤 정제하는 역할**한다.
 
-![d1](https://github.com/mo2-Study-Group/StudyGroup/assets/70151275/44a5dabd-7a59-499d-895d-9b3793064c09)
+![스크린샷 2023-08-28 오후 7 35 06](https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/38360534-041f-47a8-8e92-baf7ce4fd401)
+
 스프링이 지원하는 기능이 아니라, **J2EE 표준 스펙**에 있는 기능으로 가장 앞단에 있는 **프론트 컨트롤러인 Dispatcher Servlet에 요청이 전달되기 전/ 후에 url 패턴에 맞는 모든 요청에 대해 부가 작업을 처리할 수 있는 기능을 제공**한다.
 
 즉, 스프링 컨테이너가 아닌 **톰캣과 같은 웹 컨테이너에 의해 관리**가 되고, 스프링 범위 밖에서 처리 되는것이다.
@@ -64,7 +65,9 @@ public interface Filter {
 
 **인터셉터**는 스프링이 제공하는 기술로써 **Dispatcher Servlet이 컨트롤러를 호출하기 전과 후에 요청을 가로채 요청과 응답을 참조하거나 가공할 수 있는 기능을 제공**한다.
 
-![d2](https://github.com/mo2-Study-Group/StudyGroup/assets/70151275/d1d1b392-a18d-4bea-8e5b-3d0537de1187)
+![스크린샷 2023-08-28 오후 7 35 29](https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/e6e4392e-c18e-4d96-b5af-ef152df63cfe)
+
+
 웹 컨테이너에서 동작하는 필터와 달리 **인터셉터는 스프링 컨텍스트 내부에서 동작**한다.
 
 디스패처 서블릿이 내부적으로 핸들러 매핑을 통해 컨트롤러를 찾도록 요청하는데, 그 결과로 **실행 체인**을 **반환**한다.
@@ -441,7 +444,9 @@ class UserController {
 
 (`@PathVariable`는 PathVariableMethodArgumentResolver.java에서 처리)
 
-![d5](https://github.com/mo2-Study-Group/StudyGroup/assets/70151275/2ce8f652-e0d0-419e-9796-dc09ad5a0965)
+![스크린샷 2023-08-28 오후 7 36 23](https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/510bab6f-4746-4ba6-88bf-13a58e39c6e3)
+
+
 이렇게 핸들러 어댑터가 호출한다. 
 
 핸들러 어댑터가 핸들러를 호출할 때 핸들러의 파라미터를 읽어 그에 해당하는 ArgumentResolver를 찾아서 호출한다.
