@@ -12,7 +12,7 @@
     - [Spring MVC와 DispatcherServlet](framework/spring_mvc.md)
     - [객체지향 설계 5원칙 SOLID](framework/solid.md)
     - [Filter, Interceptor, Argument Resolver](framework/filter_interceptor.md)
-    - [CORS 이슈](framewokr/cors이슈.md)
+    - [CORS 이슈](framework/cors이슈.md)
 - [Java](Java/README.md)
   - [Java 8](Java/Java-8.md)
   - [Scanner, InputStream, BufferedReader](Java/Scanner_InputStream_BufferedReader.md)
