@@ -1,6 +1,6 @@
 ## 알딸딸 프로젝트
 
-![Untitled](https://github.com/Heo-y-y/development-blog/assets/112863029/e555fdbd-5735-4adf-9fe0-93f52b657c74)
+![](https://github.com/Heo-y-y/development-blog/assets/112863029/e555fdbd-5735-4adf-9fe0-93f52b657c74)
 
 ### *팀 프로젝트(백엔드 3명, 프론트엔드 3명), 2023.05 ~ 진행중*
 
@@ -8,7 +8,7 @@
 
 ### 테이블 구조
 
-![테이블](https://github.com/Heo-y-y/development-blog/assets/112863029/7b401722-67a5-4a70-97b1-c6810af00b84)
+![](https://github.com/Heo-y-y/development-blog/assets/112863029/7b401722-67a5-4a70-97b1-c6810af00b84)
 
 ### 내가 사용한 기술
 
@@ -31,7 +31,7 @@
 ![](https://img.shields.io/badge/discord-5865F2?style=for-the-badge&-logo=discord&logoColor=white)
 ![](https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white)
 
-![기술](https://github.com/Heo-y-y/development-blog/assets/112863029/574919ee-97b5-41a9-ab0d-482bc6ba8d65)
+![](https://github.com/Heo-y-y/development-blog/assets/112863029/574919ee-97b5-41a9-ab0d-482bc6ba8d65)
 
 ### 구현한 기능
 
