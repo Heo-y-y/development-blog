@@ -153,7 +153,7 @@ Entity는 실체, 데이터베이스 테이블 또는 데이터베이스 테이�
 
 **참고 자료**
 
-- [https://www.inflearn.com/questions/111159/domain과-repository-질문](https://www.inflearn.com/questions/111159/domain%EA%B3%BC-repository-%EC%A7%88%EB%AC%B8) https://bbbicb.tistory.com/44
+- [https://www.inflearn.com/questions/111159/domain과-repository-질문](https://www.inflearn.com/questions/111159/domain%EA%B3%BC-repository-%EC%A7%88%EB%AC%B8)
 - [https://bperhaps.tistory.com/entry/Repository와-Dao의-차이점](https://bperhaps.tistory.com/entry/Repository%EC%99%80-Dao%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90)
 - <https://ccomccomhan.tistory.com/35>
 - <https://bbbicb.tistory.com/46>
