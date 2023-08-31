@@ -14,22 +14,22 @@
 
 - **Backend**
 
-![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F.svg?&style=for-the-badge&logo=SpringBoot&logoColor=white)
+![](https://img.shields.io/badge/SpringBoot-6DB33F.svg?&style=for-the-badge&logo=SpringBoot&logoColor=white)
 <img src="https://img.shields.io/badge/Java 11-1E8CBE?style=for-the-badge&logo=Java 11&logoColor=white">
-![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?&style=for-the-badge&logo=MySQL&logoColor=white)
-![Spring Security](https://img.shields.io/badge/SpringSecurity-6DB33F.svg?&style=for-the-badge&logo=SpringSecurity&logoColor=white)
-![Amazon S3](https://img.shields.io/badge/AmazonS3-569A31.svg?&style=for-the-badge&logo=amazons3&logoColor=white)
+![](https://img.shields.io/badge/MySQL-4479A1.svg?&style=for-the-badge&logo=MySQL&logoColor=white)
+![](https://img.shields.io/badge/SpringSecurity-6DB33F.svg?&style=for-the-badge&logo=SpringSecurity&logoColor=white)
+![](https://img.shields.io/badge/AmazonS3-569A31.svg?&style=for-the-badge&logo=amazons3&logoColor=white)
 <img src="https://img.shields.io/badge/jsonwebtokens-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white">
-![Swagger](https://img.shields.io/badge/Swagger-85EA2D.svg?&style=for-the-badge&logo=swagger&logoColor=black)
+![](https://img.shields.io/badge/Swagger-85EA2D.svg?&style=for-the-badge&logo=swagger&logoColor=black)
 
 - **Tools**
 
-![GitHub](https://img.shields.io/badge/GitHub-181717.svg?&style=for-the-badge&logo=github&logoColor=white)
-![Git](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Intellij IDEA](https://img.shields.io/badge/intellij-000000.svg?&style=for-the-badge&logo=intellijidea&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-ff6c37.svg?&style=for-the-badge&logo=Postman&logoColor=white)
-![Discord](https://img.shields.io/badge/discord-5865F2?style=for-the-badge&-logo=discord&logoColor=white)
-![Notion](https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white)
+![](https://img.shields.io/badge/GitHub-181717.svg?&style=for-the-badge&logo=github&logoColor=white)
+![](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![](https://img.shields.io/badge/intellij-000000.svg?&style=for-the-badge&logo=intellijidea&logoColor=white)
+![](https://img.shields.io/badge/Postman-ff6c37.svg?&style=for-the-badge&logo=Postman&logoColor=white)
+![](https://img.shields.io/badge/discord-5865F2?style=for-the-badge&-logo=discord&logoColor=white)
+![](https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white)
 
 ![기술](https://github.com/Heo-y-y/development-blog/assets/112863029/574919ee-97b5-41a9-ab0d-482bc6ba8d65)
 
