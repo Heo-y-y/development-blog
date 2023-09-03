@@ -22,7 +22,7 @@
   - [Swagger](Developer_Tools/swagger.md)
 - [학습 기록](학습기록/README.md)
   - [알딸딸 프로젝트](학습기록/알딸딸/README.md)
-    - [커스텀 레시피 상세 조회 API](학습기록/알딸딸/커스텀레시피.md)
+    - [커스텀 레시피 상세 조회](학습기록/알딸딸/커스텀레시피.md)
   - MSA스터디
     - [알고리즘API를 받아오는 OpenFeign학습](학습기록/MSA스터디_1.md)
     - [MSA 서점 대여 서비스](학습기록/MSA서점_대여_서비스/README.md)
