@@ -35,7 +35,7 @@
 
 ### 구현한 기능
 
-- 정규 레시피를 알콜 도수 별 Pagination API
+- 알콜 도수 별 Pagination 정규 레시피 API
 - [커스텀 레시피 상세 조회 API](https://localhost8586.gitbook.io/heo-blog/undefined-1/undefined/undefined)
 - Swagger UI를 통한 프론트엔드 팀과 백엔드 팀간의 손쉬운 협업 활성화
 - 백엔드, 프론트엔드 서버 분리와 S3를 통한 이미지 저장 아키텍팅
