@@ -1,8 +1,4 @@
-## HistoryService
-
-### 📎 [GitHub](https://github.com/Heo-y-y/study_toy_MSA/tree/main/history-service/src)
-
-### 사전 준비
+📎 [GitHub](https://github.com/Heo-y-y/study_toy_MSA/tree/main/history-service/src)
 
 **HistoryService**는 기록을 userService나 bookService에게 보내주는 **저장소 역할**이다.
 그래서 먼저 보내줄 데이터를 Repository에 넣어 줄 필요가 있었다.
