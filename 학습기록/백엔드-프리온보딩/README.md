@@ -10,7 +10,7 @@
 
 가산점 과제 같은 경우에는 추가로 진행해 볼 생각이다!
 
-- **GitHub**: <https://github.com/Heo-y-y/wanted-pre-onboarding-backend>
+### 📎 [GitHub](https://github.com/Heo-y-y/wanted-pre-onboarding-backend) / [시연 영상](https://www.youtube.com/watch?v=ovl2_sSPQkw) / [API 명세서](https://documenter.getpostman.com/view/24205657/2s9Y5R168h)
 
 ### 과제 안내
 
@@ -53,11 +53,3 @@
 ### 데이터베이스 테이블 구조
 
 ![스크린샷 2023-08-17 오전 12 12 42](https://github.com/Heo-y-y/development-blog/assets/112863029/71c78080-4888-41de-b28c-63967fcd097d)
-
-### 구현한 API 데모 영상
-
-- <https://www.youtube.com/watch?v=ovl2_sSPQkw>
-
-### **API 명세서**
-
-- <https://documenter.getpostman.com/view/24205657/2s9Y5R168h>
