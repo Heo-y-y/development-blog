@@ -1,4 +1,4 @@
-## HistoryService 구현
+## HistoryService
 
 ### 📎 [GitHub](https://github.com/Heo-y-y/study_toy_MSA/tree/main/history-service/src)
 
