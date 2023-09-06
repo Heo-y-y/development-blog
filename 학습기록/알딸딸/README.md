@@ -4,7 +4,7 @@
 
 ### *팀 프로젝트(백엔드 3명, 프론트엔드 3명), 2023.05 ~ 진행중*
 
-### 📎 **[Github](https://github.com/Heo-y-y/cocktail_project) / [Demo Link](http://resevilleage-bukit.s3-website.ap-northeast-2.amazonaws.com)** **/ [Demo 영상](https://youtu.be/hv4089oai4o)**
+### 📎 **[Github](https://github.com/Heo-y-y/cocktail_project) / [Demo Link](http://resevilleage-bukit.s3-website.ap-northeast-2.amazonaws.com)** **/ [시연 영상](https://youtu.be/hv4089oai4o)**
 
 ### 테이블 구조
 
