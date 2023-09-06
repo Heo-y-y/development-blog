@@ -1,5 +1,3 @@
-## Mock Service 구현
-
 ## Mock Service(Test 역할)
 
 ### 📎 [GitHub](https://github.com/Heo-y-y/study_toy_MSA/tree/main/mock-test/src)
