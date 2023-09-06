@@ -12,14 +12,9 @@
 
 ### 📎 [GitHub](https://github.com/Heo-y-y/wanted-pre-onboarding-backend) / [시연 영상](https://www.youtube.com/watch?v=ovl2_sSPQkw) / [API 명세서](https://documenter.getpostman.com/view/24205657/2s9Y5R168h)
 
-### 과제 안내
+### 데이터베이스 테이블 구조
 
-- 교육생은 Python/Flask, Python/Django, JavaScript/Express, **Java/Spring Boot** 중 기술 스택을 선택하여, 게시판을 관리하는 RESTful API를 개발하고 그 결과를 제출해야 합니다.
-- 데이터 저장소로는 **MySQL 8.0 버전의 관계형데이터베이스**를 사용해주세요.
-- 요구사항에 맞게 API를 만든 후에 아래의 기능을 추가할 경우 **가산점**이 주어집니다.
-    - **통합 테스트 또는 단위 테스트 코드를 추가**한 경우
-    - **docker compose를 이용하여 애플리케이션 환경을 구성한 경우 (README.md 파일에 docker-compose 실행 방법 반드시 기입)**
-    - **클라우드 환경(AWS, GCP)에 배포 환경을 설계하고 애플리케이션을 배포한 경우 (README.md 파일에 배포된 API 주소와 설계한 AWS 환경 그림으로 첨부)**
+![스크린샷 2023-08-17 오전 12 12 42](https://github.com/Heo-y-y/development-blog/assets/112863029/71c78080-4888-41de-b28c-63967fcd097d)
 
 ### API 요구 사항
 
@@ -49,7 +44,3 @@
 - **과제 7. 특정 게시글을 삭제하는 엔드포인트(Delete)**
     - **게시글의 ID를 받아 해당 게시글을 삭제하는 엔드포인트**를 구현해 주세요.
     - **게시글을 삭제할 수 있는 사용자는 게시글 작성자만**이어야 합니다.
-
-### 데이터베이스 테이블 구조
-
-![스크린샷 2023-08-17 오전 12 12 42](https://github.com/Heo-y-y/development-blog/assets/112863029/71c78080-4888-41de-b28c-63967fcd097d)
