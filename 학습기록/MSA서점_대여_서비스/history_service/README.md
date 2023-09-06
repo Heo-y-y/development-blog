@@ -1,6 +1,6 @@
 ## HistoryService 구현
 
-- GitHub: <https://github.com/Heo-y-y/study_toy_MSA/tree/main/history-service/src>
+### 📎 [GitHub](https://github.com/Heo-y-y/study_toy_MSA/tree/main/history-service/src)
 
 ### 사전 준비
 
