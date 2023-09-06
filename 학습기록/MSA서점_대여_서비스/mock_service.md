@@ -1,6 +1,6 @@
-## MockService
+# MockService
 
-### 설명
+## 설명
 
 ### 📎 [GitHub](https://github.com/Heo-y-y/study_toy_MSA/tree/main/mock-test/src)
 테스트용이기 때문에 임의의 값을 넣어두고 코드를 작성해야 했다.
@@ -12,7 +12,7 @@ port 번호는 테스트용으로 2개의 서버를 돌리며 테스트해야하
 각 서비스에 quantity 값을 넘겨주는 이유는 요구사항을 봤으면 알겠지만, **대여 수와 책 여분의 수를 가지고 대여의 가능 여부를 판단**하기 때문이다.
 우선 application.properties에 **임의의 값을 넣어주는 법**은 간단하다. 그냥 **이름을 만들고 ‘=’ 에 원하는 값을 넣어**주면 된다.  
 
-### Controller 구현
+## Controller 구현
 
 아래 코드를 보면
 
@@ -39,7 +39,7 @@ public class TestController {
 
 그럼 TestService를 봐보자
 
-### Service 구현
+## Service 구현
 
 ```java
 @Service
