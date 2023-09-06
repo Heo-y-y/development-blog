@@ -1,8 +1,4 @@
-# MockService
-
-## 설명
-
-### 📎 [GitHub](https://github.com/Heo-y-y/study_toy_MSA/tree/main/mock-test/src)
+📎 [GitHub](https://github.com/Heo-y-y/study_toy_MSA/tree/main/mock-test/src)
 테스트용이기 때문에 임의의 값을 넣어두고 코드를 작성해야 했다.
 아래 그림을 보면 각 Member Service와 Book Service에게 어떤 값을 넘겨줄지 예상할 수 있다.
 
