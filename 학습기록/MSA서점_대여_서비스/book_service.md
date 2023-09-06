@@ -1,4 +1,3 @@
-## BookService 구현
 
 ## BookService
 
