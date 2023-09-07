@@ -20,6 +20,7 @@
 - [Design Pattern](디자인패턴/README.md)
   - 구조 패턴
     - [프록시 패턴](디자인패턴/프록시패턴.md)
+  - 행위 패턴
 - [자료구조](자료구조/README.md)
 - [Developer Tools](Developer_Tools/README.md)
   - [Swagger](Developer_Tools/swagger.md)
