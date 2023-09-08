@@ -12,7 +12,7 @@
 
 일단 보면 과제의 **메인 흐름을 담당**하는 **Loan Service**를 통해 대여 서비스를 주고 받는다.
 
-그리고 **대여 기록을 담당(거의 저장소 역할)**을 하는 **HistoryService**를 통해 실시간으로 변경되는 데이터를 기록하여 **다른 Service가 HistoryService의 데이터를 사용하는 흐름**이다.
+그리고 **대여 기록을 담당**(**거의 저장소 역할**)을 하는 **HistoryService**를 통해 실시간으로 변경되는 데이터를 기록하여 **다른 Service가 HistoryService의 데이터를 사용하는 흐름**이다.
 
 일단 UserService와 BookService가 HistoryService에서 조회해야하기 때문에 필자가 대여 횟수와 책 잔여 개수를 보내주는 mock test용 server를 만들기로 했다.
 
