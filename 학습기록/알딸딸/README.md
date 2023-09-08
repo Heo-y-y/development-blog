@@ -37,6 +37,6 @@
 
 - [정규 레시피 도수 별 Pagination](https://localhost8586.gitbook.io/heo-blog/undefined-1/undefined/undefined-1)
 - [커스텀 레시피 상세 조회](https://localhost8586.gitbook.io/heo-blog/undefined-1/undefined/undefined)
-- Swagger UI를 통한 프론트엔드 팀과 백엔드 팀간의 손쉬운 협업 활성화
+- [Swagger UI를 통한 프론트엔드 팀과 백엔드 팀간의 손쉬운 협업 활성화](https://localhost8586.gitbook.io/heo-blog/undefined-2/undefined/swagger)
 - 백엔드, 프론트엔드 서버 분리와 S3를 통한 이미지 저장 아키텍팅
 - 안전한 인증 흐름, 토큰 관리 및 데이터 정보 보호를 보장하여 사용자 경험 향상 및 프로세스 단순화
