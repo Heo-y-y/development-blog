@@ -2,16 +2,20 @@
 
 ![](https://github.com/Heo-y-y/development-blog/assets/112863029/e555fdbd-5735-4adf-9fe0-93f52b657c74)
 
-### 프로젝트 배경
+## 프로젝트 설명
+
+### 배경
 여러가지 술이나 음료를 Mix해서 만든 술을 칵테일이라고 한다. 소맥도 칵테일에 속하고, 요즘 유행하는 하이볼도 마찬가지이다.
 
 혼술하는 사람들이 많이 늘어나고 있는데, 여러가지 레시피를 제공해주는 곳이 생각보다 없고 정보도 제각각이라 얻기 힘들다.
 
 그래서 정규 레시피를 제공해주며, 각자의 개성있는 칵테일 레시피를 서로 공유하는 사이트를 만들어 소통할 수 있는 사이트를 만들기로 했다!
 
-### *팀 프로젝트(백엔드 3명, 프론트엔드 3명), 2023.05 ~ 2023.06*
+### 진행 기간
+*팀 프로젝트(백엔드 3명, 프론트엔드 3명), 2023.05 ~ 2023.06*
 
-### 📎 **[Github](https://github.com/Heo-y-y/cocktail_project) / [Demo Link](http://resevilleage-bukit.s3-website.ap-northeast-2.amazonaws.com)** **/ [시연 영상](https://youtu.be/hv4089oai4o)**
+### 링크
+📎 **[Github](https://github.com/Heo-y-y/cocktail_project) / [Demo Link](http://resevilleage-bukit.s3-website.ap-northeast-2.amazonaws.com)** **/ [시연 영상](https://youtu.be/hv4089oai4o)**
 
 ### 사용한 기술
 
