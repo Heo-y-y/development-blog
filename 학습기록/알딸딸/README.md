@@ -1,4 +1,3 @@
-## 알딸딸 프로젝트
 
 ![](https://github.com/Heo-y-y/development-blog/assets/112863029/e555fdbd-5735-4adf-9fe0-93f52b657c74)
 
