@@ -59,7 +59,7 @@ public class SwaggerConfig {
 
 `@Configuration`을 사용하여 **빈을 주입하여 스프링 컨테이너에서 관리**하도록 했습니다.
 
-`@EnableSwagger2` ****어노테이션은 **Swagger 2.0 버전을 활성화**하는 데 사용됩니다. 해당 어노테이션을 통해 **스프링 부트에서 Swagger를 사용**할 수 있게 했습니다.
+`@EnableSwagger2`어노테이션은 **Swagger 2.0 버전을 활성화**하는 데 사용됩니다. 해당 어노테이션을 통해 **스프링 부트에서 Swagger를 사용**할 수 있게 했습니다.
 
 `Docket`은 **Swagger API 문서를 생성하는데 사용되는 핵심 클래스**인데, `DocumentationType.SWAGGER_2`를 사용하여 **Swagger 2.0 스펙을 사용하도록 설정**했습니다.
 
