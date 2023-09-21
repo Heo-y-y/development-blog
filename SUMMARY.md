@@ -40,6 +40,7 @@
       - [LoanService](학습기록/MSA스터디/MSA서점대여프로젝트/LoanService.md)
       - [BookService](학습기록/MSA스터디/MSA서점대여프로젝트/BookService.md)
       - [HistoryService](학습기록/MSA스터디/MSA서점대여프로젝트/history/README.md)
+        - [Error Log](학습기록/MSA스터디/MSA서점대여프로젝트/history/ErrorLog.md)
   * [백엔드 | 프리온보딩 인턴십](학습기록/백엔드-프리온보딩/README.md)
   * [Spring 완전 정복 로드맵](학습기록/스프링로드맵/README.md)
     - [스프링 입문](학습기록/스프링로드맵/스프링입문.md)
