@@ -45,6 +45,7 @@
   * [Spring 완전 정복 로드맵](학습기록/스프링로드맵/README.md)
     - [스프링 입문](학습기록/스프링로드맵/스프링입문.md)
     - [스프링 핵심 원리 - Basic](학습기록/스프링로드맵/스프링핵심원리기본/README.md)
+      - [객체지향 설계와 스프링](학습기록/스프링로드맵/스프링핵심원리기본/객체지향설계와스프링.md)
 * [알고리즘](알고리즘/README.md)
   * [백준](undefined-3/undefined/README.md)
     * [Class1](undefined-3/undefined/class1/README.md)
