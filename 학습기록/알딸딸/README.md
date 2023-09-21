@@ -9,7 +9,7 @@
 - **Backend**
 
 ![](https://img.shields.io/badge/SpringBoot-6DB33F.svg?&style=for-the-badge&logo=SpringBoot&logoColor=white)
-<img src="https://img.shields.io/badge/Java11-1E8CBE?style=for-the-badge&logo=Java 11&logoColor=white">
+<img src="https://img.shields.io/badge/Java 11-007396?style=for-the-badge&logo=Conda-Forge&logoColor=white">
 ![](https://img.shields.io/badge/MySQL-4479A1.svg?&style=for-the-badge&logo=MySQL&logoColor=white)
 ![](https://img.shields.io/badge/SpringSecurity-6DB33F.svg?&style=for-the-badge&logo=SpringSecurity&logoColor=white)
 ![](https://img.shields.io/badge/AmazonS3-569A31.svg?&style=for-the-badge&logo=amazons3&logoColor=white)
