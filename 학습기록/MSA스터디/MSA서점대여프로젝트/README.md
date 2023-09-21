@@ -21,7 +21,7 @@
 - [API 요구사항 명세서 및 테이블 구조](요구사항명세서및테이블구조.md)
 
 ### Study Content
-- [LoanService]()
+- [LoanService](LoanService.md)
 - [BookService]()
 - [HistoryService]()
 - [MockTestService]()
