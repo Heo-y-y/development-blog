@@ -7,5 +7,5 @@ Spring Cloud OpenFeign을 사용하여 다른 서버의 API 사용
 ### Study Group Link
 **[GitHub](https://github.com/orgs/yet-another-study-group/repositories)**
 ### Study Process
-- [OpenFeign을 사용한 알고리즘 해결 및 Mockito 테스트](오픈페인알고리즘.md)
-- [MSA 서점 대여 서비스 프로젝트](MSA서점대여프로젝트/README.md)
+- **[OpenFeign을 사용한 알고리즘 해결 및 Mockito 테스트](오픈페인알고리즘.md)**
+- **[MSA 서점 대여 서비스 프로젝트](MSA서점대여프로젝트/README.md)**
