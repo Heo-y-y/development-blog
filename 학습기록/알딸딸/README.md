@@ -36,7 +36,7 @@
 그래서 정규 레시피를 제공해 주며, 각자의 개성 있는 칵테일 레시피를 서로 공유할 수 있는 사이트를 만들어보기로 했습니다.
 
 ### 구현 기능 영상
-<https://github.com/Heo-y-y/development-blog/assets/112863029/b3afa50d-1207-4a32-9be0-b83cdb9512b4>
+[알딸딸](https://github.com/Heo-y-y/development-blog/assets/112863029/b3afa50d-1207-4a32-9be0-b83cdb9512b4)
 
 ### 구현한 기능
 
