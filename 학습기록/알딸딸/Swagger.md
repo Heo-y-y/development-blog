@@ -1,12 +1,12 @@
 # Swagger
 
-## Swagger API
+### Swagger API
 
 ![스크린샷 2023-09-08 오후 10 40 57](https://github.com/Heo-y-y/development-blog/assets/112863029/87eaad88-ec6f-426a-8da4-b3b4cb5658e2)
 
 ## Swaggeer 구현
 
-배포하기 전 프론트엔드 동료들과 좀 더 원활하게 소통하기 위해 Swagger로 API 문서를 만들어서 공유하기로 했습니다.
+배포하기 전 프론트엔드 동료들과 좀 더 원활하게 소통하기 위해 **Swagger로 API 문서**를 만들어서 공유하기로 했습니다.
 
 처음 적용해보는 기능이라 생소했지만, 생각보다 간단해서 개발 도구의 편리함을 느낄 수 있었습니다.
 
@@ -31,7 +31,7 @@ spring:
         host: localhost:8080
 ```
 
-### SwaggerConfig 클래스 구현(설정 담당)
+### SwaggerConfig 구현(설정 담당)
 
 ```java
 @Configuration
@@ -151,7 +151,7 @@ public class RegularRecipeGetResponseDto {
 
 ### 통신 테스트
 
-Swagger는 API 명세 관리 뿐만 아니라 직접 **통신도 기능도 제공**하여 알딸딸 프로젝트 진행 중에 편리하게 이용할 수 있었습니다.
+**Swagger**는 API 명세 관리 뿐만 아니라 직접 **통신도 기능도 제공**하여 알딸딸 프로젝트 진행 중에 편리하게 이용할 수 있었습니다.
 
 `dml.sql` 파일에 만들어 놓은 데이터로 **정규 레시피 전체 조회 API**를 통해 통신테스트를 설명드리면,
 
