@@ -18,7 +18,7 @@
 그 뒤에 `HistroyService` → `BookService`를 수정하고 → `LoanService`를 구현했습니다.
 
 ### API 요구사항 명세서 및 테이블 구조
-- [API 요구사항 명세서 및 테이블 구조]()
+- [API 요구사항 명세서 및 테이블 구조](요구사항명세서및테이블구조.md)
 
 ### Study Content
 - [LoanService]()
