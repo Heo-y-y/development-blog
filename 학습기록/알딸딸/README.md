@@ -1,3 +1,4 @@
+![](https://github.com/Heo-y-y/development-blog/assets/112863029/a597076e-53a8-4535-a094-af1d2849a180)
 
 ![](https://github.com/Heo-y-y/development-blog/assets/112863029/e555fdbd-5735-4adf-9fe0-93f52b657c74)
 
@@ -26,7 +27,7 @@
 
 
 ### 링크
-📎 **[Github](https://github.com/Heo-y-y/cocktail_project) / [Demo Link](http://resevilleage-bukit.s3-website.ap-northeast-2.amazonaws.com)** **/ [시연 영상](https://youtu.be/hv4089oai4o)**
+📎 **[Github](https://github.com/Heo-y-y/cocktail_project) / [Demo](http://resevilleage-bukit.s3-website.ap-northeast-2.amazonaws.com)** **/ [시연 영상](https://youtu.be/hv4089oai4o)**
 
 ### 진행 목적
 여러 가지 술이나 음료를 Mix 해서 만든 술을 칵테일이라고 합니다. 우리가 흔하게 마시는 소맥도 칵테일에 속하고, 요즘 유행하는 하이볼도 마찬가지입니다.
