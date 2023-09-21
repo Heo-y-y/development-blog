@@ -38,6 +38,7 @@
     - [MSA 서점 대여 프로젝트](학습기록/MSA스터디/MSA서점대여프로젝트/README.md)
       - [요구사항 명세서 및 테이블 구조](학습기록/MSA스터디/MSA서점대여프로젝트/요구사항명세서및테이블구조.md)
       - [LoanService](학습기록/MSA스터디/MSA서점대여프로젝트/LoanService.md)
+      - [BookService](학습기록/MSA스터디/MSA서점대여프로젝트/BookService.md)
   * [백엔드 | 프리온보딩 인턴십](학습기록/백엔드-프리온보딩/README.md)
   * [Spring 완전 정복 로드맵](학습기록/스프링로드맵/README.md)
     - [스프링 입문](학습기록/스프링로드맵/스프링입문.md)
