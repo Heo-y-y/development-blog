@@ -287,7 +287,7 @@ class HistoryRepositoryTest {
 `@DataJpaTest` 는 Spring 애플리케이션 컨텍스트를 설정할 필요 없이 저장소 인터페이스와 기본 데이터베이스 간의 상호 작용을 테스트하는 데 집중할 수 있다고 합니다.
 
 처음에는 `@DataJpaTest` 만 사용하니까 계속해서 에러가 나와서 `@AutoConfigureTestDatabase(replace = Replace.NONE)` 를 사용했더니 해결됐습니다.
-자세한 이유는 **[ErrorLog](https://localhost8586.gitbook.io/heo-blog/undefined-1/msa/msa-_-_/history_service/error_log)** 에 작성했습니다.
+자세한 이유는 **[ErrorLog](ErrorLog.md)** 에 작성했습니다.
 
 ### HistoryServiceTest
 
