@@ -2,6 +2,8 @@
 
 📎 **[GitHub](https://github.com/Heo-y-y/study_toy_MSA/tree/main/Book-Service/src)**
 
+## BookService 구현
+
 `BookService` 같은 경우는 해당 스터디원이 완성을 못하게 되면서 제가 맡아서 완성을 시켰습니다.
 
 ### Entity
