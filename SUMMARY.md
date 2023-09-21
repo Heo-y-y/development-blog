@@ -42,7 +42,7 @@
         * [Error log](학습기록/MSA서점\_대여\_서비스/error\_log.md)
       * [MockTestService 구현](학습기록/MSA서점\_대여\_서비스/mock\_service.md)
   * [백엔드 | 프리온보딩 인턴십](학습기록/백엔드-프리온보딩/README.md)
-  * [Spring 완전 정복 로드맵](undefined-2/spring/README.md)
+  * [Spring 완전 정복 로드맵](학습기록/spring_완전_정복_로드맵/README.md)
     * [스프링 입문](학습기록/스프링\_입문.md)
     * [스프링 핵심 원리(기본편)](undefined-2/spring/undefined/README.md)
       * [객체 지향 설계와 스프링](학습기록/스프링.md)
