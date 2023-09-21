@@ -42,7 +42,7 @@
         * [Error log](학습기록/MSA서점\_대여\_서비스/error\_log.md)
       * [MockTestService 구현](학습기록/MSA서점\_대여\_서비스/mock\_service.md)
   * [백엔드 | 프리온보딩 인턴십](학습기록/백엔드-프리온보딩/README.md)
-  * [Spring 완전 정복 로드맵](학습기록/spring_완전_정복_로드맵/README.md)
+  * [Spring 완전 정복 로드맵](학습기록/스프링로드맵/README.md)
 * [알고리즘](알고리즘/README.md)
   * [백준](undefined-3/undefined/README.md)
     * [Class1](undefined-3/undefined/class1/README.md)
