@@ -25,6 +25,7 @@
     * [전략 패턴](디자인패턴/전략패턴.md)
 * [JPA](JPA/README.md)
     - [JPA란?](JPA/JPA란.md)
+    - [영속성 관리](JPA/영속성관리.md)
 * [자료구조](자료구조/README.md)
 * [Developer Tools](Developer\_Tools/README.md)
   * [Swagger](Developer\_Tools/swagger.md)
