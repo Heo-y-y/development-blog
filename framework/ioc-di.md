@@ -39,14 +39,10 @@
     **애플리케이션 컨텍스트**는 **빈 팩토리 기능을 모두 상속** 받아서 제공한다.
     위의 인터페이스에서 extends한 인터페이스들은 모두 빈 팩토리 인터페이스의 서브 인터페이스이고, **빈 팩토리에게 없는 추가 기능**을 가지고 있다.
     
-    - **메시지 소스를 활용한 국제화 기능**
-    한국에서 들어오면 한국어로, 영어권에서 들어오면 영어로 출력
-    - **환경 변수**
-    로컬, 개발, 운영 등을 구분해서 처리
-    - **애플리케이션 이벤트**
-    이벤트를 발행하고 구독하는 모델을 편리하게 지원
-    - **편리한 리소스 조회**
-    파일, 클래스 패스, 외부 등에서 리소스를 편리하게 조회
+    - **메시지 소스를 활용한 국제화 기능**: 한국에서 들어오면 한국어로, 영어권에서 들어오면 영어로 출력
+    - **환경 변수**: 로컬, 개발, 운영 등을 구분해서 처리
+    - **애플리케이션 이벤트**: 이벤트를 발행하고 구독하는 모델을 편리하게 지원
+    - **편리한 리소스 조회**: 파일, 클래스 패스, 외부 등에서 리소스를 편리하게 조회
 
 ### 설정 메타 정보
 
@@ -216,7 +212,7 @@ public class CoffeeService {
 @Service
 public class CoffeeService {
 
-		private CoffeeRecipe coffeeRecipe;
+    private CoffeeRecipe coffeeRecipe;
 
     @Autowired
     public void setCoffeeRecipe(CoffeeRecipe coffeeRecipe) {
@@ -239,7 +235,7 @@ public class CoffeeService {
 @Service
 public class CoffeeService {
 
-		private CoffeeRecipe coffeeRecipe;
+    private CoffeeRecipe coffeeRecipe;
 
     @Autowired
     public CoffeeRecipe(CoffeeRecipe coffeeRecipe) {
@@ -379,8 +375,8 @@ The dependencies of some of the beans in the application context form a cycle:
 
 ### @AutoWired란?
 
-**@Autowired**는 **의존성 주입을 할 때 사용하는 어노테이션**으로 **객체의 타입에 해당하는 빈을 찾아 주입**하는 역할을 한다.
-즉, 스프링 서버가 올라 갈 때 애플리케이션 컨텍스트가 @Bean, @Service, @Controller 등 어노테이션을 이용하여 등록한 스프링 빈을 생성하고, @Autowired 어노테이션이 붙은 위치에 의존 관계 주입을 수행하게 된다.
+`@Autowired`는 **의존성 주입을 할 때 사용하는 어노테이션**으로 **객체의 타입에 해당하는 빈을 찾아 주입**하는 역할을 한다.
+즉, 스프링 서버가 올라 갈 때 애플리케이션 컨텍스트가 `@Bean`, `@Service`, `@Controller` 등 어노테이션을 이용하여 등록한 스프링 빈을 생성하고, `@Autowired` 어노테이션이 붙은 위치에 의존 관계 주입을 수행하게 된다.
 
 
 그럼 어떻게 빈을 찾을까?
@@ -467,7 +463,7 @@ DI는 생성자 주입, 수정자 주입, 필드 주입이 있다.
 - 의존 관계를 모두 주입하지 않은 경우에 객체를 생성할 수 없기 때문에 **NPE가 발생하지 않는다**.
 - `final` 키워드를 사용하여 **불변성을 보장**할 수 있다.
 - 생성자 주입은 **컴파일 단계에서 순환 참조를 잡아 낼 수 있다**.
-- DI 컨테이너 없이 **직접 의존성을 주입**할 수 잇다.
+- DI 컨테이너 없이 **직접 의존성을 주입**할 수 있다.
 
 ### Spring Ioc/DI의 동작 과정
 
