@@ -2,7 +2,7 @@
 
 Spring **IoC 컨테이너가 관리하는 자바 객체**를 **빈**이라고 부른다.
 
-자바 프로그래밍에서 Class를 생성하고 new 키워드를 사용해 객체를 생성하는게 아니라, `ApplicationContect.getBean()`으로 얻어질 수 있는 개체이다.
+자바 프로그래밍에서 Class를 생성하고 new 키워드를 사용해 객체를 생성하는게 아니라, `ApplicationContect.getBean()`으로 얻어질 수 있는 객체이다.
 즉, **Spring 컨테이너에서 관리하는 객체는 ApplicationContext가 생성한 객체**이다.
 
 Spring은 컨테이너에 스프링 빈을 등록할 때 싱글톤으로 등록한다.
@@ -15,7 +15,7 @@ Spring은 컨테이너에 스프링 빈을 등록할 때 싱글톤으로 등록�
 
 ![1](https://github.com/mo2-Study-Group/StudyGroup/assets/70151275/316161c7-dd3e-470f-8621-77181cd91792)
 
-위 그림과 같이 @Service도 내부적으로는 @Component 어노테이션을 사용한다.
+위 그림과 같이 `@Service`도 내부적으로는 `@Component` 어노테이션을 사용한다.
 그래서 빈으로 등록이 되는 것이다.
 
 ### 빈 설정 파일에 직접 빈 등록
@@ -72,7 +72,7 @@ public class SampleConfiguration {
 
 ![fa](https://github.com/mo2-Study-Group/StudyGroup/assets/70151275/fd4e3ecb-044e-4122-98c8-47b080219dee)
 
-프록시 객체로 생성된 빈의 클래스 이름을 보면 **$$EnhancerBySpringCGLIB$$** 라는게 추가된걸 볼 수 있다.
+프록시 객체로 생성된 빈의 클래스 이름을 보면 **EnhancerBySpringCGLIB** 라는게 추가된걸 볼 수 있다.
 
 참고로 **CGLIB**는 **바이트 코드를 가지고 프록시 객체를 만들어주는 라이브러리**다. **런타임 시에 자바 클래스를 상속**하고, **인터페이스를 구현해 동적 프록시 객체를 만든다**. 즉, **디폴트 상태의 config bean**은 우리가 직접 생성한 객체가 아니라 **CGLIB 라이브러리에서 생성해준 프록시 객체**인 것이다.
 
