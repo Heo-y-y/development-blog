@@ -20,7 +20,7 @@ Spring에서 사용하는  3가지 기능들은 모두 어떤 행동을 하기 �
 
 ### 정의
 
-**요청과 응답을 거른뒤 정제하는 역할**한다.
+**요청과 응답을 거른뒤 정제하는 역할**을 한다.
 
 ![스크린샷 2023-08-28 오후 7 35 06](https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/38360534-041f-47a8-8e92-baf7ce4fd401)
 
@@ -109,7 +109,7 @@ public interface HandlerInterceptor {
         각 메서드의 반환값이 true이면 핸들러의 다음 체인이 실행되지만 false이면 중단하고 남은 인터셉터와 컨트롤러가 실행되지않는다.
         
 
-## 필터와 인터센트 차이
+## 필터와 인터셉터 차이
 
 가장 큰 차이는,
 
@@ -166,13 +166,13 @@ public class MyInterceptor implements HandlerInterceptor {
 
 이로 인해 **필터는 스프링이 처리해주는 내용들을 적용 받을 수 없다**. 그래서 스프링에 의한 예외처리가 되지 않는다.
 
-**그런데 DelegatingFilterProxy가 등장하면서 스프링에서 관리가 가능해졌는데, 일단 안되는걸로 치고 조금 있다 자세히 알려드립니다.**
+**그런데 DelegatingFilterProxy가 등장하면서 스프링에서 관리가 가능해졌는데, 자세한건 조금 있다 알아보겠다.**
 
 ### 스프링 예외 처리 여부
 
-일반적으로 스프링을 사용하면 ControllerAdvice와 ExceptionHandler를 이용한 예외처리 기능을 주로 사용한다. 
+일반적으로 스프링을 사용하면 `ControllerAdvice`와 `ExceptionHandler`를 이용한 예외처리 기능을 주로 사용한다. 
 
-예를 들면 MemberNotFoundException을 던질때 404Status로 응답을 반환하기 위해 이런 코드를 구현해서 활용하는데, 예외가 서블릿까지 전달되지 않고 처리된다.
+예를 들면 `MemberNotFoundException`을 던질때 `404Status`로 응답을 반환하기 위해 이런 코드를 구현해서 활용하는데, 예외가 서블릿까지 전달되지 않고 처리된다.
 
 ```java
 @RestControllerAdvice
@@ -190,7 +190,7 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
 
 그런데 필터는 스프링 앞의 서블릿 영역에서 관리 되기 때문에 스프링의 지원을 받을 수 없다. 그래서 **만약에 필터에서 MemberNotFoundException이 던져 졌으면, 에러가 처리되지 않고 서블릿까지 전달된다.** 
 
-그래서 서블릿은 예외가 핸들링 되기를 기대했지만, 예외가 나와서 Exception을 만나는 상황이 되버린다. 그래서 내부에 문제가 있다고 판단해서 500 status로 응답을 반환한다. 이를 해결 할려면 필터에서 다음과 같이 응답 객체에 예외처리가 필요하다.
+그래서 서블릿은 예외가 핸들링 되기를 기대했지만, 예외가 나와서 `Exception`을 만나는 상황이 되버린다. 그래서 내부에 문제가 있다고 판단해서 `500 status`로 응답을 반환한다. 이를 해결 할려면 필터에서 다음과 같이 응답 객체에 예외처리가 필요하다.
 
 ```java
 public class MyFilter implements Filter {
@@ -253,7 +253,7 @@ ex) 관리자만 접근할 수 있는 관리자 페이지에 접근하기 전에
 
 **인터셉터**는 **클라이언트의 요청과 관련된 작업에 대해 추가적인 요구사항을 만족해야 할 때 적용**한다.
 
-### 필터가 스프링에서 관리를 할수 있는 이유
+### 필터가 스프링에서 관리를 할 수 있는 이유
 
 과거엔 실제로 필터가 스프링 컨테이너에 의해 관리되지 않았기 때문에 필터를 빈으로 등록할 수도 없었고. 다른 빈을 주입 받을 수도 없었다. 
 
@@ -261,7 +261,7 @@ ex) 관리자만 접근할 수 있는 관리자 페이지에 접근하기 전에
 
 ### ****DelegatingFilterProxy와 SpringBoot의 등장****
 
-**DelegatingFilterProxy 나온 이전**
+**DelegatingFilterProxy 나오기 전**
 
 서블릿 컨테이너에 의해 생성되어 서블릿 컨테이너에 등록이 된다. 그래서 스프링의 빈으로 등록도 안됐고, 빈을 주입받을 수 없었다.
 
@@ -317,7 +317,7 @@ public class MyWebApplicationInitializer extends AbstractAnnotationConfigDispatc
 
 이 코드는 “myFilter”라는 빈을 찾아 DelegatingFilterProxy에 넣어주고, 서블릿 컨테이너에 myFilter대신 DelegatingFilterProxy를 등록하여 DelegatingFilterProxy를 통해 myFilter에 요청을 위임하라는 것이다.
 
-Proxy가 add되는 곳은 ServletContext이고, 우리가 만든 필터는 스프링 컨테이너에 빈으로 먼저 등록된 후에 DelegatingFilterProxy에 감싸져 서블릿 컨테이너로 등록되는것이다.
+Proxy가 add되는 곳은 ServletContext이고, 우리가 만든 필터는 스프링 컨테이너에 빈으로 먼저 등록된 후에 DelegatingFilterProxy에 감싸져 서블릿 컨테이너로 등록되는 것이다.
 
 이렇게 해서 우리가 만든 필터도 스프링 빈으로 등록되고, 스프링 컨테이너에서 관리 되기때문에 
 
@@ -403,18 +403,18 @@ boolean supportsParameter(MethodParameter parameter);
 Object resolveArgument(MethodParameter parameter, @Nullable ModelAndViewContainer mavContainer, NativeWebRequest webRequest, @Nullable WebDataBinderFactory binderFactory) throws Exception;
 ```
 
-HandlerMethodArgumentResolver 인터페이스는 이 두가지 메소드를 구현하도록 되어 있는데, 
+`HandlerMethodArgumentResolver` 인터페이스는 이 두가지 메소드를 구현하도록 되어 있는데, 
 
 설명하자면, 우리는 원하는 ArgumentResolver가 실행되길 원하는 Parameter의 앞에 특정 어노테이션을 생성해 붙인다.
 
-`supportsParameter` 는 요청 받은 메소드의 인자에 원하는 어노테이션이 붙어 있는지 확인하는 메소드. 포함하고 있으면 true 반환.(어떤 파라미터를 처리할 건지)
+`supportsParameter` 는 요청 받은 메소드의 인자에 원하는 어노테이션이 붙어 있는지 확인하는 메소드이다. 포함하고 있으면 true 반환.(어떤 파라미터를 처리할 건지)
 
-`resolveArgument` 는 `supportsParameter` 에서 true 받았을때(특정 어노테이션이 붙어 있는 어느 메소드가 있는경우) parameter가 원하는 형태로 정보를 바인딩하여 반환하는 메소드(어떤 값을 만들 건지)
+`resolveArgument` 는 `supportsParameter` 에서 true 받았을때(특정 어노테이션이 붙어 있는 어느 메소드가 있는경우) parameter가 원하는 형태로 정보를 바인딩하여 반환하는 메소드이다.(어떤 값을 만들 건지)
 
 이렇게 ****ArgumentResolver를 사용 했을때 Controller 구현 코드는 다음과 같다.****
 
 ```java
-@GetMapping("/me")
+  @GetMapping("/me")
   public ResponseEntity<MemberResponse> findMemberOfMine(@AuthenticationPrincipal LoginMember loginMember) {
       MemberResponse memberResponse = memberService.findMember(loginMember.getId());
       return ResponseEntity.ok().body(memberResponse);
@@ -454,7 +454,7 @@ class UserController {
 
 ### ArgumentResolver 추가하는 방법
 
-스프링에서 대부분 추가 해놓았지만, 가끔 쓸일이 있다고 한다.
+스프링에서 대부분 추가해 놓았지만, 가끔 쓸일이 있다고 한다.
 
 header에 token을 받아 UserInfoResponse를 만들어 주는 ArgumentResolver를 추가하는 걸로 예를 들면,
 
@@ -476,7 +476,7 @@ class UserController {
 ### 인터셉터와 *****Argument Resolver의 차이*****
 
 ![d6](https://github.com/mo2-Study-Group/StudyGroup/assets/70151275/ea0b89d9-dd90-4173-a25d-01454a6a4a97)
-- **ArgumentResolver**는 **인터셉터 이후에 동작**을 하며, 어떠한 요청이 컨트롤러에 들어왔을 때, **청에 들어온 값으로부터 원하는 객체를 반환**한다.
+- **ArgumentResolver**는 **인터셉터 이후에 동작**을 하며, 어떠한 요청이 컨트롤러에 들어왔을 때, **처음에 들어온 값으로부터 원하는 객체를 반환**한다.
 - 반면, **인터셉터**는 **실제 컨트롤러가 실행되기 전에 요청을 가로채며**, **특정 객체를 반환할 수 없다**. 오직 boolean 혹은 void 반환 타입만 존재한다.
 
 ### 정리
@@ -491,11 +491,9 @@ class UserController {
 
 **스프링 부트**로 내장 톰캣을 이용해 서블릿 컨테이너까지 스프링 부트가 제어하게 해줘서 **DelegatingFilterProxy감싸서 등록할 필요없다**.
 
-1. **인터셉터**
+2. **인터셉터**
 
-필터와 비슷한데, **스프링 mvc가 제공하는 
-
-**컨트롤러 호출 전에 호출되는데 클라이언트의 요청과 관련되어 전역적으로 처리해야 하는 작업들을 처리**할 수 있고, **검증 시 서비스 로직을 호출할 때 주로 사용**된다.
+필터와 비슷한데, **스프링 mvc**가 제공하는 **컨트롤러 호출 전에 호출되는데 클라이언트의 요청과 관련되어 전역적으로 처리해야 하는 작업들을 처리**할 수 있고, **검증 시 서비스 로직을 호출할 때 주로 사용**된다.
 
 **차이점**
 
@@ -504,7 +502,7 @@ class UserController {
 - 그래서 필터는 스프링과 무관하게 전역적으로 처리해야 하는 작업을 하는 것이 좋고(보안 관련 공통 작업, 모든 요청에 대한 로깅)
 - 인터셉터는 클라이언트의 요청과 관련되어 전역적으로 처리해야 하는 작업을 하는 것이 좋다.(인증,인가,API 호출에 대한 로깅,Controller로 넘겨주는 데이터 가공)
 
-1. **Argument Resolver**
+3. **Argument Resolver**
 
 **Argument Resolver**는 주어진 요청을 처리할 때, **메서드 파라미터를 인자 값들에 주입해주는 전략 인터페이스**이다
 
