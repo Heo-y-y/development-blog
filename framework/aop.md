@@ -160,13 +160,13 @@ implementation 'org.springframework.boot:spring-boot-starter-aop'
 
 ![Untitled](https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/c8c4084b-9799-4bc9-9b44-f93c73176f07)
 
-이 자동 프록시 생성기에 의해 @Asepct에서 Advisor로 변환된 Advisor는 @Aspect Advisor 빌더 내부에 저장된다.
+이 자동 프록시 생성기에 의해 `@Asepct`에서 Advisor로 변환된 Advisor는 `@Aspect` Advisor 빌더 내부에 저장된다.
 
 ### **동작 과정**
 
 ![Untitled](https://github.com/mo2-Study-Group/StudyGroup/assets/112863029/bb18813b-5968-4d81-b511-f30f29d1f066)
 
-1. 스프링 빈 대상이 되는 객체를 생성한다.(@Bean, 콤포넌트 스캔 대상)
+1. 스프링 빈 대상이 되는 객체를 생성한다.(`@Bean`, 콤포넌트 스캔 대상)
 2. 생성된 객체를 빈 저장소에 등록하기 직전에 빈 후처리기에 전달한다.
 3. 모든 Advisor 빈을 조회한다.
 4. **@Aspect Advisor 빌더 내부에 저장된 모든 Advisor를 조회한다.**
@@ -175,9 +175,9 @@ implementation 'org.springframework.boot:spring-boot-starter-aop'
 7. 만약 프록시 생성 대상이 아니라면 들어온 빈 그대로 빈 저장소로 반환한다.
 8. 빈 저장소는 객체를 받아서 빈으로 등록한다.
 
-Advisor 빈을 조회하고 이후에 @Aspect Advisor 빌더 내부에 저장된 모든 Advisor를 조회하는 로직이 추가된 것을 확인할 수 있다.
+Advisor 빈을 조회하고 이후에 `@Aspect` Advisor 빌더 내부에 저장된 모든 Advisor를 조회하는 로직이 추가된 것을 확인할 수 있다.
 
-@Aspect는 Advisor를 쉽게 만들 수 있도록 도와주는 역할을 할 뿐이지 컴포넌트 스캔이 되는 것은 아니다.
+`@Aspect`는 Advisor를 쉽게 만들 수 있도록 도와주는 역할을 할 뿐이지 컴포넌트 스캔이 되는 것은 아니다.
 따라서 반드시 **스프링 빈으로 등록**을 해줘야 한다.
 방법은 세가지 방식 중 선택해서 등록하면 된다.
 
@@ -230,7 +230,7 @@ public class PerfAspect {
 
 스프링 AOP는 빈에서만 동작한다. 따라서 아까 말한 세가지 방법 중 선택해서 스프링 빈으로 등록해준 뒤 사용하면 된다. `@Aspect` 어노테이션을 붙이면 **해당 클래스가 Aspect라는 것을 명시**해준다.
 
-logPerf()메서드는 @Around 어노테이션의 execution을 통해 Advice를 적용할 범위를 지정할 수 있다. 위 코드로 설명하면, com.example 밑의 모든 클래스에 적용하고, EventService 밑의 모든 메서드에 적용한다는 말이다.
+`logPerf()`메서드는 `@Around` 어노테이션의 `execution`을 통해 Advice를 적용할 범위를 지정할 수 있다. 위 코드로 설명하면, `com.example` 밑의 모든 클래스에 적용하고, `EventService` 밑의 모든 메서드에 적용한다는 말이다.
 
 다른 방식도 살펴보자.
 
@@ -249,7 +249,7 @@ public class PerfAspect {
 }
 ```
 
-위와 같이 @Around 어노테이션에 @annotation(PerfLogging)처럼 적용될 어노테이션을 명시할 수 있다. 그럼 해당 메서드를 적용시킬 특정 메서드에 @PerfLogging 어노테이션을 붙여주기만 하면 logPerf() 기능이 동작한다.
+위와 같이 `@Around` 어노테이션에 `@annotation(PerfLogging)`처럼 적용될 어노테이션을 명시할 수 있다. 그럼 해당 메서드를 적용시킬 특정 메서드에 `@PerfLogging` 어노테이션을 붙여주기만 하면 `logPerf()` 기능이 동작한다.
 
 Bean 전체에 해당 기능을 적용시킬 수도 있다.
 
@@ -268,7 +268,7 @@ public class PerfAspect {
 }
 ```
 
-@Around 어노테이션에 bean(simpleServiceEvent)처럼 적용될 빈을 명시할 수 있다. 그럼 해당 빈이 가지고 있는 모든 public 메서드에 해당 기능이 적용된다.
+`@Around` 어노테이션에 `bean(simpleServiceEvent)`처럼 적용될 빈을 명시할 수 있다. 그럼 해당 빈이 가지고 있는 모든 public 메서드에 해당 기능이 적용된다.
 
 사용법이 무수히 많아서 예시는 여기까지만 작성해보겠다.
 
