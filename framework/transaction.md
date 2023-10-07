@@ -184,7 +184,7 @@ Spring은 기본적으로 몇 가지 편리한 구현체와 함께 제공되는 
 우선 Spring의 Configuration부터 잠시 보자.
 
 ```java
-		@Bean
+    @Bean
     public DataSource dataSource() {
         return new MysqlDataSource();// (1)
     }
@@ -244,7 +244,7 @@ DataSourceTransactionManager를 보면 JDBC가 transaction을 관리하는 방�
 
 **전파 동작**은 **다른 메서드 내에서 메서드가 호출될 때 트랜잭션이 동작하는 방식을 정의**한다.
 
-@Transactional에 옵션으로 줄 수 있는 Propagation Level에는 여러가지가 있다.
+`@Transactional`에 옵션으로 줄 수 있는 Propagation Level에는 여러가지가 있다.
 
 ```java
 @Transactional(propagation = Propagation.REQUIRED)
@@ -266,7 +266,7 @@ DataSourceTransactionManager를 보면 JDBC가 transaction을 관리하는 방�
 
 ### @Transactional Isolation Levels의 용도(격리 수준)
 
-**격리 수준**은 **트랜잭션이 서로 상호작용하는 방식을 정의**하는데, Spring은 READ_COMMITTED, READ_UNCOMMITED, REAPEATABLE_READ 및 SERIALIZABLE과 같은 다양한 격리 수준을 지원한다.
+**격리 수준**은 **트랜잭션이 서로 상호작용하는 방식을 정의**하는데, Spring은 `READ_COMMITTED`, `READ_UNCOMMITED`, `REAPEATABLE_READ` 및 `SERIALIZABLE`과 같은 다양한 격리 수준을 지원한다.
 
 ```java
 @Transactional(isolation = Isolation.REPEATABLE_READ)
@@ -296,7 +296,7 @@ connection.setTransactionIsolation(Connection.TRANSACTION_REPEATABLE_READ);
     }
     ```
     
-- RuntimeException이나 Error의 경우에만 실패시 rollback이 된다. Exception의 경우 rollbackFor 옵션을 주어 처리하는 방법도 있다.
+- `RuntimeException`이나 `Error`의 경우에만 실패시 `rollback`이 된다. `Exception`의 경우 `rollbackFor` 옵션을 주어 처리하는 방법도 있다.
 
 ### 결론
 
@@ -306,7 +306,7 @@ connection.setTransactionIsolation(Connection.TRANSACTION_REPEATABLE_READ);
 
 - `@Transactional`**를 스프링 Bean 메서드 A에 적용하였고, 해당 Bean의 메서드 B가 호출되었을 때 메서드 내부에서 메서드 A를 호출하면 어떤 요청 흐름이 발생하는지 설명하라.**
     1. **메서드 A 호출**
-        - 메서드 A가 호출되면 @Transactional이 작동하고, 새로운 트랜잭션 컨텍스트가 시작된다. 이 컨텍스트는 메서드 A의 작업이 수행되는 경계를 나타낸다.
+        - 메서드 A가 호출되면 `@Transactional`이 작동하고, 새로운 트랜잭션 컨텍스트가 시작된다. 이 컨텍스트는 메서드 A의 작업이 수행되는 경계를 나타낸다.
     2. **트랜잭션 컨텍스트 생성**
         - 트랜잭션 컨텍스트가 설정되며, 메서드 A의 작업이 이 컨텍스트 내에서 수행된다. 메서드 A에서 수행하는 모든 데이터베이스 상호 작용 또는 수정 작업은 트랜잭션에 의해 관리된다.
     3. **메서드 B 호출**
