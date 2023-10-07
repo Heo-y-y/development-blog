@@ -68,7 +68,7 @@ public class WebConfig implements WebMvcConfigurer {
 }
 ```
 
-**WebMvcConfigurer**를 상송 받아서 **addCorsMappings**를 **Override**하면 **CORS 관련 설정이 가능**하다.
+**WebMvcConfigurer**를 상속 받아서 **addCorsMappings**를 **Override**하면 **CORS 관련 설정이 가능**하다.
 
 이 코드는 `http://localhost:8080`에서 오는 요청은 url이던 CORS를 적용 해주도록 설정해주는 것이다.
 
