@@ -32,6 +32,7 @@
     - [영속성 관리](JPA/영속성관리.md)
     - [엔티티 매핑](JPA/엔티티매핑.md)
     - [연관관계 매핑](JPA/연관관계매핑.md)
+    - [다양한 연관관계 매핑](JPA/다양한연관관계.md)
 * [자료구조](자료구조/README.md)
 * [Developer Tools](Developer\_Tools/README.md)
   * [Swagger](Developer\_Tools/swagger.md)
