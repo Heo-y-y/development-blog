@@ -1,5 +1,4 @@
-# JPA
-
+## JPA
 **JPA**(**Java Persistence API**)에 대해서 알아보자. 
 
 **JPA**는 자바 진영에서 **ORM**(**Object-Relational Mapping**) **기술에 대한 API 표준 명세**를 뜻한다.
@@ -30,11 +29,11 @@
 
 ## Hibernate
 
-**Hibernate**라는 **오픈소스 ORM 프레임워크**가 등**장하면서 하이버네이트를 기반으로 새로운 자바 ORM 기술 표준**이 만들어졌는데, 그것이 바로 **JPA**이다.
+**Hibernate**라는 **오픈소스 ORM 프레임워크**가 **등장하면서 하이버네이트를 기반으로 새로운 자바 ORM 기술 표준**이 만들어졌는데, 그것이 바로 **JPA**이다.
 
 **Hibernate**는 개발된 지 10년이 넘었고, 대중적으로 많이 이용되는 JPA 구현체 중 하나이다.
 
-JPA의 핵심들인 EntityManagerFactory, EntityManager, EntityTransaction 등을 상속 받아서 구현한다.
+JPA의 핵심들인 `EntityManagerFactory`, `EntityManager`, `EntityTransaction` 등을 상속 받아서 구현한다.
 
 JPA를 구현하는 다른 구현체들로는 EclipseLink나 DataNucleus 등이 있다.
 
@@ -81,13 +80,13 @@ Member member = jpa.find(memberId); // 조회
 
 CREATE TABLE과 같은 DDL문을 자동으로 생성해줄 수 있다.
 
-1. **유지보수**
+2. **유지보수**
 
 SQL을 직접 다루면 엔티티에 필드를 하나만 추가해도 그에 해당하는 SQL과 결과를 매핑하기 위한 JDBC API 코드를 모두 변경해야하는데, JPA를 사용하면 이러한 과정을 JPA가 대신 처리해준다.
 
 JPA가 패러다임 불일치 문제를 해결해주기 때문에 객체지향 언어가 가진 장점들을 활용해 유연하고, 유지보수가 좋은 도메인 모델을 설계할 수 있다.
 
-1. **성능**
+3. **성능**
 
 JPA는 애플리케이션과 데이터베이스 사이에서 동작하므로 최적화 관점에서 시도해볼 수 있는 것들이 많은데,
 
@@ -104,7 +103,7 @@ JPA를 사용하지 않았을 땐 두 번의 SELECT 쿼리가 수행된다.
 
 JPA를 사용하면 한번만 SELECT 쿼리가 수행되고, 그 다음번에는 이미 조회한 회원 객체를 재사용한다.
 
-1. **데이터 접근 추상화와 벤더 독립성**
+4. **데이터 접근 추상화와 벤더 독립성**
 
 JPA는 애플리케이션과 데이터베이스 사이에 추상화된 데이터 접근 계층을 제공해서 애플리케이션이 특정 데이터베이스 기술에 종속되지 않도록 한다.
 
@@ -120,7 +119,7 @@ Spring Data JPA는 JPA를 한 단계 더 추상화시킨 Repository 인터페이
 
 Spring Data JPA를 사용하면 사용자는 더욱 간단하게 데이터 접근이 가능해진다.
 
-<img width="620" alt="스크린샷 2023-09-24 오후 6 55 32" src="https://github.com/Heo-y-y/development-blog/assets/112863029/92be1c83-6641-4e74-b58c-94d4e053d00f">
+![스크린샷 2023-09-24 오후 6 55 32](https://github.com/Heo-y-y/development-blog/assets/112863029/92be1c83-6641-4e74-b58c-94d4e053d00f)
 
 여기서 알아야 할 것은 Spring에서 흔히 사용하는 것으로 알고있는 JPA는 JPA가 아니고, JPA를 이용하는 spring-data-jpa 프레임워크이다.
 
