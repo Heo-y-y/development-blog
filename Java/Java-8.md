@@ -308,7 +308,6 @@ List<String> filmsMadeByCameron =
 위에 코드를 보면 한 눈에 알기 쉽게 이해가 갈 것이다. **Stream**은 개발자가 **불필요한 for문과 if문을 사용하지 않도록 도와준다.**
 
 ### Stream의 특징
-
 - **파이프라이닝 지원**
     - **메서드 체이닝으로 연결**
     - 위 코드처럼 `filter(), sorted(), map(), collect()` 등이 계속 이어지는데, 이렇게 스트림 객체끼리 연속처럼 하나의 파이프라인이 되어 최종적인 결과 값을 반환
@@ -392,7 +391,7 @@ if (director == null) {
 }
 ```
 
-그 다음 문제는 이 메서드가 null을 반환할 수 있다는 것이다. MovieService의 getDirectorName()을 호출하는 객체는 이 결과 값이 null인지 아닌지 알 수 없어 NPE을 방어하는 코드를 추가해야 한다.
+그 다음 문제는 이 메서드가 null을 반환할 수 있다는 것이다. MovieService의 `getDirectorName()`을 호출하는 객체는 이 결과 값이 null인지 아닌지 알 수 없어 NPE을 방어하는 코드를 추가해야 한다.
 
 ```java
 String directorName = movieService.getDirectorName(movie);
@@ -403,7 +402,7 @@ if (directorName == null) {
 }
 ```
 
-마지막으로 getDirectorName() 메서드가 어떤 비즈니스 로직을 수행하고 있는지 한 눈에 파악하기 힘들다.
+마지막으로 `getDirectorName()` 메서드가 어떤 비즈니스 로직을 수행하고 있는지 한 눈에 파악하기 힘들다.
 이런 간단한 로직에서도 NPE를 막기 위해 고생해야 한다.
 
 ### **Optional을 활용한 null 처리**
@@ -532,7 +531,7 @@ System.out.println(LocalDateTime.of(2023, 7, 27, 12, 0).format(DateTimeFormatter
 
 ### **날짜 포맷을 위한 새로운 클래스 :: DateTimeFormatter**
 
-**DateTimeFormatter**의 등장 배경은 날짜의 포맷은 대부분은 개발자가 하드 코딩하거나 상수로 생성해서 사용해왔는데, 이부분을 **날짜 포맷이 상수로 등록**되어 있고, **API Document를 참고하여 원하는 포맷으로 변환도 가능**하게 해주었다.
+**DateTimeFormatter**의 등장 배경은 날짜의 포맷은 대부분은 개발자가 하드 코딩하거나 상수로 생성해서 사용해 왔는데, 이 부분을 **날짜 포맷이 상수로 등록**되어 있고, **API Document를 참고하여 원하는 포맷으로 변환도 가능**하게 해주었다.
 
 ```java
 System.out.println(
@@ -571,7 +570,7 @@ new Thread(() -> {
 }).start();
 ```
 
-이 코드는 두 스레드가 모두 끝난 지 메인에서 확인하는 방법도 마땅하지 않고, getFilmmakingPrice()에서 예외가 발생하면….. 머리가 아프다. 
+이 코드는 두 스레드가 모두 끝난 지 메인에서 확인하는 방법도 마땅하지 않고, `getFilmmakingPrice()`에서 예외가 발생하면….. 머리가 아프다. 
 
 ### **CompletableFuture를 사용한 조회**
 
@@ -597,8 +596,8 @@ CompletableFuture<Integer> lowPriceSearchFuture = CompletableFuture.supplyAsync(
 lowPriceSearchFuture.get(3, TimeUnit.SECONDS);
 ```
 
-thenCombin()을 통해 서로 다른 스레드를 엮어 비동기로 진행하고 두 스레드가 정상적으로 처리되면 filmmakingPriceAndCompany()를 호출한다.
-그리고 exceptionally()을 통해 예외상황도 처리했다.
+`thenCombin()`을 통해 서로 다른 스레드를 엮어 비동기로 진행하고 두 스레드가 정상적으로 처리되면 `filmmakingPriceAndCompany()`를 호출한다.
+그리고 `exceptionally()`을 통해 예외상황도 처리했다.
 
 ## **JVM의 변화**
 
