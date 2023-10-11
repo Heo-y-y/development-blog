@@ -14,14 +14,13 @@
 
 즉, **자바**에서는 **입력스트림 → InputStream, 출력스트림 → OutputStream** 이다.
 
-System.in은 InputStream 타입의 필드다.
+`System.in`은 `InputStream` 타입의 필드다.
 
 ![스크린샷 2023-06-27 오전 2.13.41.png](https://github.com/Heo-y-y/development-blog/assets/112863029/ff718a13-62de-48e2-a3f9-bf76f43a91c3)
 
 ![스크린샷 2023-06-27 오전 2.12.21.png](https://github.com/Heo-y-y/development-blog/assets/112863029/913ece4d-061b-45cc-801f-605454851686)
 
-**특징**을 정리하자면
-
+**특징**
 - UTF-8로 입력 받는다.
 - `read()` 메소드는 1byte 만 읽기 때문에 나머지 byte는 스트림에 잔존하게 된다.
 - 읽어들인 byte 값은 메모리에 UTF-16에 대응되는 문자의 인코딩방식으로 2진수 값이 저장된다.
@@ -29,7 +28,7 @@ System.in은 InputStream 타입의 필드다.
 
 ## Scanner(System.in) & InputStreamReader(System.in)
 
-우선 위에 글을 보면 이해 할 수 있는 것은 ****`Scanner(System.in)`**은 입력스트림인 InputStream을 통해 표준 입력을 받으려고 한다**는 것이다.
+우선 위에 글을 보면 이해 할 수 있는 것은 `Scanner(System.in)`**은 입력스트림인 InputStream을 통해 표준 입력을 받으려고 한다**는 것이다.
 
 `Scanner()`에 왜 InputStream이 들어가는지 Scanner  클래스를 들어가보면 확인할 수 있다.
 
@@ -45,7 +44,7 @@ Scanner 클래스에는 **Scanner라는 생성자**가 **Overloading**되어있�
 
 여기서 **InputStreamReader**가 보일 것이다.
 
-InputStream은 문자를 온전하게 읽어들이지 못한다. 이를 보완하여 나온게 **InputStreamReader**다.
+InputStream은 문자를 온전하게 읽어들이지 못한다. 이를 보완하여 나온게 **InputStreamReader**이다.
 
 정리하면, **InputStreamReader**는 InputStream의 바이트 단위로 읽어 들이는 형식을 **문자단위 데이터로 변환해주는 중개자 역할을 해준다.**
 
@@ -133,7 +132,6 @@ public int nextInt() {
 
 ## **BufferedReader & InputStreamReader(System.in)**
 
-
 이제 **BufferReader**에 대해서 살펴보자.
 
 - BufferedReader 객체 생성, 선언
@@ -182,8 +180,8 @@ BufferedReader br = new BufferedReader(sr);
 
 ### 입력장치 —Buffer[c][o][d][e][][]— 프로그램
 
-버퍼는 따로 설정하지 않으면 **디폴트로 8192개의 문자를 저장**할 수 잇다.
+버퍼는 따로 설정하지 않으면 **디폴트로 8192개의 문자를 저장**할 수 있다.
 
 개행이 입력되거나 버퍼가 꽉 차게 되면 버퍼를 비우면서 프로그램으로 데이터를 내보낸다.
 
-정리하면, 하나하나 문자를 보내는 것이 아니라 **모아둔 다음 한 번에** 보내기 때문에 속도가 더 빠르고, **별다른 정규식을 검사하지 않으니** 더 **더 빠른 것**이다.
+정리하면, 하나하나 문자를 보내는 것이 아니라 **모아둔 다음 한 번에** 보내기 때문에 속도가 더 빠르고, **별다른 정규식을 검사하지 않으니 더 빠른 것**이다.
