@@ -35,6 +35,7 @@
     - [다양한 연관관계 매핑](JPA/다양한연관관계.md)
     - [상속 관계 매핑](JPA/상속관계매핑.md)
     - [프록시와 연관관계 관리와 N+1 문제](JPA/프록시와연관관계.md)
+    - [값 타입](JPA/값타입.md)
 * [자료구조](자료구조/README.md)
 * [Developer Tools](Developer\_Tools/README.md)
   * [Swagger](Developer\_Tools/swagger.md)
