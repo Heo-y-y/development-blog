@@ -70,7 +70,7 @@
       - [빈 스코프](학습기록/스프링로드맵/스프링핵심원리기본/빈스코프.md)
 * [알고리즘](알고리즘/README.md)
   * [백준](알고리즘/백준/README.md)
-    * [Class1](undefined-3/undefined/class1/README.md)
+    * [Class1](알고리즘/백준/Class1/README.md)
       * [A+B(수학, 구현, 사칙연산)](알고리즘/A+B.md)
       * [A-B(수학, 구현, 사칙연산)](알고리즘/A-B.md)
       * [A/B(수학, 구현, 사칙연산)](알고리즘/A나누기B.md)
