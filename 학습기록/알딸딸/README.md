@@ -74,4 +74,4 @@
 
 하지만 알딸딸 프로젝트로 토큰 인증에 대한 지식을 습득한 경험으로 인해,
 
-지금 팀장으로 진행하고 있는 **[인스타 클론 코딩](https://github.com/Instagram-clone-project-team/Instamram-clone)** 에서는 이메일 인증 코드를 사용한 회원가입 로직도 만들 수 있었고, **[원티드 프리온보딩 인턴쉽 과제](https://github.com/Heo-y-y/wanted-pre-onboarding-backend)** 에서 레디스를 활용해 토큰 재발급을 만들 수 있었습니다.
+지금 팀장으로 진행하고 있는 **[인스타 클론 코딩](https://github.com/Instagram-clone-project-team/Instagram-clone/pulls?q=is%3Apr+author%3A%40me+is%3Aclosed)** 에서는 이메일 인증 코드를 사용한 회원가입 로직도 만들 수 있었고, **[원티드 프리온보딩 인턴쉽 과제](https://github.com/Heo-y-y/wanted-pre-onboarding-backend)** 에서 레디스를 활용해 토큰 재발급을 만들 수 있었습니다.
