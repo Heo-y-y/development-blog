@@ -55,7 +55,7 @@
     - 다른 종류의 여러 파일과 폼의 내용 함께 전송 가능
 - 참고로 HTML Form 전송은 **GET, POST만 지원**합니다.
 
-### **HTTP API 데이터 전송**
+### HTTP API 데이터 전송
 
 ![스크린샷 2023-11-01 오후 4.41.33.png](https://github.com/Heo-y-y/development-blog/assets/112863029/98f78f00-1c18-4762-b72f-a80cd8eabf77)
 
@@ -92,7 +92,7 @@
         - 서버가 리소스의 URI를 생성하고 관리
         - 여기서 컬렉션은 /members
 
-### HTTP API - 스토어**
+### HTTP API - 스토어
 
 - **PUT 기반 등록**
 - ex) 정적 컨텐츠 관리, 원격 파일 관리
@@ -111,7 +111,7 @@
         - 클라이언트가 리소스의 URI를 알고 관리
         - 여기서 스토어는 /files
     
-### **HTML FORM 사용**
+### HTML FORM 사용
 
 - HTML FORM은 **GET, POST**만 지원합니다.
 - **컨트롤 URI**
