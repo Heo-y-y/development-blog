@@ -21,3 +21,4 @@ Spring을 제대로 이해하고 사용하는 방법
   - **[URI와 웹 브라우저 요청 흐름](HTTP웹기본지식/URI와웹브라우저요청흐름.md)**
   - **[HTTP 기본](HTTP웹기본지식/HTTP기본.md)**
   - **[HTTP 메서드](HTTP웹기본지식/HTTP메서드.md)**
+  - **[HTTP 메서드 활용](HTTP웹기본지식/HTTP메서드활용.md)**
