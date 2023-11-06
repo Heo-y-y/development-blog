@@ -40,6 +40,7 @@
     - [객체지향 쿼리, JPQL](JPA/객체지향쿼리_jpql.md)
     - [QueryDSL, 네이티브SQL, 객체지향쿼리](JPA/QueryDSL_네이티브SQL_객체지향쿼리.md)
     - [웹 애플리케이션과 영속성관리](JPA/웹애플리케이션과영속성관리.md)
+    - [컬렉션과 부가기능](JPA/컬렉션과부가기능.md)
 * [Developer Tools](Developer\_Tools/README.md)
   * [Swagger](Developer\_Tools/swagger.md)
 ## STUDY
