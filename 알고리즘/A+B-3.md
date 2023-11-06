@@ -54,4 +54,5 @@ public class Main {
 ### 결과
 
 확실히 `Scanner`를 사용하는 방식보다 `BufferedReader` 를 사용하는 방식이 더 빠르다.
-![스크린샷 2023-11-06 오후 10 02 25](https://github.com/Heo-y-y/development-blog/assets/112863029/a2f11953-c3fa-4021-aa5a-24a5fdaf9b22)
+
+![스크린샷 2023-11-06 오후 10 02 25](https://github.com/Heo-y-y/development-blog/assets/112863029/4f09cf02-c096-4bc2-a831-caa0b53c87a8)
