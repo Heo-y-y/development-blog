@@ -74,6 +74,7 @@
      - [HTTP 기본](학습기록/스프링로드맵/HTTP웹기본지식/HTTP기본.md)
      - [HTTP 메서드](학습기록/스프링로드맵/HTTP웹기본지식/HTTP메서드.md)
      - [HTTP 메서드 활용](학습기록/스프링로드맵/HTTP웹기본지식/HTTP메서드활용.md)
+* [외워서 끝내는 네트워크 핵심이론 - 기초](학습기록/네트워크핵심이론/README.md)
 * [알고리즘](알고리즘/README.md)
   * [백준](알고리즘/백준/README.md)
     * [Class1](알고리즘/백준/Class1/README.md)
