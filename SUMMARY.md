@@ -43,6 +43,7 @@
     - [웹 애플리케이션과 영속성관리](JPA/웹애플리케이션과영속성관리.md)
     - [컬렉션과 부가 기능](JPA/컬렉션과부가기능.md)
     - [고급 주제와 성능 최적화](JPA/고급주제와성능최적화.md)
+    - [트랜잭션과 락, 2차 캐시](JPA/트랜잭션과락2차캐시.md)
 * [Developer Tools](Developer\_Tools/README.md)
   * [Swagger](Developer\_Tools/swagger.md)
 ## STUDY
