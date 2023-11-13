@@ -13,3 +13,4 @@
 - **[HTTP 메서드](HTTP메서드.md)**
 - **[HTTP 메서드 활용](HTTP메서드활용.md)**
 - **[HTTP 상태 코드](HTTP상태코드.md)**
+- **[HTTP 헤더 - 일반 헤더](HTTP일반헤더.md)**
