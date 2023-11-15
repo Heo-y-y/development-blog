@@ -80,7 +80,7 @@
 * [외워서 끝내는 네트워크 핵심이론 - 기초](학습기록/네트워크핵심이론/README.md)
 * [바닐라 JS로 그림 앱 만들기](학습기록/바닐라JS로그림앱만들기/README.md)
   * [THE CANVAS API](학습기록/바닐라JS로그림앱만들기/canvan.md)
-  * [PAINTING BOARD](학습가록/바닐라JS로그림앱만들기/PAINTINGBOARD.md)
+  * [PAINTING BOARD](학습기록/바닐라JS로그림앱만들기/PAINTINGBOARD.md)
 * [알고리즘](알고리즘/README.md)
   * [백준](알고리즘/백준/README.md)
     * [Class1](알고리즘/백준/Class1/README.md)
