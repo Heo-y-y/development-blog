@@ -80,6 +80,7 @@
 * [외워서 끝내는 네트워크 핵심이론 - 기초](학습기록/네트워크핵심이론/README.md)
   * [Layer와 Layered 구조](학습기록/네트워크핵심이론/layer-layered.md)
   * [네트워크와 네트워킹 그리고 개념](학습기록/네트워크핵심이론/네트워크와네트워킹.md)
+  * [User mode와 Kernel mode](학습기록/네트워크핵심이론/Usermode와Kernelmode.md)
 * [바닐라 JS로 그림 앱 만들기](학습기록/바닐라JS로그림앱만들기/README.md)
   * [THE CANVAS API](학습기록/바닐라JS로그림앱만들기/canvan.md)
   * [PAINTING BOARD](학습기록/바닐라JS로그림앱만들기/PAINTINGBOARD.md)
