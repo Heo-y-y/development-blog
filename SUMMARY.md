@@ -79,6 +79,7 @@
      - [HTTP 헤더 - 캐시와 조건부 요청](학습기록/스프링로드맵/HTTP웹기본지식/HTTP헤더캐시와조건부요청.md)
 * [외워서 끝내는 네트워크 핵심이론 - 기초](학습기록/네트워크핵심이론/README.md)
   * [Layer와 Layered 구조](학습기록/네트워크핵심이론/layer-layered.md)
+  * [네트워크와 네트워킹 그리고 개념](학습기록/네트워크핵심이론/네트워크와네트워킹.md)
 * [바닐라 JS로 그림 앱 만들기](학습기록/바닐라JS로그림앱만들기/README.md)
   * [THE CANVAS API](학습기록/바닐라JS로그림앱만들기/canvan.md)
   * [PAINTING BOARD](학습기록/바닐라JS로그림앱만들기/PAINTINGBOARD.md)
