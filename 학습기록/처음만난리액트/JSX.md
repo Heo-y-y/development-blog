@@ -39,7 +39,7 @@ JSX는 내부적으로 XML, HTML 코드를 JavaScript로 변환하는 과정을 
 ```jsx
 class Hello extends React.Component {
 		render() {
-				return <div>Hello {this.props.toWhat}</div>;
+			return <div>Hello {this.props.toWhat}</div>;
 		}
 }
 
@@ -58,13 +58,13 @@ ReactDOM.render(
 ```jsx
 class Hello extends React.Component {
 		render() {
-				return React.createElement('div', null, `Hello ${this.props.toWhat}`);
+			return React.createElement('div', null, `Hello ${this.props.toWhat}`);
 		}
 }
 
 ReactDOM.render(
-		React.createElement(Hello, { toWhat: 'World' }, null),
-		document.getElementById('root')
+	React.createElement(Hello, { toWhat: 'World' }, null),
+	document.getElementById('root')
 );
 ```
 
@@ -80,11 +80,11 @@ ReactDOM.render(
 
 ```jsx
 const element = {
-		type: 'h1',
-		props: {
-				className: 'greeting',
-				children: 'Hello, world!'
-		}
+	type: 'h1',
+	props: {
+		className: 'greeting',
+		children: 'Hello, world!'
+	}
 }
 ```
 
@@ -98,9 +98,9 @@ React에서는 이 객체를 **element**라고 부른다.
 
 ```jsx
 React.createElement(
-		type,
-		[props],
-		[...children]
+	type,
+	[props],
+	[...children]
 )
 ```
 
@@ -172,23 +172,23 @@ xml, html 코드를 사용하다가 중간에 자바스크립트를 사용하고
 
 ```jsx
 function formatName(user) {
-		return user.firstName + ' ' + user.lastName;
+	return user.firstName + ' ' + user.lastName;
 }
 
 const user = {
-		firstName: 'YounYoung',
-		lastName: 'Heo'
+	firstName: 'YounYoung',
+	lastName: 'Heo'
 };
 
 const element = (
-		<h1>
-				Hello, {formatUser(user)}
-		</h1>
+	<h1>
+	Hello, {formatUser(user)}
+	</h1>
 );
 
 ReactDOM.render(
-		element,
-		document.getElementById('root')
+	element,
+	document.getElementById('root')
 );
 ```
 
@@ -200,10 +200,10 @@ ReactDOM.render(
 
 ```jsx
 function getGreeting(user) {
-		if(user) {
-				return <h1>Hello, {formatName(user)}!</h1>;
-		}
-		return <h1>Hello, Stranger.</h1>
+	if(user) {
+		return <h1>Hello, {formatName(user)}!</h1>;
+	}
+	return <h1>Hello, Stranger.</h1>
 }
 ```
 
@@ -231,10 +231,10 @@ const element = <img src={user.avatarUrl}></img>
 
 ```jsx
 const element = (
-		<div>
-				<h1>안녕하세요</h1>
-				<h2>열심히 리액트를 공부하자!</h2>
-		</div>
+	<div>
+	      <h1>안녕하세요</h1>
+	      <h2>열심히 리액트를 공부하자!</h2>
+	</div>
 );
 ```
 
