@@ -9,4 +9,6 @@ TCP/IP에서 HTTP까지 네트워크에 대한 기본 이론을 학습
 - **[Layer와 Layered 구조](layer-layered.md)**
 - **[네트워크와 네트워킹 그리고 개념](네트워크와네트워킹.md)**
 - **[User mode와 Kernel mode](Usermode와Kernelmode.md)**
+- **[Internet 기반 네트워크 입문](Internet기반네트워크.md)**
+- **[L2](L2.md)**
 
