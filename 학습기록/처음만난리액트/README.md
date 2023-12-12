@@ -21,3 +21,4 @@
 - **[List and Keys](ListAndKeys.md)**
 - **[Forms](forms.md)**
 - **[Lifting State Up](LiftingStateUp.md)**
+- **[Composition vs Inheritance](Composition-Inheritance.md)**
