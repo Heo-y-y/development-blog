@@ -23,3 +23,4 @@
 - **[Lifting State Up](LiftingStateUp.md)**
 - **[Composition vs Inheritance](Composition-Inheritance.md)**
 - **[Context](Context.md)**
+- **[Styling](styling.md)**
