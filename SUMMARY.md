@@ -99,7 +99,7 @@
   * [Composition vs Inheritance](학습기록/처음만난리액트/Composition-Inheritance.md)
   * [Context](학습기록/처음만난리액트/Context.md)
   * [Styling](학습기록/처음만난리액트/styling.md)
-  * [Mini Project](학습기록/처음만난리액트//mini-project)
+  * [Mini Project](학습기록/처음만난리액트/mini-project.md)
 * [외워서 끝내는 네트워크 핵심이론 - 기초](학습기록/네트워크핵심이론/README.md)
   * [Layer와 Layered 구조](학습기록/네트워크핵심이론/layer-layered.md)
   * [네트워크와 네트워킹 그리고 개념](학습기록/네트워크핵심이론/네트워크와네트워킹.md)
