@@ -24,3 +24,4 @@
 - **[Composition vs Inheritance](Composition-Inheritance.md)**
 - **[Context](Context.md)**
 - **[Styling](styling.md)**
+- **[Mini Project](mini-project.md)**
