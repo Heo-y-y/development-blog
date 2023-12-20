@@ -10,4 +10,4 @@
 *개인학습 2023.12.20 ~ 진행중*
 
 ### Study Process
-- HTML/CSS/JS로 만드는 스타벅스 웹사이트
+- **[HTML/CSS/JS로 만드는 스타벅스 웹사이트](스타벅스/README.md)**
