@@ -52,7 +52,7 @@
     - [트랜잭션과 락, 2차 캐시](JPA/트랜잭션과락2차캐시.md)
 * [Developer Tools](Developer\_Tools/README.md)
   * [Swagger](Developer\_Tools/swagger.md)
-## STUDY
+## BACKEND STUDY
 * [MSA 스터디](학습기록/MSA스터디/README.md)
   - [OpenFeign을 이용한 알고리즘 해결 및 Mockito 테스트](학습기록/MSA스터디/오픈페인알고리즘.md)
   - [MSA 서점 대여 프로젝트](학습기록/MSA스터디/MSA서점대여프로젝트/README.md)
@@ -85,6 +85,7 @@
      - [HTTP 헤더 - 캐시와 조건부 요청](학습기록/스프링로드맵/HTTP웹기본지식/HTTP헤더캐시와조건부요청.md)
    - [스프링 MVC 1편 - 백엔드 웹 개발 핵심 기술](학습기록/스프링로드맵/스프링MVC1/README.md)
      - [웹 애플리케이션 이해](학습기록/스프링로드맵/스프링MVC1/웹애플리케이션이해.md)
+## FRONTEND STUDY
 * [한 번에 끝내는 프론트엔드 개발](학습기록/한번에끝내는프론트엔드개발/README.md)
   * [HTML/CSS/JS로 만드는 스타벅스 웹사이트](학습기록/한번에끝내는프론트엔드개발/스타벅스/README.md)
      * [프론트엔드 개괄](학습기록/한번에끝내는프론트엔드개발/스타벅스/개요.md)
@@ -106,16 +107,18 @@
   * [Context](학습기록/처음만난리액트/Context.md)
   * [Styling](학습기록/처음만난리액트/styling.md)
   * [Mini Project](학습기록/처음만난리액트/mini-project.md)
+* [바닐라 JS로 그림 앱 만들기](학습기록/바닐라JS로그림앱만들기/README.md)
+  * [THE CANVAS API](학습기록/바닐라JS로그림앱만들기/canvan.md)
+  * [PAINTING BOARD](학습기록/바닐라JS로그림앱만들기/PAINTINGBOARD.md)
+  * [MEME MAKER](학습기록/바닐라JS로그림앱만들기/MEMEMAKER.md)
+## NETWORK STUDY
 * [외워서 끝내는 네트워크 핵심이론 - 기초](학습기록/네트워크핵심이론/README.md)
   * [Layer와 Layered 구조](학습기록/네트워크핵심이론/layer-layered.md)
   * [네트워크와 네트워킹 그리고 개념](학습기록/네트워크핵심이론/네트워크와네트워킹.md)
   * [User mode와 Kernel mode](학습기록/네트워크핵심이론/Usermode와Kernelmode.md)
   * [Internet 기반 네트워크 입문](학습기록/네트워크핵심이론/Internet기반네트워크.md)
   * [L2](학습기록/네트워크핵심이론/L2.md)
-* [바닐라 JS로 그림 앱 만들기](학습기록/바닐라JS로그림앱만들기/README.md)
-  * [THE CANVAS API](학습기록/바닐라JS로그림앱만들기/canvan.md)
-  * [PAINTING BOARD](학습기록/바닐라JS로그림앱만들기/PAINTINGBOARD.md)
-  * [MEME MAKER](학습기록/바닐라JS로그림앱만들기/MEMEMAKER.md)
+## SQL & ALGORITHM
 * [알고리즘](알고리즘/README.md)
   * [백준](알고리즘/백준/README.md)
     * [Class1](알고리즘/백준/Class1/README.md)
