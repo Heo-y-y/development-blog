@@ -647,6 +647,7 @@ HTML id 속성의 값이 입력한 값인 요소를 선택한다.
 - `visible`: 뒷면 보임
 - `hidden`: 뒷면 숨김
 
+---
 **참고 자료**
 
 - <https://fastcampus.co.kr/dev_online_frontend>
