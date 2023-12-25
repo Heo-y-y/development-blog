@@ -6,8 +6,6 @@
 - HTML/CSS를 활용한 오버워치 캐릭터 선택창 구현
 - HTML/CSS/JS를 활용한 스타벅스 웹사이트 만들기
 - Git을 활용한 버전관리
-- JavaScript Essential
-- CSS 프레임워크 BootStrap
 
 ### Repository
 
