@@ -9,10 +9,11 @@
 
 ### Repository
 
-📎 **[Overwatch](https://github.com/Heo-y-y/overwatch/tree/main)**
+📎 **[Overwatch](https://github.com/Heo-y-y/overwatch/tree/main) / [Stabucks](https://github.com/Heo-y-y/starbucks)**
 
 ### Study Content
 - **[프론트엔드 개괄](개요.md)**
 - **[HTML](html.md)**
 - **[CSS](css.md)**
 - **[JavaScript](js.md)**
+- **[Stabucks Project](스타벅스.md)**
