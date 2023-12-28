@@ -7,8 +7,10 @@
 - HTML/CSS/JS를 활용한 스타벅스 웹사이트 만들기
 - 프로젝트에 연결할 로그인 페이지를 개발하여 Git을 활용한 버전 관리
 
-### Repository
+### Demo
+📎 **[Overwatch]() / [Stabucks]([https://github.com/Heo-y-y/starbucks](https://superlative-cocada-16c2e2.netlify.app/)**
 
+### Repository
 📎 **[Overwatch](https://github.com/Heo-y-y/overwatch/tree/main) / [Stabucks](https://github.com/Heo-y-y/starbucks)**
 
 ### Study Content
