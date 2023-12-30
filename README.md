@@ -8,4 +8,4 @@
 [![GitHub](https://img.shields.io/badge/GitHub-181717.svg?&style=flat-square&logo=github&logoColor=white)](https://github.com/Heo-y-y)
 [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:localhost8586@gmail.com)](mailto:localhost8586@gmail.com)
 ### Resume:
-[Page](https://common-mouth-660.notion.site/a40d96927f9246a89f18b7e4de74754b?pvs=4)
+[Page](https://common-mouth-660.notion.site/620dcd4ee97c4f9f9611771b65c7794d)
