@@ -1,5 +1,5 @@
 > "Developer story filled with records"
-## Heo-y-y | Backend Developer
+## Heo-y-y | Web Application Developer
 - 기술에 대한 집착보다, 데이터 분석 등 효용에 맞는 기술 선택을 지향합니다.
 - 개발은 팀 단위의 빌드업이기에, 기교보다 이해가 쉬운 코드를 지향합니다.
 - 유지 보수하기 좋고, 편하게 책처럼 읽히는 코드가 좋은 코드라고 생각합니다.
