@@ -1,7 +1,5 @@
 # Table of contents
-
 * [Intro](README.md)
-
 ## CATALOGUE
 * [Framework](framework/README.md)
   * [Spring](framework/spring/README.md)
@@ -53,7 +51,6 @@
     - [트랜잭션과 락, 2차 캐시](JPA/트랜잭션과락2차캐시.md)
 * [Developer Tools](Developer\_Tools/README.md)
   * [Swagger](Developer\_Tools/swagger.md)
-
 ## BACKEND STUDY
 * [MSA 스터디](학습기록/MSA스터디/README.md)
   - [OpenFeign을 이용한 알고리즘 해결 및 Mockito 테스트](학습기록/MSA스터디/오픈페인알고리즘.md)
@@ -89,7 +86,6 @@
      - [웹 애플리케이션 이해](학습기록/스프링로드맵/스프링MVC1/웹애플리케이션이해.md)
      - [서블릿](학습기록/스프링로드맵/스프링MVC1/서블릿.md)
      - [서블릿, JSP, MVC 패턴](학습기록/스프링로드맵/스프링MVC1/서블릿_JSP_MVC.md)
-   
 ## FRONTEND STUDY
 * [한 번에 끝내는 프론트엔드 개발](학습기록/한번에끝내는프론트엔드개발/README.md)
   * [HTML/CSS/JS로 만드는 스타벅스 웹사이트](학습기록/한번에끝내는프론트엔드개발/스타벅스/README.md)
@@ -122,7 +118,6 @@
   * [THE CANVAS API](학습기록/바닐라JS로그림앱만들기/canvan.md)
   * [PAINTING BOARD](학습기록/바닐라JS로그림앱만들기/PAINTINGBOARD.md)
   * [MEME MAKER](학습기록/바닐라JS로그림앱만들기/MEMEMAKER.md)
-
 ## NETWORK STUDY
 * [외워서 끝내는 네트워크 핵심이론 - 기초](학습기록/네트워크핵심이론/README.md)
   * [Layer와 Layered 구조](학습기록/네트워크핵심이론/layer-layered.md)
@@ -130,7 +125,6 @@
   * [User mode와 Kernel mode](학습기록/네트워크핵심이론/Usermode와Kernelmode.md)
   * [Internet 기반 네트워크 입문](학습기록/네트워크핵심이론/Internet기반네트워크.md)
   * [L2](학습기록/네트워크핵심이론/L2.md)
-
 ## SQL & ALGORITHM
 * [알고리즘](알고리즘/README.md)
   * [백준](알고리즘/백준/README.md)
@@ -217,7 +211,6 @@
       * [조건에 맞는 회원수 구하기](학습기록/쿼리테스트/프로그래머스/SELECT/조건에맞는회원수구하기.md)
     * [SUM, MAX, MIN](학습기록/쿼리테스트/프로그래머스/SUM_MAX_MIN/README.md)
       * [최댓값 구하기](학습기록/쿼리테스트/프로그래머스/SUM_MAX_MIN/최대값구하기.md)
-
 ## PROJECT
 * [알딸딸 프로젝트](학습기록/알딸딸/README.md)
   * [커스텀 레시피 상세 조회](학습기록/알딸딸/커스텀레시피.md)
