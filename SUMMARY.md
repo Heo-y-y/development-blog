@@ -101,6 +101,7 @@
      * [JavaScript 함수](학습기록/한번에끝내는프론트엔드개발/JavaScript/함수.md)
      * [JavaScript 클래스](학습기록/한번에끝내는프론트엔드개발/JavaScript/JS클래스.md)
      * [JavaScript 데이터](학습기록/한번에끝내는프론트엔드개발/JavaScript/JS데이터.md)
+     * [정규표현식](학습기록/한번에끝내는프론트엔드개발/JavaScript/정규표현식.md)
 * [처음 만난 React](학습기록/처음만난리액트/README.md)
   * [React 소개](학습기록/처음만난리액트/React소개.md)
   * [React 시작](학습기록/처음만난리액트/리액트시작.md)
