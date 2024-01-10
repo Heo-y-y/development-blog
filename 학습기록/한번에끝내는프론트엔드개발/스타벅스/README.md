@@ -8,10 +8,10 @@
 - 프로젝트에 연결할 로그인 페이지를 개발하여 Git을 활용한 버전 관리
 
 ### Demo
-📎 **[Overwatch](https://storied-starburst-6677e2.netlify.app/) / [Starbucks](https://superlative-cocada-16c2e2.netlify.app/)**
+📎 **[Starbucks](https://superlative-cocada-16c2e2.netlify.app/)**
 
 ### Repository
-📎 **[Overwatch](https://github.com/Heo-y-y/overwatch/tree/main) / [Starbucks](https://github.com/Heo-y-y/starbucks)**
+📎 **[Starbucks](https://github.com/Heo-y-y/starbucks)**
 
 ### Study Content
 - **[프론트엔드 개괄](개요.md)**
