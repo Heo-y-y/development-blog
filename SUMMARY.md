@@ -107,6 +107,7 @@
   * [SCSS](학습기록/한번에끝내는프론트엔드개발/scss/scss.md)
   * [React](학습기록/한번에끝내는프론트엔드개발/React/README.md)
      * [React 기초](학습기록/한번에끝내는프론트엔드개발/React/React기초.md)
+       * [Mac 환경에서 npx를 이용한 create-react-app 설치 및 생성 실패 에러](학습기록/한번에끝내는프론트엔드개발/React/리액트설치에러.md)
 * [처음 만난 React](학습기록/처음만난리액트/README.md)
   * [React 소개](학습기록/처음만난리액트/React소개.md)
   * [React 시작](학습기록/처음만난리액트/리액트시작.md)
