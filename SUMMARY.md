@@ -111,6 +111,7 @@
      * [SPA(Single Page Application)](학습기록/한번에끝내는프론트엔드개발/React/spa.md)
      * [JSX(JavaScript syntax extension)](학습기록/한번에끝내는프론트엔드개발/React/jsx.md)
      * [React로 예산 계산기 앱 만들기](학습기록/한번에끝내는프론트엔드개발/React/계산기앱/README.md)
+        * [Class 컴포넌트로 예산 계산기 앱 만들기](학습기록/한번에끝내는프론트엔드개발/React/계산기앱/클래스컴포넌트.md)
 * [처음 만난 React](학습기록/처음만난리액트/README.md)
   * [React 소개](학습기록/처음만난리액트/React소개.md)
   * [React 시작](학습기록/처음만난리액트/리액트시작.md)
