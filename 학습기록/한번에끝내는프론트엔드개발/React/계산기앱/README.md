@@ -15,7 +15,7 @@
 
 ### Repository
 
-📎 **[계산기 앱](https://github.com/Heo-y-y/react-budget-deploy-test-app/tree/main)**
+📎 **[계산기 앱](https://github.com/Heo-y-y/react-budget-deploy-test-app/tree/main)** **/ [React Profiler](https://github.com/Heo-y-y/react-profiler-test)**
 
 ### Study Content
 
