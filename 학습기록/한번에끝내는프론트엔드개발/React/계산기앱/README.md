@@ -18,8 +18,8 @@
 
 ### Study Content
 
-- **[Class 컴포넌트로 예산 계산기 앱 만들기](https://localhost8586.gitbook.io/heo-y-y/frontend-study/undefined/react/undefined/undefined)**
+- **[Class 컴포넌트로 예산 계산기 앱 만들기](클래스컴포넌트.md)**
 
-- **[함수형 컴포넌트로 예산 계산기 앱 변경하기](https://localhost8586.gitbook.io/heo-y-y/frontend-study/undefined/react/undefined/undefined-1)**
+- **[함수형 컴포넌트로 예산 계산기 앱 변경하기](함수컴포넌트.md)**
 
-- **[리액트 앱 성능 개선하기](https://localhost8586.gitbook.io/heo-y-y/frontend-study/undefined/react/undefined/undefined-2)**
+- **[리액트 앱 성능 개선하기](성능.md)**
