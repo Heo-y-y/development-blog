@@ -8,13 +8,14 @@
 - 함수형 컴포넌트로 예산 계산기 앱 변경
 - React Profiler를 활용한 성능 개선
 
-### Repository
-
-📎 **[계산기 앱](https://github.com/Heo-y-y/react-budget-deploy-test-app/tree/main)**
-
 ### Demo
 
 📎 **[계산기 앱](https://heo-y-y.github.io/react-budget-deploy-test-app/)**
+
+
+### Repository
+
+📎 **[계산기 앱](https://github.com/Heo-y-y/react-budget-deploy-test-app/tree/main)**
 
 ### Study Content
 
