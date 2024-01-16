@@ -6,6 +6,7 @@
 - HTML/CSS를 활용한 오버워치 캐릭터 선택창 구현
 - HTML/CSS/JS를 활용한 스타벅스 웹사이트 만들기
 - 프로젝트에 연결할 로그인 페이지를 개발하여 Git을 활용한 버전 관리
+- Netlify를 통한 자동배포
 
 ### Demo
 📎 **[Starbucks](https://superlative-cocada-16c2e2.netlify.app/)**
