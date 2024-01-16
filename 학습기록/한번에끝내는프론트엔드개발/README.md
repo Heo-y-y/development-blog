@@ -2,7 +2,10 @@
 
 ### 학습 목표
 
-- 스타벅스 프로젝트를 통한 HTML, CSS, JS 활용 및 Git 버전 관리
+- TML, CSS, JS 사용해 스타벅스 메인 페이지 구현 및 Netlify를 통한 배포 경험
+- Javascript, Typescript 학습
+- SCSS, BootStrap, Bundler 학습
+- 예산 계산기 앱을 React의 함수 컴포넌트로 구현하고, Git을 통한 배포 경험
 - 책장 프로젝트를 통한 React와 TypeScript 활용 및 Vercel을 통한 배포 경험
 
 ### 학습 기간 및 인원
