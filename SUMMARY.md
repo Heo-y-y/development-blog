@@ -120,6 +120,7 @@
      * [타입 단언(type assertion)과 타입 Guard](학습기록/한번에끝내는프론트엔드개발/typescript/타입단언과타입가드.md)
      * [Type Alias vs Interface](학습기록/한번에끝내는프론트엔드개발/typescript/타입과인터페이스.md)
      * [호출 시그니처, 인덱스 시그니처](학습기록/한번에끝내는프론트엔드개발/typescript/시그니처.md)
+     * [함수 오버로딩](학습기록/한번에끝내는프론트엔드개발/typescript/함수오버로딩.md)
 * [처음 만난 React](학습기록/처음만난리액트/README.md)
   * [React 소개](학습기록/처음만난리액트/React소개.md)
   * [React 시작](학습기록/처음만난리액트/리액트시작.md)
