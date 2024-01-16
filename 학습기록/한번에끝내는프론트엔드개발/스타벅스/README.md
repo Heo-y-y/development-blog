@@ -1,12 +1,15 @@
-# HTML/CSS/JS로 만드는 스타벅스 웹사이트
+# Starbucks clone
 
-![스크린샷 2023-12-20 오후 6 05 22](https://github.com/Heo-y-y/development-blog/assets/112863029/a4457647-aae6-4147-a5d1-db7115a5d654)
+![스크린샷 2024-01-17 오전 1 00 15](https://github.com/Heo-y-y/development-blog/assets/112863029/a83a4912-daf5-4cb4-b79b-163b60ebadba)
 
-## 학습 내용
-- HTML/CSS를 활용한 오버워치 캐릭터 선택창 구현
-- HTML/CSS/JS를 활용한 스타벅스 웹사이트 만들기
-- 프로젝트에 연결할 로그인 페이지를 개발하여 Git을 활용한 버전 관리
-- Netlify를 통한 자동배포
+### 적용 기능
+- Netlify를 통한 자동화 배포
+- Open Graph & Twitter Cards를 통한 정보 지정
+- Google Fonts를 사용한 동일한 서체 적용
+- GSAP & ScrollToPlugin를 통한 애니메이션
+- Swiper를 통한 슬라이드 기능
+- Youtube API를 통한 동영상 제어
+- ScrollMagic을 통한 스크롤 기능
 
 ### Demo
 📎 **[Starbucks](https://superlative-cocada-16c2e2.netlify.app/)**
