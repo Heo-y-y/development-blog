@@ -118,6 +118,7 @@
      * [Typescript 개발 환경 구성](학습기록/한번에끝내는프론트엔드개발/typescript/개발환경구성.md)
         * [TypeScript 설치 Error(Not Found)](학습기록/한번에끝내는프론트엔드개발/typescript/installerror.md)
      * [타입 단언(type assertion)과 타입 Guard](학습기록/한번에끝내는프론트엔드개발/typescript/타입단언과타입가드.md)
+     * [Type Alias vs Interface](학습기록/한번에끝내는프론트엔드개발/typescript/타입과인터페이스.md)
 * [처음 만난 React](학습기록/처음만난리액트/README.md)
   * [React 소개](학습기록/처음만난리액트/React소개.md)
   * [React 시작](학습기록/처음만난리액트/리액트시작.md)
