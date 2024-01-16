@@ -110,7 +110,7 @@
         * [Mac 환경에서 npx를 이용한 create-react-app 설치 및 생성 실패 에러](학습기록/한번에끝내는프론트엔드개발/React/리액트설치에러.md)
      * [SPA(Single Page Application)](학습기록/한번에끝내는프론트엔드개발/React/spa.md)
      * [JSX(JavaScript syntax extension)](학습기록/한번에끝내는프론트엔드개발/React/jsx.md)
-     * [React로 예산 계산기 앱 만들기](학습기록/한번에끝내는프론트엔드개발/React/계산기앱/README.md)
+     * [React를 이용한 예산 계산기 앱](학습기록/한번에끝내는프론트엔드개발/React/계산기앱/README.md)
         * [Class 컴포넌트로 예산 계산기 앱 만들기](학습기록/한번에끝내는프론트엔드개발/React/계산기앱/클래스컴포넌트.md)
         * [함수형 컴포넌트로 예산 계산기 앱 변경하기](학습기록/한번에끝내는프론트엔드개발/React/계산기앱/함수컴포넌트.md)
         * [React 앱 성능 개선하기](학습기록/한번에끝내는프론트엔드개발/React/계산기앱/성능.md)
