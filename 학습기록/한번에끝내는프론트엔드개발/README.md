@@ -14,3 +14,7 @@
 
 ### Study Process
 - **[HTML/CSS/JS로 만드는 스타벅스 웹사이트](스타벅스/README.md)**
+- **[JavaScript](JavaScript/README.md)**
+- **[SCSS](scss/scss.md)**
+- **[React](React/README.md)**
+- **[TypeScript](typescript/README.md)**
