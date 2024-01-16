@@ -95,7 +95,7 @@
      * [HTML](학습기록/한번에끝내는프론트엔드개발/스타벅스/html.md)
      * [CSS](학습기록/한번에끝내는프론트엔드개발/스타벅스/css.md)
      * [JavaScript](학습기록/한번에끝내는프론트엔드개발/스타벅스/js.md)
-     * [Starbucks Project](학습기록/한번에끝내는프론트엔드개발/스타벅스/스타벅스.md)
+     * [Starbucks clone](학습기록/한번에끝내는프론트엔드개발/스타벅스/스타벅스.md)
      * [Git을 활용한 버전관리](학습기록/한번에끝내는프론트엔드개발/스타벅스/git.md)
   * [JavaScript](학습기록/한번에끝내는프론트엔드개발/JavaScript/README.md)
      * [Node.js](학습기록/한번에끝내는프론트엔드개발/JavaScript/노드.md)
