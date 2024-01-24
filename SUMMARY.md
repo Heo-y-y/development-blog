@@ -156,6 +156,7 @@
     * [useSelector & useDispatch](학습기록/한번에끝내는프론트엔드개발/리덕스앱/useSelector.md)
     * [리덕스 미들웨어](학습기록/한번에끝내는프론트엔드개발/리덕스앱/리덕스미들웨어.md)
     * [Redux Thunk](학습기록/한번에끝내는프론트엔드개발/리덕스앱/ReduxThunk.md)
+    * [리덕스 툴킷(redux toolkit)](학습기록/한번에끝내는프론트엔드개발/리덕스앱/리덕스툴킷.md)
 * [처음 만난 React](학습기록/처음만난리액트/README.md)
   * [React 소개](학습기록/처음만난리액트/React소개.md)
   * [React 시작](학습기록/처음만난리액트/리액트시작.md)
