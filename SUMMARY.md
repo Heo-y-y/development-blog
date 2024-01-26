@@ -105,6 +105,7 @@
        - [HTTP 요청 파라미터 - @ModelAttribute](학습기록/스프링로드맵/스프링MVC1/스프링MVC기본기능/ModelAttribute.md)
        - [HTTP 요청 메시지 - 단순 텍스트](학습기록/스프링로드맵/스프링MVC1/스프링MVC기본기능/단순텍스트.md)
        - [HTTP 요청 메시지 - JSON](학습기록/스프링로드맵/스프링MVC1/스프링MVC기본기능/JSON.md)
+       - [HTTP 응답 - 정적 리소스, 뷰 템플릿](학습기록/스프링로드맵/스프링MVC1/스프링MVC기본기능/정적리소스.md)
 
 ## FRONTEND STUDY
 * [한 번에 끝내는 프론트엔드 개발](학습기록/한번에끝내는프론트엔드개발/README.md)
