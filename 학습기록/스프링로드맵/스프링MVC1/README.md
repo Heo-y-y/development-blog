@@ -10,7 +10,7 @@
 
 ### Repository
 
-📎
+📎 [GitHub](https://github.com/Heo-y-y/Spring_Roadmap/tree/main/%EC%8A%A4%ED%94%84%EB%A7%81MVC1)
 
 ### Study Content
 - **[웹 애플리케이션 이해](웹애플리케이션이해.md)**
