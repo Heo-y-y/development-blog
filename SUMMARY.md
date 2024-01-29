@@ -116,6 +116,7 @@
        - [상품 상세](학습기록/스프링로드맵/스프링MVC1/MVC웹페이지/상품상세.md)
          - ['-parameters' flag.’ - 파라미터 이름 인식 에러](학습기록/스프링로드맵/스프링MVC1/MVC웹페이지/파라미터에러.md)
        - [상품 등록 폼](학습기록/스프링로드맵/스프링MVC1/MVC웹페이지/상품등록폼.md)
+       - [상품 등록 처리 - @ModelAttribute](학습기록/스프링로드맵/스프링MVC1/MVC웹페이지/ModelAttribute.md)
 
 ## FRONTEND STUDY
 * [한 번에 끝내는 프론트엔드 개발](학습기록/한번에끝내는프론트엔드개발/README.md)
