@@ -375,3 +375,4 @@
   * [Stomp + Kafka를 이용한 채팅 기능](인스타그램/채팅기능/README.md)
     * [채팅 기능에 사용할 기술 선택](인스타그램/채팅기능/기술채택.md)
     * [Docker - Spring Boot 프로젝트 & MySQL 연결](인스타그램/채팅기능/Docker프로젝트연결.md)
+      * [(Error) load build definition from Dockerfile](인스타그램/채팅기능/dockerfile-error.md)
