@@ -195,6 +195,7 @@
       * [에러 페이지 생성](학습기록/한번에끝내는프론트엔드개발/ReactJs/구글Keep/에러페이지.md)
         * [(Error) A complete log of this run can be found in:](학습기록/한번에끝내는프론트엔드개발/ReactJs/구글Keep/vite.md)
       * [리덕스를 사용하기 위한 세팅](학습기록/한번에끝내는프론트엔드개발/ReactJs/구글Keep/리덕스세팅.md)
+      * [Navbar 생성](학습기록/한번에끝내는프론트엔드개발/ReactJs/구글Keep/Navbar.md)
 
 * [처음 만난 React](학습기록/처음만난리액트/README.md)
   * [React 소개](학습기록/처음만난리액트/React소개.md)
