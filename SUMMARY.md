@@ -199,6 +199,7 @@
       * [Sidebar 생성](학습기록/한번에끝내는프론트엔드개발/ReactJs/구글Keep/sidebar.md)
       * [Tag를 위한 Modal 생성](학습기록/한번에끝내는프론트엔드개발/ReactJs/구글Keep/Tag.md)
       * [Note 메인 페이지 생성하기](학습기록/한번에끝내는프론트엔드개발/ReactJs/구글Keep/note메인페이지생성.md)
+      * [NoteCard 컴포넌트와 Note 데이터 생성](학습기록/한번에끝내는프론트엔드개발/ReactJs/구글Keep/NoteCard.md)
 
 * [처음 만난 React](학습기록/처음만난리액트/README.md)
   * [React 소개](학습기록/처음만난리액트/React소개.md)
