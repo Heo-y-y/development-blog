@@ -8,10 +8,6 @@
 - 예산 계산기 앱을 React의 함수 컴포넌트로 구현하고, Git을 통한 배포 경험
 - 책장 프로젝트를 통한 React와 TypeScript 활용 및 Vercel을 통한 배포 경험
 
-### 학습 기간 및 인원
-
-*개인학습 2023.12.20 ~ 진행중*
-
 ### Study Process
 - **[Starbucks clone](스타벅스/README.md)**
 - **[JavaScript](JavaScript/README.md)**
