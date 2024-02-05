@@ -1,8 +1,6 @@
 ![](https://github.com/Heo-y-y/development-blog/assets/112863029/e555fdbd-5735-4adf-9fe0-93f52b657c74)
 
-
-![](https://github.com/Heo-y-y/development-blog/assets/112863029/a597076e-53a8-4535-a094-af1d2849a180)
-
+<!--![](https://github.com/Heo-y-y/development-blog/assets/112863029/a597076e-53a8-4535-a094-af1d2849a180)-->
 
 ### 작업 기간 및 인원
 *팀 프로젝트(백엔드 3명, 프론트엔드 3명), 2023.05 ~ 2023.06*
