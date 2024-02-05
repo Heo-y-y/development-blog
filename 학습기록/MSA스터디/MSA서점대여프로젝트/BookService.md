@@ -4,7 +4,7 @@
 
 ## BookService 구현
 
-`BookService` 같은 경우는 해당 스터디원이 완성을 못하게 되면서 제가 맡아서 완성을 시켰습니다.
+`BookService` 같은 경우는 해당 스터디원이 완성을 못하게 되면서 제가 맡아서 완성을 시켰다.
 
 ### Entity
 
@@ -63,9 +63,9 @@ public class BookStockResponse {
 
 <img width="702" alt="스크린샷 2023-07-31 오후 5 42 25" src="https://github.com/heo-mewluee-Study-Group/cs-study/assets/112863029/ef598726-795f-4143-870d-d62a8501d95f">
 
-`HistoryFeign`에서 위 그림의 형식으로 보내주기 때문에 응답 값에 맞춰서 만들었습니다.
+`HistoryFeign`에서 위 그림의 형식으로 보내주기 때문에 응답 값에 맞춰서 만들었다.
 
-아래는 코드는 `BookService`가 `Loan` **에게 보내는 응답 형태**입니다.
+아래는 코드는 `BookService`가 `Loan` **에게 보내는 응답 형태**이다.
 
 ```java
 public enum BookAvailabilityStatus {
@@ -104,14 +104,12 @@ public class BookService {
 }
 ```
 
-우선 `getTotalBookStock()` 메서드부터 설명하겠습니다. 
+우선 `getTotalBookStock()` 메서드는 `bookRepository`에서 `bookId`를 찾아 `stock`을 `return`해주고, 만약 해당 `bookId`가 없는 경우에는 예외를 던진다.
+이 메서드는 `checkBookAvailabilityForRental()` 메서드에서 쓰인다.
 
-해당 메서드는 `bookRepository`에서 `bookId`를 찾아 `stock`을 `return`해줍니다. 만약 해당 `bookId`가 없는 경우에는 예외를 던집니다.
-이 메서드는 `checkBookAvailabilityForRental()` 메서드에서 쓰입니다.
-
-이제 `checkBookAvailabilityForRental()` 를 설명하겠습니다.
-`getTotalBookStock()` 에서 가져온 `stock`을 `totalStock`에 넣어주고, `historyFeign` 에서 받아온 데이터를 `List*<BookStockRecord>` 형태의 `stockRecords`에 넣어준 뒤 stream으로 `quantity`값을 더해서 `rentedBook`에 넣어 줍니다.
-그리고 만약 `totalStock - rentedBook` 값이 0보다 같거나 작으면 대여를 못한다는 `NOT_AVAILABLE`을 반환하고, 그게 아니면 여분이 있는 것으로 `AVAILABLE`을 반환해줍니다.
+`checkBookAvailabilityForRental()` 를 설명하면,
+`getTotalBookStock()` 에서 가져온 `stock`을 `totalStock`에 넣어주고, `historyFeign` 에서 받아온 데이터를 `List*<BookStockRecord>` 형태의 `stockRecords`에 넣어준 뒤 stream으로 `quantity`값을 더해서 `rentedBook`에 넣어 준다.
+그리고 만약 `totalStock - rentedBook` 값이 0보다 같거나 작으면 대여를 못한다는 `NOT_AVAILABLE`을 반환하고, 그게 아니면 여분이 있는 것으로 `AVAILABLE`을 반환한다.
 
 ### BookServiceTest
 
@@ -211,7 +209,7 @@ class BookServiceTest {
 }
 ```
 
-우선 앞서 동일하게 적용한 코드들은 넘어가고, 새롭게 작성한 코드들을 설명하겠습니다.
+우선 앞서 동일하게 적용한 코드들은 넘어가고, 새롭게 작성한 코드들을 보자.
 
 먼저 아래 코드부터 보면,
 
@@ -219,20 +217,20 @@ class BookServiceTest {
 List<BookStockRecord> stockRecords = Collections.singletonList(new BookStockRecord(1L, quantity));
 ```
 
-이 코드는 `stockRecords`라는 리스트를 생성하고, 그안에 `BookStockRecord` 객체를 하나만 포함시키기위해 `Collections.singletonList()`를 사용했습니다.
+이 코드는 `stockRecords`라는 리스트를 생성하고, 그안에 `BookStockRecord` 객체를 하나만 포함시키기위해 `Collections.singletonList()`를 사용했다.
 
 ```java
 BookStockResponse stockResponse = mock(BookStockResponse.class);
 ```
 
-`mock(BookStockResponse.class)` 는 `BookStockResponse` 클래스의 `mock` 객체를 생성하는 메서드입니다.
-이렇게 작성하면 **stockResponse**라는 **mock 객체를 생성**합니다.
-`stockResponse.getBookStockRecords()`메서드를 호출하면 `stockRecords` 리스트를 반환합니다.
+`mock(BookStockResponse.class)` 는 `BookStockResponse` 클래스의 `mock` 객체를 생성하는 메서드이다.
+이렇게 작성하면 **stockResponse**라는 **mock 객체를 생성**한다.
+`stockResponse.getBookStockRecords()`메서드를 호출하면 `stockRecords` 리스트를 반환한다.
 
 ```java
 when(bookRepository.findById(bookId)).thenReturn(Optional.of(book));
 ```
 
-이 코드는 `bookRepository`의 `findById()`메서드가 호출될때 `bookId`에 해당하는 책이 **데이터베이스에 존재한다면 해당 책을 담은** `Optional` **객체를 반환**하도록 작성했습니다. 
+이 코드는 `bookRepository`의 `findById()`메서드가 호출될때 `bookId`에 해당하는 책이 **데이터베이스에 존재한다면 해당 책을 담은** `Optional` **객체를 반환**하도록 작성했다. 
 
-이렇게 하면 **테스트 코드**에서는 데이터베이스의 책 정보를 **미리 설정한** `book` **객체로 대체하여 테스트를 수행**할 수 있습니다.
+이렇게 하면 **테스트 코드**에서는 데이터베이스의 책 정보를 **미리 설정한** `book` **객체로 대체하여 테스트를 수행**할 수 있다.
