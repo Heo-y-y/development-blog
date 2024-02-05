@@ -1,5 +1,5 @@
 ### Repository
-📎 [GitHub](https://github.com/Heo-y-y/study_toy_MSA/tree/main/mock-test/src)
+**📎 [GitHub](https://github.com/Heo-y-y/study_toy_MSA/tree/main/mock-test/src)**
 
 ## MockTestService 구현
 
