@@ -134,16 +134,16 @@ networks:
 
 **database-instagram 서비스**
 
-- **`mysql/mysql-server:8.0`** 이미지를 사용하여 MySQL 서비스를 실행한다.
-- **`MYSQL_ROOT_PASSWORD`**와 **`MYSQL_ROOT_HOST`** 등의 환경 변수를 설정하여 MySQL 루트 사용자의 비밀번호와 호스트를 지정한다.
-- **`./mysql-init.d`** 디렉토리를 MySQL 컨테이너의 **`/docker-entrypoint-initdb.d`** 디렉토리에 마운트하여 초기화 스크립트를 실행한다.
+- `mysql/mysql-server:8.0` 이미지를 사용하여 MySQL 서비스를 실행한다.
+- `MYSQL_ROOT_PASSWORD`와 `MYSQL_ROOT_HOST` 등의 환경 변수를 설정하여 MySQL 루트 사용자의 비밀번호와 호스트를 지정한다.
+- `./mysql-init.d` 디렉토리를 MySQL 컨테이너의 `/docker-entrypoint-initdb.d` 디렉토리에 마운트하여 초기화 스크립트를 실행한다.
 - 컨테이너의 3306 포트를 호스트의 13306 포트에 매핑한다.
 
 **application-instagram 서비스**
 
-- 현재 디렉토리에서 **`Dockerfile`**을 사용하여 애플리케이션 이미지를 빌드한다.
+- 현재 디렉토리에서 `Dockerfile`을 사용하여 애플리케이션 이미지를 빌드한다.
 - 컨테이너의 8080 포트를 호스트의 8081 포트에 매핑한다.
-- **`depends_on`** 속성을 사용하여 **`database-instagram`** 서비스의 준비 상태를 확인하고, **`networks`** 속성을 통해 **`spring-network`** 네트워크를 사용한다.
+- `depends_on` 속성을 사용하여 `database-instagram` 서비스의 준비 상태를 확인하고, `networks` 속성을 통해 `spring-network` 네트워크를 사용한다.
 
 ## Docker-compose를 통한 MySQL과 Spring Boot 연결
 
