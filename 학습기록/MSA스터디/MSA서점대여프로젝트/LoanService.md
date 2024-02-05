@@ -3,8 +3,6 @@
 
 ## LoanService 구현
 
-기본적인 클래스들은 따로 설명하지 않고 코드를 보며 넘어가겠습니다.
-
 ### Entity
 
 ```java
@@ -53,9 +51,9 @@ public interface HistoryFeign {
 }
 ```
 
-우선 `BookFeign`은  `BookService`**에서 보내주는 대여 가능 상태를 받아오는 기능**을 합니다.
-이와 마찬가지로 `UserFeign`은 `UserService` **에서 대여 가능 상태와 userId를 받아오는 기능**을 합니다.
-마지막으로 `HistoryFeign`은 `HistroyService`의 **저장 기능**을 받아 옵니다.
+우선 `BookFeign`은  `BookService`**에서 보내주는 대여 가능 상태를 받아오는 기능**을 한다.
+이와 마찬가지로 `UserFeign`은 `UserService` **에서 대여 가능 상태와 userId를 받아오는 기능**을 한다.
+마지막으로 `HistoryFeign`은 `HistroyService`의 **저장 기능**을 받아 온다.
 
 ### Response 클래스
 
@@ -66,9 +64,9 @@ public enum AvailabilityStatus {
 }
 ```
 
-`book`과 `user`가 사용하는 클래스입나다.
+`book`과 `user`가 사용하는 클래스이다.
 
-대여 가능과 불가능 상태를 나타냅니다.
+대여 가능과 불가능 상태를 나타낸다.
 
 ```java
 @AllArgsConstructor
@@ -80,7 +78,7 @@ public class UserRentalResponse {
 ```
 
 `book`에서는 단순히 상태만 받아와서 `AvailabilityStatus` 를 사용하지만, 
-`user`에서는 아래 그림처럼 `userId`와 상태값 두 개를 보내주기 때문에 따로 응답 클래스를 만들었습니다.
+`user`에서는 아래 그림처럼 `userId`와 상태값 두 개를 보내주기 때문에 따로 응답 클래스를 만들었다.
 
 <img width="291" alt="스크린샷 2023-07-31 오전 11 22 48" src="https://github.com/heo-mewluee-Study-Group/cs-study/assets/112863029/63b70385-0c01-4845-8e16-30dfb741fcd0">
 
@@ -94,8 +92,8 @@ public class LoanRequest {
 }
 ```
 
-마지막으로 대여 요청시 해당 유저 `email`과 `bookId`, `quantity`를 받기위해 request용 클래스를 만들었습니다.
-이 클래스는 `controller`에서 `@RequestBody`에 사용합니다.
+마지막으로 대여 요청시 해당 유저 `email`과 `bookId`, `quantity`를 받기위해 request용 클래스를 만들었다.
+이 클래스는 `controller`에서 `@RequestBody`에 사용한다.
 
 ### LoanService 클래스(실질적인 비즈니스 담당)
 
@@ -121,8 +119,8 @@ public class LoanService {
 }
 ```
 
-실질적인 비즈니스 로직을 담당하는 클래스입니다.
-`processLoanRequest()`는 위에 만든 `feign`들을 받아와서 `user`와 `book`**이 둘다 대여가 가능한 상황에만 저장소인** `HistoryService` **에 데이터를 저장**하는 비즈니스 로직입니다.
+실질적인 비즈니스 로직을 담당하는 클래스이다.
+`processLoanRequest()`는 위에 만든 `feign`들을 받아와서 `user`와 `book`**이 둘다 대여가 가능한 상황에만 저장소인** `HistoryService` **에 데이터를 저장**하는 비즈니스 로직이다.
 
 ### LoanController 클래스
 
