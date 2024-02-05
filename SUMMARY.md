@@ -20,7 +20,7 @@
     - [HistoryService](학습기록/MSA스터디/MSA서점대여프로젝트/history/README.md)
       - [(Error)UnsatisfiedDependencyException](학습기록/MSA스터디/MSA서점대여프로젝트/history/ErrorLog.md)
     - [MockTestService](학습기록/MSA스터디/MSA서점대여프로젝트/MockTestService.md)
-* [알딸딸](학습기록/알딸딸/README.md)
+* [나만의 칵테일 레시피 알딸딸](학습기록/알딸딸/README.md)
   * [커스텀 레시피 상세 조회](학습기록/알딸딸/커스텀레시피.md)
   * [정규 레시피 도수 별 Pagination](학습기록/알딸딸/정규레시피.md)
   * [Swagger UI](학습기록/알딸딸/Swagger.md)
