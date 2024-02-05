@@ -1,6 +1,22 @@
 # Table of contents
 
 * [Intro](README.md)
+
+## PROJECT
+* [인스타그램](인스타그램/README.md)
+  * [SSE(Server-Sent Event)를 활용한 알림 기능 구현](인스타그램/알림기능/README.md)
+    * [알림 기능의 통신 방법 고민](인스타그램/알림기능/통신방법.md)
+    * [SSE를 통한 통신 연결 및 알림 기능 구현](인스타그램/알림기능/SSE.md)
+  * [Stomp + Kafka를 이용한 채팅 기능](인스타그램/채팅기능/README.md)
+    * [채팅 기능에 사용할 기술 선택](인스타그램/채팅기능/기술채택.md)
+    * [Docker - Spring Boot 프로젝트 & MySQL 연결](인스타그램/채팅기능/Docker프로젝트연결.md)
+      * [(Error) load build definition from Dockerfile](인스타그램/채팅기능/dockerfile-error.md)
+* [알딸딸](학습기록/알딸딸/README.md)
+  * [커스텀 레시피 상세 조회](학습기록/알딸딸/커스텀레시피.md)
+  * [정규 레시피 도수 별 Pagination](학습기록/알딸딸/정규레시피.md)
+  * [Swagger UI](학습기록/알딸딸/Swagger.md)
+  * [S3를 통한 이미지 저장 아키텍팅](학습기록/알딸딸/S3.md)
+  * [인증 흐름, 토큰 관리](학습기록/알딸딸/인증흐름.md)
   
 ## CATALOGUE
 * [Framework](framework/README.md)
@@ -203,6 +219,7 @@
       * [Note 버튼 생성](학습기록/한번에끝내는프론트엔드개발/ReactJs/구글Keep/노트버튼생성.md)
       * [Note 수정 기능](학습기록/한번에끝내는프론트엔드개발/ReactJs/구글Keep/노트수정기능.md)
       * [Tag 수정 기능](학습기록/한번에끝내는프론트엔드개발/ReactJs/구글Keep/Tag수정기능.md)
+      * [에디터 생성하기 (React-Quill)](학습기록/한번에끝내는프론트엔드개발/ReactJs/구글Keep/에디터생성.md)
 
 * [처음 만난 React](학습기록/처음만난리액트/README.md)
   * [React 소개](학습기록/처음만난리액트/React소개.md)
@@ -380,19 +397,3 @@
       * [이름이 있는 동물의 아이디](학습기록/쿼리테스트/프로그래머스/ISNULL/이름있는동물아이디.md)
       * [NULL 처리하기](학습기록/쿼리테스트/프로그래머스/ISNULL/NULL처리.md)
       * [나이 정보가 없는 회원 수 구하기](학습기록/쿼리테스트/프로그래머스/ISNULL/나이정보.md)
-
-## PROJECT
-* [알딸딸](학습기록/알딸딸/README.md)
-  * [커스텀 레시피 상세 조회](학습기록/알딸딸/커스텀레시피.md)
-  * [정규 레시피 도수 별 Pagination](학습기록/알딸딸/정규레시피.md)
-  * [Swagger UI](학습기록/알딸딸/Swagger.md)
-  * [S3를 통한 이미지 저장 아키텍팅](학습기록/알딸딸/S3.md)
-  * [인증 흐름, 토큰 관리](학습기록/알딸딸/인증흐름.md)
-* [인스타그램](인스타그램/README.md)
-  * [SSE(Server-Sent Event)를 활용한 알림 기능 구현](인스타그램/알림기능/README.md)
-    * [알림 기능의 통신 방법 고민](인스타그램/알림기능/통신방법.md)
-    * [SSE를 통한 통신 연결 및 알림 기능 구현](인스타그램/알림기능/SSE.md)
-  * [Stomp + Kafka를 이용한 채팅 기능](인스타그램/채팅기능/README.md)
-    * [채팅 기능에 사용할 기술 선택](인스타그램/채팅기능/기술채택.md)
-    * [Docker - Spring Boot 프로젝트 & MySQL 연결](인스타그램/채팅기능/Docker프로젝트연결.md)
-      * [(Error) load build definition from Dockerfile](인스타그램/채팅기능/dockerfile-error.md)
