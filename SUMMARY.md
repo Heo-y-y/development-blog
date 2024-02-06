@@ -224,6 +224,7 @@
       * [노트 저장 완료 기능](학습기록/한번에끝내는프론트엔드개발/ReactJs/구글Keep/노트저장완료.md)
       * [Note Modal 생성](학습기록/한번에끝내는프론트엔드개발/ReactJs/구글Keep/노트모달생성.md)
       * [Note 정렬 모달 생성](학습기록/한번에끝내는프론트엔드개발/ReactJs/구글Keep/Note정렬.md)
+      * [Archive 페이지 생성](학습기록/한번에끝내는프론트엔드개발/ReactJs/구글Keep/Archive생성.md)
 <!--
 * [처음 만난 React](학습기록/처음만난리액트/README.md)
   * [React 소개](학습기록/처음만난리액트/React소개.md)
