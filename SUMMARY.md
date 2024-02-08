@@ -11,6 +11,7 @@
     * [채팅 기능에 사용할 기술 선택](인스타그램/채팅기능/기술채택.md)
     * [Docker - Spring Boot 프로젝트 & MySQL 연결](인스타그램/채팅기능/Docker프로젝트연결.md)
       * [(Error) load build definition from Dockerfile](인스타그램/채팅기능/dockerfile-error.md)
+    * [Docker - Redis & Kafka & MongoDB 연결](인스타그램/채팅기능/docker-세팅.md)
 * [MSA 서점 대여](학습기록/MSA스터디/README.md)
   - [OpenFeign을 이용한 알고리즘 해결 및 Mockito 테스트](학습기록/MSA스터디/오픈페인알고리즘.md)
   - [MSA 서점 대여 프로젝트](학습기록/MSA스터디/MSA서점대여프로젝트/README.md)
