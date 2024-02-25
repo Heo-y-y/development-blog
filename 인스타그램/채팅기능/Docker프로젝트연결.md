@@ -2,10 +2,6 @@
 
 ## Docker 연결
 
-우선 Kafka와 MongoDB, Stomp를 진행하기에 앞서서 도커를 먼저 프로젝트에 연결시키는 작업을 진행하려고 한다.
-
-큰 과정은 아래와 같다.
-
 ```bash
 DockerFile ->
 Docker-compose.yml ->
