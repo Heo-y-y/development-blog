@@ -18,12 +18,27 @@
 
 ### 링크
 
-📎 **[Github](https://github.com/Instagram-clone-project-team/Instagram-clone)** 
+📎 **[Github](https://github.com/Instagram-clone-project-team/Instagram-clone)**
+
+### 테이블 구조
+
+**[ERD](https://dbdiagram.io/d/64f9628602bd1c4a5e1f6fe4)**
 
 ### 개발 환경
 
 - Spring Boot 2.7.15
 - Java 11
+
+### 사용 기술
+- Spring Boot
+- Spring Security
+- Spring Data JPA
+- Spring WebSocket
+- SPring Data Redis
+- Querydsl
+- MySQL
+- AWS S3
+- SSE
 
 ### 구현한 기능
 
