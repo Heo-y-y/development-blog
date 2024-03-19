@@ -250,6 +250,7 @@
       * [Archive 페이지 생성](학습기록/한번에끝내는프론트엔드개발/ReactJs/구글Keep/Archive생성.md)
       * [Trash 페이지 생성](학습기록/한번에끝내는프론트엔드개발/ReactJs/구글Keep/Trash생성.md)
       * [TagNote 페이지 생성](학습기록/한번에끝내는프론트엔드개발/ReactJs/구글Keep/TagNote생성.md)
+      * [템플릿 레이아웃](학습기록/한번에끝내는프론트엔드개발/ReactJs/구글Keep/템플릿레이아웃.md)
 <!--
 * [처음 만난 React](학습기록/처음만난리액트/README.md)
   * [React 소개](학습기록/처음만난리액트/React소개.md)
