@@ -176,6 +176,7 @@
        - [BindingResult](학습기록/스프링로드맵/스프링MVC2/검증1/바인딩.md)
        - [FieldError, ObjectError](학습기록/스프링로드맵/스프링MVC2/검증1/FieldErrorObjectError.md)
        - [오류 코드와 메시지 처리 - errors.properties](학습기록/스프링로드맵/스프링MVC2/검증1/에러메시지-에러프로퍼티스.md)
+       - [오류 코드와 메시지 처리 - rejectValue, reject](학습기록/스프링로드맵/스프링MVC2/검증1/오류코드와메시지-rejectValue-reject.md)
 
 
 ## FRONTEND STUDY
