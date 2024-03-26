@@ -174,6 +174,7 @@
      - [검증 - Validation](학습기록/스프링로드맵/스프링MVC2/검증1/README.md)
        - [검증 직접 처리](학습기록/스프링로드맵/스프링MVC2/검증1/검증직접처리.md)
        - [BindingResult](학습기록/스프링로드맵/스프링MVC2/검증1/바인딩.md)
+       - [FieldError, ObjectError](학습기록/스프링로드맵/스프링MVC2/검증1/FieldErrorObjectError.md)
 
 
 ## FRONTEND STUDY
