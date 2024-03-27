@@ -182,6 +182,7 @@
      - [검증 - Bean Validation](학습기록/스프링로드맵/스프링MVC2/검증2/README.md)
        - [Bean Validation이란](학습기록/스프링로드맵/스프링MVC2/검증2/BeanValidation.md)
        - [Bean Validation - 스프링 적용](학습기록/스프링로드맵/스프링MVC2/검증2/스프링적용.md)
+       - [Bean Validation - 에러 코드](학습기록/스프링로드맵/스프링MVC2/검증2/에러코드.md)
 
 
 ## FRONTEND STUDY
