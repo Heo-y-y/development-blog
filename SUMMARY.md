@@ -184,6 +184,7 @@
        - [Bean Validation - 스프링 적용](학습기록/스프링로드맵/스프링MVC2/검증2/스프링적용.md)
        - [Bean Validation - 에러 코드](학습기록/스프링로드맵/스프링MVC2/검증2/에러코드.md)
        - [Bean Validation - 오브젝트 오류](학습기록/스프링로드맵/스프링MVC2/검증2/오브젝트오류.md)
+       - [Bean Validation - groups](학습기록/스프링로드맵/스프링MVC2/검증2/groups.md)
 
 
 ## FRONTEND STUDY
