@@ -179,6 +179,7 @@
        - [오류 코드와 메시지 처리 - rejectValue, reject](학습기록/스프링로드맵/스프링MVC2/검증1/오류코드와메시지-rejectValue-reject.md)
        - [오류 코드와 메시지 처리 - MessageCodeResolver](학습기록/스프링로드맵/스프링MVC2/검증1/MessageCodeResolver.md)
        - [Validator 분리](학습기록/스프링로드맵/스프링MVC2/검증1/validator.md)
+     - [검증 - Bean Validation](학습기록/스프링로드맵/스프링MVC2/검증2/README.md)
 
 
 ## FRONTEND STUDY
