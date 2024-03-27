@@ -180,7 +180,7 @@
        - [오류 코드와 메시지 처리 - MessageCodeResolver](학습기록/스프링로드맵/스프링MVC2/검증1/MessageCodeResolver.md)
        - [Validator 분리](학습기록/스프링로드맵/스프링MVC2/검증1/validator.md)
      - [검증 - Bean Validation](학습기록/스프링로드맵/스프링MVC2/검증2/README.md)
-       - [Bean Validation이란](학습기록/스프링로드맵/스프링MVC2/검증2/BeanValidation이란.md)
+       - [Bean Validation이란](학습기록/스프링로드맵/스프링MVC2/검증2/BeanValidation.md)
 
 
 ## FRONTEND STUDY
