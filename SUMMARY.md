@@ -186,6 +186,7 @@
        - [Bean Validation - 오브젝트 오류](학습기록/스프링로드맵/스프링MVC2/검증2/오브젝트오류.md)
        - [Bean Validation - groups](학습기록/스프링로드맵/스프링MVC2/검증2/groups.md)
        - [Form 전송 객체 분리](학습기록/스프링로드맵/스프링MVC2/검증2/form.md)
+       - [Bean Validation - HTTP 메시지 컨버터](학습기록/스프링로드맵/스프링MVC2/검증2/메시지컨버터.md)
 
 
 ## FRONTEND STUDY
