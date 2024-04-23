@@ -55,6 +55,7 @@
   * [Java 8](Java/Java-8.md)
   * [Java 17](Java/java-17.md)
   * [Scanner, InputStream, BufferedReader](Java/Scanner\_InputStream\_BufferedReader.md)
+  * [Java - assert](Java/java-assert.md)
 * [Design Pattern](디자인패턴/README.md)
   * [구조 패턴](디자인패턴/구조패턴/README.md)
     * [프록시 패턴](디자인패턴/프록시패턴.md)
