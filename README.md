@@ -4,7 +4,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | 분류 | 기술 |
 |------|------|
@@ -17,7 +17,7 @@
 
 ---
 
-## 📅 Project Timeline
+## Project Timeline
 
 ### 2025.01 ~ 현재
 
@@ -54,7 +54,7 @@ IoT 게이트웨이 연동 | **백엔드 개발**
 
 ---
 
-## 📫 Contact
+## Contact
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717.svg?&style=flat-square&logo=github&logoColor=white)](https://github.com/Heo-y-y)
 [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:localhost8586@gmail.com)](mailto:localhost8586@gmail.com)
