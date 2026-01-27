@@ -1,16 +1,62 @@
-> "Developer story filled with records"
+# Heo-y-y | Backend Developer
 
-## Heo-y-y | Web Application Developer
+> 에너지 IoT 도메인 전문 백엔드 개발자
 
-- 기술에 대한 집착보다, 데이터 분석 등 **효용에 맞는 기술 선택**을 지향합니다.
-- 개발은 팀 단위의 빌드업이기에, 기교보다 **이해가 쉬운 코드**를 지향합니다.
-- **자유주의자**입니다. 책임있는 자유를 가진 개인들이 서로 부딪히면 더 많은 창의적 결과들을 낼 수 있음을 믿습니다.
-- **이상을 향한 1%의 진일보라도 기꺼이 노력**합니다. 이상을 저의 생각만으로 재단하지 않습니다.
-- **교육 및 정보 공유의 가치**를 믿습니다. 인간이 동물과 차별되는 점은 유전형질이 아닌 집단지성의 진화라고 생각합니다.
-### Contact & Channels
+---
+
+## 🛠️ Tech Stack
+
+| 분류 | 기술 |
+|------|------|
+| Backend | Java / Spring Boot / JPA / MyBatis / QueryDSL |
+| Frontend | Next.js / React / Vue / TypeScript |
+| Database | MariaDB / PostgreSQL / TimescaleDB / InfluxDB |
+| Messaging | Kafka / ActiveMQ |
+| Infra | Docker / Kubernetes / GitLab CI/CD |
+| AI & Automation | Claude Code / MCP / Agent Design |
+
+---
+
+## 📅 Project Timeline
+
+### 2025.01 ~ 현재
+
+#### [생거진천 에너지 정보 시스템](projects/sjc/README.md)
+
+진천군 + 한전 협력 | **풀스택 개발 + 화면 기획**
+
+- 아토믹 디자인 시스템 적용 (Figma MCP 연동)
+- 한전 요금 계산 인터페이스 (6개 요금종별 Strategy 패턴)
+- 권한 기반 접근 제어 시스템 (AOP)
+
+---
+
+### 2024.04 ~ 현재
+
+#### [DR 수요자원 서비스](projects/dr/README.md)
+
+11개 MSA 설계·운영 | **백엔드 개발**
+
+- 대용량 데이터 파이프라인 (140GB+ 전기 데이터)
+- DB 튜닝으로 조회 성능 대폭 개선
+- Kafka 기반 실시간 이벤트 처리
+
+---
+
+### 2024.04 ~ 2024.09
+
+#### [전주 에너지 통합 플랫폼](projects/jeonju/README.md)
+
+IoT 게이트웨이 연동 | **백엔드 개발**
+
+- 실시간 모니터링 대시보드 API
+- 에너지 사용량 분석 리포트
+
+---
+
+## 📫 Contact
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717.svg?&style=flat-square&logo=github&logoColor=white)](https://github.com/Heo-y-y)
 [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:localhost8586@gmail.com)](mailto:localhost8586@gmail.com)
 
-## Resume:
-[Page](https://common-mouth-660.notion.site/620dcd4ee97c4f9f9611771b65c7794d)
+**Resume**: [Notion](https://common-mouth-660.notion.site/620dcd4ee97c4f9f9611771b65c7794d)
