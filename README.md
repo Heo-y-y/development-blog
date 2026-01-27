@@ -13,7 +13,7 @@
 | Database | MariaDB / PostgreSQL / TimescaleDB / InfluxDB |
 | Messaging | Kafka / ActiveMQ |
 | Infra | Docker / Kubernetes / GitLab CI/CD |
-| AI & Automation | Claude Code / MCP / Agent Design |
+| AI & Automation | Claude Code / Gemini / MCP / Antigravity / Multi-Agent Orchestration |
 
 ---
 
