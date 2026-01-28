@@ -20,17 +20,17 @@
 
 ### 누리플렉스
 
-#### [전주 에너지 플랫폼](projects/jeonju/README.md)
-2024.04 ~ 2024.07 (개발) | 현재 운영/유지보수 중
+#### [생거진천 에너지 정보 시스템](projects/sjc/README.md)
+2025.01 ~ 2025.03 (개발 중) | 진천군 + 한전 협력
 
-🔗 [jeonju.myenergy.co.kr](https://jeonju.myenergy.co.kr/)
+🛠️ Java 8, Spring Boot 2.2.6, MyBatis, Spring Security, Next.js 15, React 19, Vue 3, TypeScript, TailwindCSS, MariaDB, Redis, Docker, GitLab CI/CD
 
-🛠️ Next.js, TypeScript, Prisma, MySQL, Tailwind CSS
-
-- 전주시 공동주택 에너지 사용량 시각화 대시보드 풀스택 단독 개발
-- 공공데이터포털 API 연동 + ApexCharts/Kakao Maps 기반 데이터 시각화
-- 부분 문자열 조합 기반 검색 알고리즘 구현 (매칭 횟수 정렬)
-- Prisma ORM 다중 조건 쿼리 + SWR 클라이언트 상태 관리
+- 아토믹 디자인 시스템 적용: Figma MCP로 디자인 토큰 연동, 컴포넌트 기반 UI 아키텍처로 일관된 디자인 시스템 구축
+- 한전 요금 계산 인터페이스 개발: 6개 요금종별(주택용 저압/고압, 일반용 고압 A/B, 심야전력, EV충전) Strategy 패턴 기반 계산 엔진 연동
+- 권한 기반 접근 제어 시스템: auth/user/login 서비스에 AOP 기반 권한 관리 구현, 역할별 페이지 접근 및 API 필터링
+- LwM2M 기반 장치 제어 화면 기획: TOU(시간대별 요금) 장치 연동을 위한 Vue 프론트엔드 화면 기획 및 백엔드 연결
+- 풀스택 개발: Next.js 15 기반 관리자 웹 + Spring Boot Admin Service 개발, JWT 인증 및 React Query 기반 데이터 페칭
+- API 문서 생성 자동화: Claude Code 에이전트 설계로 기획서→Excel 문서화 워크플로우 구축
 
 ---
 
@@ -49,17 +49,17 @@
 
 ---
 
-#### [생거진천 에너지 정보 시스템](projects/sjc/README.md)
-2025.01 ~ 2025.03 (개발 중) | 진천군 + 한전 협력
+#### [전주 에너지 플랫폼](projects/jeonju/README.md)
+2024.04 ~ 2024.07 (개발) | 현재 운영/유지보수 중
 
-🛠️ Java 8, Spring Boot 2.2.6, MyBatis, Spring Security, Next.js 15, React 19, Vue 3, TypeScript, TailwindCSS, MariaDB, Redis, Docker, GitLab CI/CD
+🔗 [jeonju.myenergy.co.kr](https://jeonju.myenergy.co.kr/)
 
-- 아토믹 디자인 시스템 적용: Figma MCP로 디자인 토큰 연동, 컴포넌트 기반 UI 아키텍처로 일관된 디자인 시스템 구축
-- 한전 요금 계산 인터페이스 개발: 6개 요금종별(주택용 저압/고압, 일반용 고압 A/B, 심야전력, EV충전) Strategy 패턴 기반 계산 엔진 연동
-- 권한 기반 접근 제어 시스템: auth/user/login 서비스에 AOP 기반 권한 관리 구현, 역할별 페이지 접근 및 API 필터링
-- LwM2M 기반 장치 제어 화면 기획: TOU(시간대별 요금) 장치 연동을 위한 Vue 프론트엔드 화면 기획 및 백엔드 연결
-- 풀스택 개발: Next.js 15 기반 관리자 웹 + Spring Boot Admin Service 개발, JWT 인증 및 React Query 기반 데이터 페칭
-- API 문서 생성 자동화: Claude Code 에이전트 설계로 기획서→Excel 문서화 워크플로우 구축
+🛠️ Next.js, TypeScript, Prisma, MySQL, Tailwind CSS
+
+- 전주시 공동주택 에너지 사용량 시각화 대시보드 풀스택 단독 개발
+- 공공데이터포털 API 연동 + ApexCharts/Kakao Maps 기반 데이터 시각화
+- 부분 문자열 조합 기반 검색 알고리즘 구현 (매칭 횟수 정렬)
+- Prisma ORM 다중 조건 쿼리 + SWR 클라이언트 상태 관리
 
 ---
 
