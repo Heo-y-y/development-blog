@@ -17,8 +17,9 @@
 |------|------|
 | Backend | Java 8 / Spring Boot 2.2.6 / MyBatis / Spring Security / GraphQL |
 | Frontend | Next.js 15 / React 19 / Vue 3 / TypeScript / TailwindCSS |
-| Auth | JWT / HParty 인증 서비스 |
+| Auth | JWT / HParty 인증 서비스 / Redis (인증코드 캐시) |
 | Database | MariaDB |
+| Message | 카카오 알림톡 |
 | Design | Atomic Design Pattern / Figma MCP |
 | Infra | Docker / GitLab CI/CD |
 
@@ -33,23 +34,26 @@
 | 구성요소 | 설명 |
 |----------|------|
 | **Frontend Layer** | Next.js 관리자 웹 + Vue TOU 관리 화면 |
-| **HParty Auth** | 로그인/인증/사용자 관리 마이크로서비스 |
-| **Admin API** | 관리자 비즈니스 로직 + 한전 요금 계산 |
-| **TOU API** | GraphQL 기반 TOU 데이터 API (green-api) |
-| **Green New Deal** | AMI 검침 데이터 소스 |
-| **TOU Device** | LwM2M 기반 스마트 미터 |
+| **Auth Services** | 로그인/인증/사용자 관리 마이크로서비스 (HParty) |
+| **Business Services** | 관리자 API + 한전 요금 계산 + 통계 배치 + TOU 연동 |
+| **Data Layer** | MariaDB + Redis (인증코드 캐시) |
+| **External** | 카카오 알림톡 + TOU Device (LwM2M) |
 
 ### 서비스 구성
 
 | 서비스 | 역할 |
 |--------|------|
 | **gnd-apt-admin-web-next** | 관리자 웹 대시보드 (아토믹 디자인) |
-| **gnd-apt-admin-api** | 관리자 백엔드 API |
+| **green-web-vue** | TOU 관리 프론트엔드 |
 | **gnd-hparty-login** | JWT 토큰 발급 |
 | **gnd-hparty-auth** | 권한 검증 서비스 |
 | **gnd-hparty-user** | 사용자 CRUD |
-| **green-web-vue** | TOU 관리 프론트엔드 |
+| **gnd-hparty-ums** | 통합 메시지 발송 (카카오 알림톡) |
+| **gnd-apt-admin-api** | 관리자 백엔드 API |
+| **tariff-lib** | 한전 요금 계산 라이브러리 |
+| **gnd-batch** | 통계 서비스 (15분→시간/일/월 집계) |
 | **green-api** | TOU GraphQL API 서버 |
+| **LwM2M-service** | TOU 장치 통신 서비스 |
 
 ---
 
@@ -116,7 +120,7 @@
 
 | 지표 | 수치 |
 |------|------|
-| 마이크로서비스 | 7개 (admin-api, login, auth, user, green-api, green-web-vue, admin-web) |
+| 마이크로서비스 | 11개 (admin-web, admin-api, login, auth, user, ums, batch, green-web, green-api, LwM2M-service, tariff-lib) |
 | 아토믹 컴포넌트 | 17 atoms / 6 molecules / 4 organisms |
 | 역할 체계 | 3단계 (admin/manager/operator) |
 | 요금종별 | 2종 (TRF01/TRF02) + 복지할인 7종 |
