@@ -62,6 +62,8 @@
 ## What I Did
 
 ### KPX OpenADR 연동 시스템
+[OpenADR 프로토콜 상세 문서](./openadr-protocol.md)
+
 - OpenADR 2.0b 프로토콜 기반 KPX 수요자원 연동 구현
 - 5.1 Party Registration / 5.3 Event / 5.4 Poll 스펙 준수
 - DR 이벤트 수신 → 메시지 발송 → 정산 파이프라인 자동화
