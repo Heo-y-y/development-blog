@@ -79,7 +79,7 @@
 
 ### 한전 요금 계산 인터페이스
 
-> 📄 [KEPCO 요금 계산 알고리즘 상세 문서](./kepco-tariff-algorithm.md)
+> [KEPCO 요금 계산 알고리즘 상세 문서](./kepco-tariff-algorithm.md)
 
 - nuri-energy-tariff-lib 라이브러리 분석 및 연동
 - 요금종별 계산 로직 구현
