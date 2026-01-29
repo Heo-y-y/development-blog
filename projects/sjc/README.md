@@ -5,8 +5,9 @@
 | 항목 | 내용 |
 |------|------|
 | 기간 | 2025.01 ~ 2025.03 (개발 중) |
-| 역할 | 풀스택 개발 + 화면 기획 |
+| 역할 | 풀스택 개발 + 화면 기획 + 시스템 설계 |
 | 협력사 | 진천군 + 한전 |
+| 도메인 | 스마트 미터링 기반 에너지 정보 플랫폼 |
 
 ---
 
@@ -16,31 +17,106 @@
 |------|------|
 | Backend | Java 8 / Spring Boot 2.2.6 / MyBatis / Spring Security |
 | Frontend | Next.js 15 / React 19 / Vue 3 / TypeScript / TailwindCSS |
+| Auth | JWT / HParty 인증 서비스 |
 | Database | MariaDB |
+| Design | Atomic Design Pattern / Figma MCP |
 | Infra | Docker / GitLab CI/CD |
 
 ---
 
 ## Architecture
 
-> 아키텍처 다이어그램 추가 예정
+![생거진천 에너지 정보 시스템 구성도](./images/architecture.png)
+
+### 시스템 구성
+
+| 구성요소 | 설명 |
+|----------|------|
+| **Frontend Layer** | Next.js 관리자 웹 + Vue TOU 제어 화면 |
+| **HParty Auth** | 로그인/인증/사용자 관리 마이크로서비스 |
+| **Admin API** | 관리자 비즈니스 로직 + 한전 요금 계산 |
+| **Green New Deal** | AMI 검침 데이터 소스 |
+| **TOU Device** | LwM2M 기반 스마트 미터 |
+
+### 서비스 구성
+
+| 서비스 | 역할 |
+|--------|------|
+| **gnd-apt-admin-web-next** | 관리자 웹 대시보드 (아토믹 디자인) |
+| **gnd-apt-admin-api** | 관리자 백엔드 API |
+| **gnd-hparty-login** | JWT 토큰 발급 |
+| **gnd-hparty-auth** | 권한 검증 서비스 |
+| **gnd-hparty-user** | 사용자 CRUD |
+| **green-web-vue** | TOU 장치 제어 화면 |
 
 ---
 
 ## What I Did
 
-- 아토믹 디자인 시스템 적용: Figma MCP로 디자인 토큰 연동
-- 한전 요금 계산 인터페이스 개발: 6개 요금종별(주택용 저압/고압, 일반용 고압 A/B, 심야전력, EV충전) Strategy 패턴
-- 권한 기반 접근 제어 시스템: auth/user/login 서비스에 AOP 기반 권한 관리 구현
-- LwM2M 기반 장치 제어 화면 기획: TOU(시간대별 요금) 장치 연동을 위한 Vue 프론트엔드 화면 기획 및 백엔드 연결
-- 풀스택 개발: Next.js 15 기반 관리자 웹 + Spring Boot Admin Service 개발
-- API 문서 생성 자동화: Claude Code 에이전트 설계로 기획서→Excel 문서화 워크플로우 구축
+### 아토믹 디자인 시스템 구축
+- Figma MCP 연동으로 디자인 토큰 자동 동기화
+- 4계층 컴포넌트 구조 설계 및 구현
+  - **Atoms**: Button, Input, Label, Checkbox 등 17개 기본 요소
+  - **Molecules**: FormField, SearchBar, DataCard 등 6개 조합 요소
+  - **Organisms**: Header, Sidebar, DataTable 등 복합 컴포넌트
+  - **Templates**: DashboardTemplate, ListTemplate 등 페이지 레이아웃
+- 재사용 가능한 컴포넌트 라이브러리 구축
+
+### RBAC 권한 기반 접근 제어
+- 3단계 역할 체계 설계 및 구현
+  - R001 (admin): 시스템 전체 관리
+  - R002 (manager): 단지 관리자
+  - R003 (operator): 운영자
+- AOP 기반 권한 검증 로직 구현
+- JWT 토큰 기반 인증 플로우 설계
+- HParty 마이크로서비스 연동 (login/auth/user/ums)
+
+### 한전 요금 계산 인터페이스
+- nuri-energy-tariff-lib 라이브러리 분석 및 연동
+- 요금종별 계산 로직 구현
+  - TRF01: 주택용 저압 (구간별 누진 요금)
+  - TRF02: 주택용 고압 (구간별 누진 요금)
+- 계절별 요금 구간 처리 (하계/일반)
+- 복지 할인 적용 (독립유공자, 장애인, 대가족 등)
+- 부가가치세, 전력산업기반기금 계산
+
+### TOU 장치 제어 화면 기획
+- Vue 3 기반 TOU 제어 프론트엔드 화면 기획
+- LwM2M 프로토콜 연동 설계
+- 백엔드 API 연결 구현
+
+### 프론트엔드 전면 재구축
+- 기존 React 17 → Next.js 15 + React 19 마이그레이션
+- TypeScript 전면 적용
+- TailwindCSS 기반 스타일 시스템
+
+### API 문서 생성 자동화
+- Claude Code 에이전트 설계
+- 기획서 → Excel API 문서 자동 생성 워크플로우 구축
+
+---
+
+## Key Features
+
+| 기능 | 설명 |
+|------|------|
+| **에너지 모니터링** | 15분 단위 전력 사용량 실시간 조회 |
+| **요금 계산** | 한전 요금 체계 기반 예상 요금 산출 |
+| **사용자 관리** | 세대/단지/운영자 계정 CRUD |
+| **TOU 제어** | 시간대별 요금 장치 원격 제어 |
+| **권한 관리** | 역할 기반 메뉴/기능 접근 제어 |
+| **대시보드** | 단지별 에너지 사용 현황 시각화 |
 
 ---
 
 ## Metrics
 
-> 프로젝트 완료 후 성과 지표 추가 예정
+| 지표 | 수치 |
+|------|------|
+| 마이크로서비스 | 6개 (admin, login, auth, user, ums, vue) |
+| 아토믹 컴포넌트 | 17 atoms / 6 molecules / 4 organisms |
+| 역할 체계 | 3단계 (admin/manager/operator) |
+| 요금종별 | 2종 (TRF01/TRF02) + 복지할인 7종 |
 
 ---
 
