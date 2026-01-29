@@ -15,7 +15,7 @@
 
 | 분류 | 기술 |
 |------|------|
-| Backend | Java 8 / Spring Boot 2.2.6 / MyBatis / Spring Security |
+| Backend | Java 8 / Spring Boot 2.2.6 / MyBatis / Spring Security / GraphQL |
 | Frontend | Next.js 15 / React 19 / Vue 3 / TypeScript / TailwindCSS |
 | Auth | JWT / HParty 인증 서비스 |
 | Database | MariaDB |
@@ -32,9 +32,10 @@
 
 | 구성요소 | 설명 |
 |----------|------|
-| **Frontend Layer** | Next.js 관리자 웹 + Vue TOU 제어 화면 |
+| **Frontend Layer** | Next.js 관리자 웹 + Vue TOU 관리 화면 |
 | **HParty Auth** | 로그인/인증/사용자 관리 마이크로서비스 |
 | **Admin API** | 관리자 비즈니스 로직 + 한전 요금 계산 |
+| **TOU API** | GraphQL 기반 TOU 데이터 API (green-api) |
 | **Green New Deal** | AMI 검침 데이터 소스 |
 | **TOU Device** | LwM2M 기반 스마트 미터 |
 
@@ -47,7 +48,8 @@
 | **gnd-hparty-login** | JWT 토큰 발급 |
 | **gnd-hparty-auth** | 권한 검증 서비스 |
 | **gnd-hparty-user** | 사용자 CRUD |
-| **green-web-vue** | TOU 장치 제어 화면 |
+| **green-web-vue** | TOU 관리 프론트엔드 |
+| **green-api** | TOU GraphQL API 서버 |
 
 ---
 
@@ -80,10 +82,11 @@
 - 복지 할인 적용 (독립유공자, 장애인, 대가족 등)
 - 부가가치세, 전력산업기반기금 계산
 
-### TOU 장치 제어 화면 기획
-- Vue 3 기반 TOU 제어 프론트엔드 화면 기획
-- LwM2M 프로토콜 연동 설계
-- 백엔드 API 연결 구현
+### TOU 관리 시스템 구축
+- Vue 3 기반 TOU 관리 프론트엔드 화면 개발
+- GraphQL API 서버 (green-api) 연동
+- TOU 파일 업로드/다운로드 기능 구현
+- TOU 설정 이력 관리 기능
 
 ### 프론트엔드 전면 재구축
 - 기존 React 17 → Next.js 15 + React 19 마이그레이션
@@ -113,7 +116,7 @@
 
 | 지표 | 수치 |
 |------|------|
-| 마이크로서비스 | 6개 (admin, login, auth, user, ums, vue) |
+| 마이크로서비스 | 7개 (admin-api, login, auth, user, green-api, green-web-vue, admin-web) |
 | 아토믹 컴포넌트 | 17 atoms / 6 molecules / 4 organisms |
 | 역할 체계 | 3단계 (admin/manager/operator) |
 | 요금종별 | 2종 (TRF01/TRF02) + 복지할인 7종 |
