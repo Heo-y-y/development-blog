@@ -60,6 +60,9 @@
 ## What I Did
 
 ### 아토믹 디자인 시스템 구축
+
+> [Atomic Design System 상세 문서](./atomic-design.md)
+
 - Figma MCP 연동으로 디자인 토큰 자동 동기화
 - 4계층 컴포넌트 구조 설계 및 구현
   - **Atoms**: Button, Input, Label, Checkbox 등 17개 기본 요소
@@ -79,7 +82,7 @@
 
 ### 한전 요금 계산 인터페이스
 
-> 📄 [KEPCO 요금 계산 알고리즘 상세 문서](./kepco-tariff-algorithm.md)
+> [KEPCO 요금 계산 알고리즘 상세 문서](./kepco-tariff-algorithm.md)
 
 - nuri-energy-tariff-lib 라이브러리 분석 및 연동
 - 요금종별 계산 로직 구현
