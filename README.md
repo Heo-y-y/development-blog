@@ -21,7 +21,7 @@
 ### 누리플렉스
 
 #### [생거진천 에너지 정보 시스템](projects/sjc/README.md)
-2025.01 ~ 2025.03 (개발 중) | 진천군 + 한전 협력
+2026.01 ~ 2026.03 (개발 중) | 진천군 + 한전 협력
 
 🛠️ Java 8, Spring Boot 2.2.6, MyBatis, Spring Security, Next.js 15, React 19, Vue 3, TypeScript, TailwindCSS, MariaDB, Redis, Docker, GitLab CI/CD
 
